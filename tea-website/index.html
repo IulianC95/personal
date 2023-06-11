@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tea Website</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="app.css" />
+  </head>
+
+  <body>
+    <header class="container">
+      <div class="navbar">
+        <div class="info">
+          <a href="">
+            <img src="images/logo.png" alt="Herbal" />
+          </a>
+
+          <a href="" title="Herbal Tea Shop">
+            <p>Herbal Tea Shop</p>
+          </a>
+        </div>
+        <section class="social">
+          <ul>
+            <a href="" title="Youtube">
+              <img src="images/youtube.svg" alt="" class="svg-button" />
+            </a>
+            <a href="" title="Twitter">
+              <img src="images/twitter.svg" alt="" class="svg-button" />
+            </a>
+            <a href="" title="Facebook">
+              <img src="images/facebook.svg" alt="" class="svg-button" />
+            </a>
+            <a href="" title="Instagram">
+              <img src="images/instagram.svg" alt="" class="svg-button" />
+            </a>
+          </ul>
+        </section>
+      </div>
+      <!-- ./navbar -->
+
+      <div class="banner container">
+        <section class="motto">
+          <h1>Step in Flavour</h1>
+        </section>
+      </div>
+      <!-- ./banner -->
+    </header>
+    <!-- ./header -->
+
+    <main>
+      <hr class="new1" />
+      <div class="ctas">
+        <select id="image-select">
+          <option value="" selected>Select a plant</option>
+          <option
+            value="images/plants/Alfalfa.jpg"
+            plant-info="WIKI: Alfalfa is a perennial plant with trifoliate leaves and purple or blue flowers. It's used as a forage crop for livestock and in the production of hay. Humans consume it in various forms, including sprouts, tea, and supplements. Alfalfa is believed to have potential health benefits."
+            benefits="BENEFITS: Rich in vitamins and minerals such as calcium, magnesium, and vitamin K, which may support bone health. Contains antioxidants that may help protect against oxidative stress and reduce inflammation. May have cholesterol-lowering effects due to the presence of saponins and fiber. May have blood sugar-lowering effects and may help improve insulin sensitivity. May have diuretic properties and help reduce fluid retention. May help improve digestion due to the presence of enzymes and dietary fiber. May help alleviate menopausal symptoms due to the presence of phytoestrogens.May have anti-inflammatory effects that may benefit those with arthritis or other inflammatory conditions. May support liver health and help detoxify the body. May have immune-boosting effects due to the presence of vitamin C and other nutrients."
+            contraindications="CONTRAINDICATIONS: Alfalfa is a plant rich in vitamins and minerals, often used as a health supplement. However, its tea may cause diarrhea or stomach upset in some people. It is not recommended for pregnant or nursing women, or those taking blood thinners or estrogen medications."
+            prep-mode="PREP MODE: To make alfalfa tea, boil 1 cup of water and add 1 tablespoon of dried alfalfa leaves. Let it steep for 5 minutes, strain and enjoy."
+          >
+            Alfalfa
+          </option>
+          <option
+            value="images/plants/Alkanet root.jpg"
+            plant-info="Wiki: Alkanet root is a perennial herb native to the Mediterranean. Its roots are used to extract a red dye for textiles and cosmetics. The plant has lance-shaped leaves, bluish-purple flowers, and is hardy. It has also been used in traditional medicine for its potential anti-inflammatory and wound-healing properties."
+            benefits="Benefits: May have anti-inflammatory effects and help alleviate joint pain and inflammation. May have antimicrobial properties that may help fight infections. May help soothe and heal irritated skin and mucous membranes. May help reduce coughs and respiratory congestion. May have diuretic properties and help reduce fluid retention. May have astringent properties that may help reduce bleeding and inflammation. May have expectorant properties that may help alleviate chest congestion. May have antioxidant effects and help protect against oxidative stress. May have hepatoprotective effects and help support liver health. May have anticancer effects and help prevent the growth and spread of cancer cells."
+            contraindications="Contraindications: Alkanet root is a plant commonly used for its natural red dye. However, it should not be consumed in large amounts as it may cause liver damage. Its tea should be avoided during pregnancy and breastfeeding."
+            prep-mode="Prep Mode: To make tea from alkanet root, start by boiling water. Once the water is boiling, add 1-2 teaspoons of chopped alkanet root to a tea infuser or directly into the water. Allow the tea to steep for 5-10 minutes, then remove the root and enjoy."
+          >
+            Alkanet root
+          </option>
+          <option
+            value="images/plants/Allspice.jpg"
+            plant-info="Wiki: Allspice is a tree native to the Caribbean and Central America. Its dried berries are used as a spice with a unique flavor and aroma that combines cinnamon, nutmeg, and cloves. Allspice is used in sweet and savory dishes, including desserts, soups, stews, and marinades."
+            benefits="Benefits: May have anti-inflammatory effects and help alleviate pain and inflammation. May have antimicrobial properties and help fight infections. May have digestive benefits and help alleviate digestive discomfort. May have antispasmodic properties and help alleviate muscle spasms and cramps. May have antioxidant effects and help protect against oxidative stress. May have antipyretic effects and help reduce fever. May have diuretic properties and help reduce fluid retention. May have a calming effect and help alleviate stress and anxiety. May have carminative properties and help alleviate gas and bloating. May have analgesic effects and help alleviate pain."
+            contraindications="Contraindications: Allspice, also known as Pimenta dioica, is a plant native to the Caribbean and Central America. Its leaves, berries, and oil have various medicinal properties, including pain relief and digestive aid. However, consuming large amounts of allspice tea may cause stomach irritation and blood thinning, so it should be avoided by people with ulcers or bleeding disorders."
+            prep-mode="Prep Mode: To make tea from allspice, crush 2-3 allspice berries per cup of water and bring to a boil. Simmer for 5-10 minutes and strain the mixture. Serve hot or iced."
+          >
+            Allspice
+          </option>
+          <option
+          value="images/plants/Amaranth.jpg"
+          plant-info="Wiki: Amaranth is an annual herb with edible leaves and tiny, protein-rich seeds. The plant can grow up to 2 meters tall and is native to the Americas. Amaranth seeds have a nutty flavor and are used in various dishes. The plant has been used in traditional medicine, but more research is needed to confirm its potential health benefits."
+          benefits="Benefits: May have antihypertensive effects and help lower blood pressure. May have anti-inflammatory effects and help alleviate pain and inflammation. May have antioxidant effects and help protect against oxidative stress. May have immune-boosting effects due to the presence of vitamins and minerals. May have digestive benefits and help alleviate constipation and other digestive issues. May have antipyretic effects and help reduce fever. May have anti-tumor effects and help prevent the growth and spread of cancer cells. May have analgesic effects and help alleviate pain. May have hepatoprotective effects and help support liver health. May have neuroprotective effects and help protect against neurodegenerative diseases."
+          contraindications="Contraindications: Amaranth is a versatile plant with leaves and seeds that are edible. It's also used medicinally. However, some people may experience an allergic reaction to amaranth, and pregnant women should avoid using it as it can cause contractions. It's best to consult with a healthcare professional before consuming amaranth tea."
+          prep-mode="Prep Mode: To make tea from amaranth, first dry the leaves and flowers. Then, steep one teaspoon of the dried mixture in boiling water for 5-10 minutes. Strain and enjoy!"
+        >
+        Amaranth
+        </option>         
+          <option
+            value="images/plants/Allspice.jpg"
+            plant-info="Wiki: Angelica root is a perennial herb used in herbal medicine for digestive issues, respiratory ailments, and as a tonic for the immune system. The plant can grow up to 2 meters tall and has white or greenish-yellow flowers. Its root has a strong, aromatic flavor and is used in food and beverages like gin and vermouth. Angelica root is also used in aromatherapy and as a natural remedy for anxiety and stress."
+            benefits="Benefits: May have digestive benefits and help alleviate digestive discomfort. May have anti-inflammatory effects and help alleviate pain and inflammation. May have antimicrobial properties and help fight infections. May have antispasmodic properties and help alleviate muscle spasms and cramps. May have carminative properties and help alleviate gas and bloating. May have diuretic properties and help reduce fluid retention. May have a calming effect and help alleviate stress and anxiety. May have expectorant properties and help."
+            contraindications="Contraindications: Angelica root tea has been used for centuries to aid digestion, reduce inflammation, and support respiratory health. However, it should not be consumed by pregnant women, as it can stimulate contractions and cause miscarriage. Additionally, those with a history of blood clotting disorders should avoid Angelica root tea, as it can thin the blood and increase the risk of bleeding."
+            prep-mode="Prep Mode: To make tea from Angelica root, bring 1 cup of water to a boil. Add 1 teaspoon of chopped Angelica root and let it simmer for 10-15 minutes. Strain and enjoy hot or cold."
+          >
+          Angelica root
+          </option>
+          <option
+            value="images/plants/Anise.jpg"
+            plant-info="Wiki: Anise, also known as aniseed, is an herb native to the Eastern Mediterranean and Southwest Asia. Its seeds have a sweet, licorice-like flavor and are used as a spice in cooking, particularly in Mediterranean and Middle Eastern cuisines. Anise is also used in the production of liqueurs, such as absinthe, ouzo, and anisette. In traditional medicine, anise is believed to have medicinal properties and has been used to treat a variety of ailments, including digestive issues, coughs, and colds."
+            benefits="Benefits: Helps soothe coughs and respiratory ailments. Helps alleviate digestive problems, such as bloating, gas, and nausea. Acts as a natural antispasmodic and can help relieve menstrual cramps. Has antimicrobial properties that may help fight off bacterial and fungal infections. May have anti-inflammatory effects and help alleviate pain. May improve sleep quality and help alleviate insomnia. Can help improve circulation and lower blood pressure. Contains antioxidants that may help prevent cell damage. May help lower cholesterol levels. Can be used as a natural breath freshener."
+            contraindications="Contraindications: Anise is a plant with a sweet, licorice-like flavor commonly used in cooking and tea. However, it should be avoided by pregnant women as it may stimulate contractions or cause miscarriage. It may also interact with certain medications. Always consult your doctor before consuming anise tea."
+            prep-mode="Prep Mode: To make tea from anise, boil one cup of water and pour it over 1-2 teaspoons of crushed anise seeds. Let it steep for 5-10 minutes before straining and serving. Optional: add honey or lemon to taste."
+          >
+          Anise
+          </option>
+          <option
+            value="images/plants/Apple.webp"
+            plant-info="Wiki: Apple is a fruit that belongs to the Rosaceae family. It is a good source of fiber, vitamins, and minerals, and is consumed in a variety of forms, including fresh, cooked, and as juice or cider."
+            benefits="Benefits: High in antioxidants, which may help prevent cell damage and lower the risk of chronic diseases. May help lower cholesterol levels and reduce the risk of heart disease. Can help regulate blood sugar levels and prevent spikes in insulin. May improve digestion and relieve constipation. Contains compounds that may help protect against certain types of cancer. May improve cognitive function and reduce the risk of dementia. Can help improve hydration and provide a natural energy boost. May help reduce inflammation and alleviate pain. Can be used as a natural remedy for sore throat and respiratory infections. May improve skin health and prevent signs of aging."
+            contraindications="Contraindications: The apple is a fruit with many health benefits, such as reducing the risk of heart disease and improving digestion. However, the seeds contain small amounts of cyanide and should not be consumed in large quantities."
+            prep-mode="Prep Mode: Sorry, an apple is a fruit and cannot be used to make tea. Please provide a different plant for me to give instructions on how to make tea."
+          >
+          Apple
+          </option>
+          <option
+            value="images/plants/Apricot.jpg"
+            plant-info="Wiki: Apricot is a fruit that is a member of the Prunus family, which also includes peaches, plums, and cherries. It is a good source of vitamin A, vitamin C, fiber, and potassium."
+            benefits="Benefits: Rich in vitamin C and antioxidants that may boost the immune system. May help reduce inflammation and alleviate pain. Contains compounds that may help protect against certain types of cancer. Can help improve digestion and relieve constipation. May improve heart health and lower cholesterol levels. Can be used as a natural remedy for coughs and respiratory infections. May improve skin health and prevent signs of aging. Contains calcium and other minerals that may help improve bone density. Can help regulate blood sugar levels and prevent spikes in insulin. May improve eye health and prevent vision loss."
+            contraindications="Contraindications: Apricot is a beautiful plant with delicious fruits. However, consuming the leaves or seeds is not recommended as they contain cyanide which can be toxic. It's important to only use the fruit flesh for consumption and avoid making tea or other preparations from other parts of the plant."
+            prep-mode="Prep Mode: To make tea from apricot leaves, first wash the leaves and let them dry. Then, boil water and pour it over the leaves. Let steep for 5-10 minutes, strain, and enjoy hot or cold."
+          >
+          Apricot
+          </option>
+          <option
+            value="images/plants/Arnica.jpg"
+            plant-info="Wiki: Arnica is a plant native to Europe and North America that is used in herbal medicine to treat pain, inflammation, and bruises. It can be applied topically in the form of creams, ointments, or gels."
+            benefits="Benefits: May help alleviate pain and reduce inflammation. Can be used as a natural remedy for sore muscles and joint pain. May help reduce the severity of bruises and swelling. Contains antioxidants that may help prevent cell damage. Can be used as a natural remedy for headaches and migraines. May improve digestion and relieve constipation. Can help improve skin health and prevent signs of aging. May improve heart health and lower blood pressure. Can be used as a natural remedy for anxiety and stress. May improve cognitive function and reduce the risk of dementia."
+            contraindications="Contraindications: Arnica is a flowering plant used for medicinal purposes. It's often used as an anti-inflammatory and pain reliever, but should not be consumed as a tea due to potential toxic effects on the liver and kidneys. Always consult with a healthcare professional before using Arnica in any form."
+            prep-mode="Prep Mode: To make tea from arnica, bring a pot of water to a boil. Add 1-2 teaspoons of dried arnica flowers per cup of water. Steep for 5-10 minutes, then strain and enjoy. Do not drink more than 1 cup per day."
+          >
+          Arnica
+          </option>
+          <option
+            value="images/plants/Artichoke.jpg"
+            plant-info="Wiki: Artichoke is a plant that is commonly consumed as a vegetable. It is rich in fiber, vitamins, and minerals, and is believed to have a number of health benefits, including improving digestion and lowering cholesterol levels."
+            benefits="Benefits: May help improve digestion and relieve constipation. Can be used as a natural remedy for acid reflux and other digestive problems. May improve liver health and support detoxification.Contains antioxidants that may help prevent cell damage. May improve heart health and lower cholesterol levels. Can help regulate blood sugar levels and prevent spikes in insulin. May improve skin health and prevent signs of aging. Can be used as a natural remedy for hangovers and alcohol-related liver damage. May help reduce inflammation and alleviate pain. May improve cognitive function and reduce the risk of dementia."
+            contraindications="Contraindications: The artichoke plant in the box I gave you is known for its liver-protecting properties. However, if you are pregnant or have gallbladder issues, it is not recommended to drink tea from the artichoke leaves."
+            prep-mode="Prep Mode: To make tea from artichoke, boil water and add 1-2 teaspoons of dried artichoke leaves. Steep for 5-10 minutes, strain and enjoy. Optional: add honey or lemon for taste."
+          >
+          Artichoke
+          </option>
+          <option
+            value="images/plants/Ash bark.webp"
+            plant-info="Wiki: Ash bark is derived from the bark of the ash tree and is used in traditional medicine to treat a variety of ailments, including fever, inflammation, and pain."
+            benefits="Benefits: May help reduce inflammation and alleviate pain. Can be used as a natural remedy for sore throat and respiratory infections. May improve digestion and relieve constipation. Can help improve urinary tract health and prevent infections. Contains antimicrobial properties that may help fight off bacterial and fungal infections. May improve skin health and prevent signs of aging."
+            contraindications="Contraindications: Ash bark comes from the ash tree and is often used in traditional medicine. However, it should not be consumed as a tea due to potential toxic effects. Contraindications include pregnancy, breastfeeding, liver or kidney disease, and certain medications such as blood thinners."
+            prep-mode="Prep Mode: To make tea from ash bark, boil 1 tablespoon of the bark in 2 cups of water for 20 minutes. Strain and serve hot or cold. Optional: add honey or lemon for taste."
+          >
+          Ash bark
+          </option>
+          <option
+            value="images/plants/Balsam fir.jpg"
+            plant-info="Wiki: Balsam fir is an evergreen tree native to North America that is used for its aromatic essential oil. The oil is believed to have a number of health benefits, including reducing stress and promoting relaxation."
+            benefits="Benefits: Soothes respiratory issues like coughs and bronchitis. Eases joint and muscle pain. Relieves stress and anxiety. Reduces inflammation and swelling. Supports the immune system. Helps to clear the mind and improve focus. Improves skin health and appearance. Reduces the appearance of scars. Promotes relaxation and restful sleep. Provides relief from menstrual cramps."
+            contraindications="Contraindications: Balsam fir is a coniferous tree commonly used for Christmas trees and decoration. Its needles can be brewed into a tea, but caution should be exercised as excessive consumption may cause skin irritation and respiratory issues."
+            prep-mode="Prep Mode: To make tea from balsam fir, boil 1 cup of water and add 1 teaspoon of chopped needles. Steep for 5-10 minutes, strain and enjoy."
+          >
+          Balsam fir
+          </option>
+          <option
+            value="images/plants/Barley.webp"
+            plant-info="Wiki: Barley is a cereal grain that is commonly used as a food source for humans and animals. It is a good source of fiber, vitamins, and minerals."
+            benefits="Benefits: Helps to lower cholesterol levels. Supports healthy digestion and regular bowel movements. Helps to regulate blood sugar levels. Provides a good source of fiber and protein. Reduces the risk of heart disease. Boosts the immune system. Provides energy and endurance. Aids in weight loss by promoting a feeling of fullness. Helps to lower blood pressure. Supports bone health."
+            contraindications="Contraindications: Barley is a cereal plant commonly used for making beer and bread. Its tea is known for its detoxifying and anti-inflammatory properties, but it should not be consumed by people with celiac disease or gluten intolerance."
+            prep-mode="Prep Mode: To make tea from barley, bring 2 cups of water to a boil. Add 2 tablespoons of barley and let simmer for 10 minutes. Strain and serve hot with honey or lemon if desired."
+          >
+          Barley
+          </option>
+          <option
+            value="images/plants/Basil.jpg"
+            plant-info="Wiki: Basil is an herb that belongs to the mint family. It is commonly used in cooking and has a sweet, slightly spicy flavor. Basil is believed to have a number of health benefits, including reducing inflammation and improving digestion."
+            benefits="Benefits: Contains powerful antioxidants that protect against cellular damage. Helps to fight infections and boost the immune system. Reduces inflammation in the body. Supports healthy digestion and relieves constipation. Promotes heart health and lowers cholesterol levels. Helps to regulate blood sugar levels. Reduces stress and anxiety. Provides relief from headaches and migraines. Promotes healthy skin and hair. Supports healthy liver function."
+            contraindications="Contraindications: Basil is a wonderful herb that is great for seasoning food and making tea. However, it should be avoided by pregnant women as it can cause contractions. Additionally, those with bleeding disorders should avoid consuming basil as it can increase the risk of bleeding."
+            prep-mode="Prep Mode: To make tea from basil, boil water and pour it over fresh basil leaves. Steep for 5-10 minutes and strain. Optional: add honey or lemon."
+          >
+          Basil
+          </option>
+          <option
+            value="images/plants/Bay leaf.jpg"
+            plant-info="Wiki: Bay leaf is an aromatic leaf from the bay laurel tree that is used in cooking to add flavor to soups, stews, and sauces. It is also believed to have a number of health benefits, including reducing inflammation and improving digestion."
+            benefits="Benefits: Contains antioxidants that protect against free radical damage. Helps to fight infections and boost the immune system. Reduces inflammation in the body. Supports healthy digestion and relieves constipation. Promotes heart health and lowers cholesterol levels. Helps to regulate blood sugar levels. Reduces stress and anxiety. Provides relief from headaches and migraines. Promotes healthy skin and hair. Supports healthy liver function."
+            contraindications="Contraindications: Bay leaf is a popular culinary herb that can also be brewed as tea. However, consuming too much of it can cause stomach irritation and even lead to vomiting. Pregnant women should avoid bay leaf tea as it may cause complications."
+            prep-mode="Prep Mode: To make tea from bay leaves, bring water to a boil and add 1-2 bay leaves. Let steep for 5-10 minutes. Strain and enjoy."
+          >
+          Bay leaf
+          </option>
+          <option
+            value="images/plants/Bee balm.jpg"
+            plant-info="Wiki: Bee balm, also known as wild bergamot, is a plant native to North America that is used in herbal medicine to treat a variety of ailments, including headaches, digestive issues, and colds."
+            benefits="Benefits: Contains antioxidants that protect against free radical damage. Helps to fight infections and boost the immune system. Reduces inflammation in the body. Supports healthy digestion and relieves constipation. Promotes heart health and lowers cholesterol levels. Helps to regulate blood sugar levels. Reduces stress and anxiety. Provides relief from headaches and migraines. Promotes healthy skin and hair. Supports healthy liver function."
+            contraindications="Contraindications: Bee balm is a herbaceous plant that belongs to the mint family. Its leaves and flowers are often used to make tea, which is believed to have several health benefits. However, consuming large amounts of bee balm tea can cause stomach upset and allergic reactions in some people. It is also not recommended for pregnant and breastfeeding women."
+            prep-mode="Prep Mode: To make tea from bee balm, harvest a few leaves and steep them in hot water for 5-10 minutes. Strain the leaves and enjoy the aromatic and slightly minty tea."
+          >
+          Bee balm
+          </option>
+          <option
+            value="images/plants/Bee pollen.webp"
+            plant-info="Wiki: Bee pollen is a mixture of pollen, nectar, and bee saliva that is collected by bees and used as a food source. It is rich in protein, vitamins, and minerals, and is believed to have a number of health benefits, including boosting the immune system and reducing inflammation."
+            benefits="Benefits: Contains antioxidants that protect against free radical damage. Boosts the immune system. Provides energy and endurance. Promotes healthy digestion and regular bowel movements. Helps to regulate blood sugar levels. Reduces inflammation in the body. Provides relief from allergies and asthma symptoms. Promotes healthy skin and hair. Supports healthy liver function. Helps to improve fertility."
+            contraindications="Contraindications: Bee pollen is a natural superfood, rich in nutrients and antioxidants. It's great for boosting energy and immunity. However, those with pollen allergies should avoid consuming it. Also, pregnant or breastfeeding women should consult their doctor before using it."
+            prep-mode="Prep Mode: To make tea from bee pollen, boil water and pour it over one teaspoon of pollen. Let steep for 2-3 minutes, strain and enjoy. Add honey or lemon to taste."
+          >
+          Bee pollen
+          </option>
+          <option
+            value="images/plants/Bergamot.webp"
+            plant-info="Wiki: Bergamot is a citrus fruit that is primarily grown in Italy. Its essential oil is used in aromatherapy and is believed to have a number of health benefits, including reducing anxiety and improving mood."
+            benefits="Benefits: Reduces anxiety and promotes relaxation. Helps to lower cholesterol levels. Reduces inflammation in the body. Provides relief from headaches and migraines. Promotes healthy digestion and relieves constipation. Supports heart health and helps to regulate blood pressure. Helps to fight infections and boost the immune system. Promotes healthy skin and hair. Helps to reduce the risk of cancer. Supports healthy liver function."
+            contraindications="Contraindications: Bergamot is a citrus plant with aromatic leaves that can be used to make tea. However, it may interact with certain medications and cause photosensitivity, so it's important to consult with a doctor before using bergamot tea."
+            prep-mode="Prep Mode: To make tea from bergamot, boil water and add 1-2 teaspoons of dried bergamot leaves per cup. Steep for 3-5 minutes, then strain out the leaves. Sweeten as desired."
+          >
+          Bergamot
+          </option>
+          <option
+            value="images/plants/Betony.jpg"
+            plant-info="Wiki: Betony is a perennial herb that belongs to the mint family. It has a long history of use in traditional medicine and is known for its beautiful purple flowers. Betony is also used in culinary applications, particularly in herbal teas and as a flavoring agent in liqueurs. The plant is easy to grow and can be found in many gardens and natural areas throughout the world."
+            benefits="Benefits: Reduces anxiety and promotes relaxation. Provides relief from headaches and migraines. Helps to regulate blood sugar levels. Reduces inflammation in the body. Provides relief from respiratory issues like coughs and bronchitis. Supports healthy digestion and relieves constipation. Helps to reduce the risk of cancer. Promotes healthy skin and hair. Supports healthy liver function. Helps to improve memory and cognitive function."
+            contraindications="Contraindications: Betony is a perennial herb with purple flowers, known for its medicinal properties. While it can be brewed as a tea for its calming effects, it should not be consumed by pregnant or breastfeeding women. It may also interact with certain medications, so consult with a healthcare provider before use."
+            prep-mode="Prep Mode: To make tea from betony, boil 1 cup of water and add 1-2 teaspoons of dried betony leaves. Let it steep for 5-10 minutes, strain and enjoy."
+          >
+          Betony
+          </option>
+          <option
+            value="images/plants/Birch bark.jpg"
+            plant-info="Wiki: Birch bark is a type of tree bark that is commonly used for decorative purposes. It can also be used to make paper, canoes, and other items. In traditional medicine, birch bark has been used to treat a variety of ailments, such as fever, inflammation, and pain."
+            benefits="Benefits: Anti-inflammatory properties that can help reduce pain and swelling in the body. Antioxidant properties that can help protect against oxidative stress and damage caused by free radicals. Diuretic properties that can help improve urinary tract health and reduce water retention. Antibacterial and antifungal properties that can help prevent infections. Rich in vitamin C and other nutrients that can boost immune system function. May help lower blood pressure and cholesterol levels. May aid in weight loss by increasing metabolism and promoting fat burning. May help improve skin health by reducing inflammation and preventing acne. May improve digestion and relieve gastrointestinal problems. May help relieve headaches and other types of pain."
+            contraindications="Contraindications: Birch bark is a medicinal plant commonly used for its anti-inflammatory and pain-relieving properties. It can be brewed as a tea, but caution should be taken for those with allergies to aspirin or salicylates. It is also not recommended for pregnant or breastfeeding women."
+            prep-mode="Prep Mode: To make tea from birch bark, simply boil a handful of the bark in water for 10-15 minutes. Strain the liquid and enjoy. Optional: add honey or lemon for flavor."
+          >
+          Birch bark
+          </option>
+          <option
+            value="images/plants/Blackberry.jpeg"
+            plant-info="Wiki: Blackberry is a perennial plant that produces sweet and juicy fruit. It grows as a shrub with thorny stalks and produces white flowers in spring. The fruit is typically black when fully ripe and is commonly used in jams, desserts, and smoothies. Blackberries also have medicinal properties and are used to treat various ailments."
+            benefits="Benefits: High in antioxidants that can help protect against cellular damage and disease. May help improve digestion and relieve gastrointestinal problems. May have anti-inflammatory properties that can reduce pain and swelling in the body. Rich in vitamin C and other nutrients that can boost immune system function. May help regulate blood sugar levels and prevent diabetes. May aid in weight loss by increasing metabolism and promoting fat burning. May help lower blood pressure and reduce the risk of heart disease. May improve cognitive function and prevent memory loss. May improve eye health and prevent vision problems. May improve skin health by reducing inflammation and promoting collagen production."
+            contraindications="Contraindications: Blackberry is a delicious fruit-bearing plant that can also be made into tea. However, it is not recommended for people with kidney problems, as it may worsen their condition. Enjoy in moderation."
+            prep-mode="Prep Mode: To make blackberry tea, bring water to a boil and add crushed blackberry leaves. Let steep for 5-10 minutes, strain and serve with honey or lemon if desired."
+          >
+          Blackberry
+          </option>
+          <option
+            value="images/plants/Black cherry bark.jpg"
+            plant-info="Wiki: Black cherry bark is a natural remedy commonly used in herbal medicine. It is derived from the bark of the black cherry tree and has been traditionally used to treat coughs, colds, and sore throats. It may also have anti-inflammatory and pain-relieving properties."
+            benefits="Benefits: May help relieve coughs, colds, and other respiratory problems. May have anti-inflammatory properties that can reduce pain and swelling in the body. May help lower blood pressure and reduce the risk of heart disease. May aid in digestion and relieve gastrointestinal problems. May have antioxidant properties that can protect against cellular damage and disease. May improve sleep quality and duration. May have anti-cancer properties that can prevent the growth and spread of cancer cells. May help relieve menstrual cramps and other types of pain. May improve joint health and relieve arthritis symptoms. May help prevent and treat gout."
+            contraindications="Contraindications: Black cherry bark is a traditional remedy for coughs and sore throats. However, it should not be taken by those with liver or kidney disease, or by women who are pregnant or breastfeeding. Consult with a healthcare provider before consuming black cherry bark tea."
+            prep-mode="Prep Mode: To make tea from black cherry bark, boil 1-2 teaspoons of dried bark in 8 oz of water for 10-15 minutes. Strain and enjoy."
+          >
+          Black cherry bark
+          </option>
+          <option
+            value="images/plants/Black cohosh.jpg"
+            plant-info="Wiki: Black cohosh is a flowering plant native to North America. It has been traditionally used to treat symptoms of menopause and menstrual discomfort. It is also believed to have anti-inflammatory properties and may be beneficial for reducing joint pain."
+            benefits="Benefits: May help relieve menopause symptoms, such as hot flashes and mood swings. May help regulate menstrual cycles and relieve menstrual cramps. May have anti-inflammatory properties that can reduce pain and swelling in the body. May improve bone health and reduce the risk of osteoporosis. May help lower blood pressure and reduce the risk of heart disease. May improve cognitive function and prevent memory loss. May help relieve anxiety and depression. May have anti-cancer properties that can prevent the growth and spread of cancer cells. May help prevent and treat headaches and migraines. May improve skin health and relieve acne."
+            contraindications="Contraindications: Black cohosh, also known as Actaea racemosa, is a perennial plant commonly used for menopausal symptoms. However, it may cause liver damage and should not be taken by pregnant or lactating women. Consult with a healthcare professional before using black cohosh tea."
+            prep-mode="Prep Mode: To make tea from black cohosh, bring water to a boil and add 1-2 teaspoons of dried black cohosh roots. Let it simmer for 5-10 minutes, strain and enjoy."
+          >
+          Black cohosh
+          </option>
+          
+        </select>
+      </div>
+      <section id="picture-container container" class="products">
+        <picture>
+          <img
+            id="selected-image"
+            class="selected-image"
+            src=""
+            alt="Imagine selectată"
+          />
+        </picture>
+        <aside>
+          <section class="wiki">
+            <div id="selected-info" class="plant-info"></div>
+            <div id="selected-text1" class="benefits"></div>
+            <div id="selected-text2" class="contraindications"></div>
+            <div id="selected-text3" class="prep-mode"></div>
+          </section>
+        </aside>
+      </section>
+      <hr class="new1" />
+    </main>
+
+    <footer>
+      <section class="footer">
+        <div class="contact">
+          <ul>
+            <li><a href="tel:+0723319735" title="Call us">Call Us</a></li>
+            <li>
+              <a href="mailto:iuliancucuculici@gmail.com" title="Email us"
+                >Email Us</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="links1">
+          <ul>
+            <li><a href="" title="About us">About us</a></li>
+            <li><a href="" title="Delivery">Delivery</a></li>
+          </ul>
+        </div>
+        <div class="links2">
+          <ul>
+          <li><a href="" title="Affiliates">Affiliates</a></li>
+            <li><a href="" title="Advdertising">Advdertising</a></li>
+          </ul>
+        </div>
+        <section class="footer-social">
+          <ul>
+            <a href="" title="Youtube">
+              <img src="images/youtube.svg" alt="" class="svg-button" />
+            </a>
+            <a href="" title="Twitter">
+              <img src="images/twitter.svg" alt="" class="svg-button" />
+            </a>
+            <a href="" title="Facebook">
+              <img src="images/facebook.svg" alt="" class="svg-button" />
+            </a>
+            <a href="" title="Instagram">
+              <img src="images/instagram.svg" alt="" class="svg-button" />
+            </a>
+          </ul>
+        </section>
+      </section>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
