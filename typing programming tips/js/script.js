@@ -36,15 +36,18 @@ testArea.addEventListener('input', function () {
 
     const totalTime = (new Date().getTime() - startTime) / 1000;
     const totalWords = text.split(/\s+/).length;
-    const totalCharacters = text.length;
 
     const wpm = calculateWPM(totalTime, totalWords);
-    const cpm = calculateCPM(totalTime, totalCharacters);
+
+    const playerName = prompt('Introduceți numele dvs. pentru leaderboard:');
+    if (playerName) {
+      addScoreToLeaderboard(playerName, wpm);
+    }
 
     const isNext = confirm(
       `Felicitări! Ați completat textul corect.\nWPM: ${Math.round(
         wpm,
-      )}\nCPM: ${Math.round(cpm)}\n\nDoriți să încercați un alt text?`,
+      )}\n\nDoriți să încercați un alt text?`,
     );
     if (isNext) {
       setRandomText();
@@ -145,3 +148,36 @@ function setRandomText() {
 }
 
 setRandomText();
+
+// Funcții pentru leaderboard
+function addScoreToLeaderboard(name, score) {
+  fetch('../php/leaderboard.php', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/x-www-form-urlencoded',
+    },
+    body: `name=${name}&score=${score}`,
+  })
+    .then((response) => response.text())
+    .then((data) => {
+      console.log(data);
+      displayLeaderboard();
+    });
+}
+
+function displayLeaderboard() {
+  fetch('../php/leaderboard.php')
+    .then((response) => response.json())
+    .then((data) => {
+      const scoresList = document.getElementById('scoresList');
+      scoresList.innerHTML = '';
+      data.forEach((entry) => {
+        const listItem = document.createElement('li');
+        listItem.textContent = `${entry.name}: ${Math.round(entry.score)} WPM`;
+        scoresList.appendChild(listItem);
+      });
+    });
+}
+
+// Inițializează leaderboard-ul la încărcarea paginii
+displayLeaderboard();
