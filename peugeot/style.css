@@ -1,0 +1,228 @@
+body {
+  margin: 0 auto;
+  background-color: gray;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 200px;
+  gap: 50px;
+}
+
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px
+}
+
+button {
+  padding: 5px;
+  box-shadow: 3px 3px 3px rgb(58, 57, 57);
+  background-color: rgb(227, 242, 232);
+}
+
+.faza-lunga-d {
+  fill: #fdfdfbff;
+  transition: all 0.3s ease;
+  visibility: hidden;
+  filter: drop-shadow(0 0 0 #fdfdfbff);
+}
+
+.faza-lunga-d.on {
+  visibility: visible;
+  filter: drop-shadow(-10px 10px 20px #fdfdfbff);
+  opacity: 0.75;
+}
+
+.faza-lunga-s {
+  fill: #fdfdfbff;
+  transition: all 0.3s ease;
+  visibility: hidden;
+  filter: drop-shadow(0 0 0 #fdfdfbff);
+}
+
+.faza-lunga-s.on {
+  visibility: visible;
+  filter: drop-shadow(10px 10px 20px #fdfdfbff);
+  opacity: 0.75;
+}
+
+.faza-scurta-d {
+  fill: #fdfdfbff;
+  transition: all 0.3s ease;
+  visibility: hidden;
+  filter: drop-shadow(0 0 0 #fdfdfbff);
+}
+
+.faza-scurta-d.on {
+  visibility: visible;
+  filter: drop-shadow(-10px 10px 20px #fdfdfbff);
+  opacity: 0.75;
+}
+
+.faza-scurta-s {
+  fill: #fdfdfbff;
+  transition: all 0.3s ease;
+  visibility: hidden;
+  filter: drop-shadow(0 0 0 #fdfdfbff);
+}
+
+.faza-scurta-s.on {
+  visibility: visible;
+  filter: drop-shadow(10px 10px 20px #fdfdfbff);
+  opacity: 0.75;
+}
+
+.pozitie-d {
+  fill: #fdfdfbff;
+  transition: all 0.3s ease;
+  visibility: hidden;
+  filter: drop-shadow(0 0 0 #fdfdfbff);
+}
+
+.pozitie-d.on {
+  visibility: visible;
+  filter: drop-shadow(-10px 10px 20px #fdfdfbff);
+  opacity: 0.75;
+}
+
+.pozitie-s {
+  fill: #fdfdfbff;
+  transition: all 0.3s ease;
+  visibility: hidden;
+  filter: drop-shadow(0 0 0 #fdfdfbff);
+}
+
+.pozitie-s.on {
+  visibility: visible;
+  filter: drop-shadow(10px 10px 20px #fdfdfbff);
+  opacity: 0.75;
+}
+
+.semnal-s {
+  fill: rgb(238, 119, 14);
+  transition: all 0.3s ease;
+  visibility: hidden;
+  filter: drop-shadow(0 0 0 rgb(238, 119, 14));
+}
+
+.semnal-s.on {
+  visibility: visible;
+  filter: drop-shadow(10px 10px 20px rgb(238, 119, 14));
+  opacity: 0.75;
+}
+
+.semnal-d {
+  fill: rgb(238, 119, 14);
+  transition: all 0.3s ease;
+  visibility: hidden;
+  filter: drop-shadow(0 0 0 rgb(238, 119, 14));
+}
+
+.semnal-d.on {
+  visibility: visible;
+  filter: drop-shadow(-10px 10px 20px rgb(238, 119, 14));
+  opacity: 0.75;
+}
+
+
+
+
+.car-container {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.car-container {
+  position: relative;
+}
+
+.car-container img, .car-container svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+.car-container .faza-lunga-d {
+  top:173px;
+  left: 64px;
+  width: 28px;
+  rotate: 7deg;
+}
+
+.car-container .faza-lunga-s {
+  top:178px;
+  left: 400px;
+  width: 34px;
+  rotate: -17deg;
+}
+
+.car-container .faza-scurta-d {
+  top:186px;
+  left: 92px;
+  width: 32px;
+  rotate: 4deg;
+}
+
+.car-container .faza-scurta-s {
+  top:184px;
+  left: 366px;
+  width: 32px;
+  rotate: -4deg;
+}
+
+.car-container .pozitie-d {
+  top:174px;
+  left: 52px;
+  width: 23px;
+  rotate: 2;
+}
+
+.car-container .pozitie-s {
+  top:172px;
+  left: 418px;
+  width: 23px;
+  rotate: 2;
+}
+
+.car-container .semnal-s {
+  top:172px;
+  left: 418px;
+  width: 23px;
+  rotate: 2;
+}
+
+.car-container .semnal-d {
+  top:174px;
+  left: 52px;
+  width: 23px;
+  rotate: 2;
+}
+
+body.dark-mode {
+  background-color: black;
+}
+
+.masina.dark-mode {
+  background-color: black;
+  visibility: hidden;
+}
+
+.dark-mode .lumina {
+  visibility: hidden;
+}
+
+.dark-mode .lumina.on {
+  visibility: visible;
+  box-shadow: 0 0 10px 5px white;
+  border-radius: 50%;
+}
+
+

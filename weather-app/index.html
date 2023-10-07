@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather App</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Weather App</h1>
+  <div>
+    <label for="datePicker">Alege o dată:</label>
+    <input type="date" id="datePicker">
+  </div>
+  <div>
+    <button onclick="getWeather('clear')">Unde nu plouă</button>
+    <button onclick="getWeather('snow')">Unde nu ninge</button>
+    <button onclick="getWeather('cloud')">Unde nu e înnorat</button>
+    <button onclick="getWeather('current')">Vremea actuală / la data selectată</button>
+  </div>
+  <div id="result"></div>
+  <script src="app.js"></script>
+</body>
+</html>
