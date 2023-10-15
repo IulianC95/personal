@@ -7,7 +7,7 @@
     name="viewport"
     content="width=device-width, initial-scale=1.0"
   >
-  <title>Test de viteză la scris</title>
+  <title>Typing Gladiators</title>
   <link
     rel="stylesheet"
     href="css/app.css"
@@ -23,29 +23,53 @@
 </head>
 
 <body>
-  <div
-    class="theory"
-    id="sampleTextContainer"
-  >
-    <div id="sampleText">These are short, famous texts in English from classic sources like the Bible or Shakespeare.
+  <header>
+      <h1>Typing Gladiators</h1>
+      <p>Ce vrei sa inveti?</p>
+    <div class="btns">
+      <button id="html">HTML</button>
+      <button id="css">CSS</button>
+      <button id="js">JS</button>
+      <button id="php">PHP</button>
+      <button id="sql">MySql</button>
+      <button id="python">Python</button>
     </div>
-  </div>
-  <textarea
-    class="text-input"
-    id="testArea"
-    placeholder="Începeți să scrieți textul de mai sus aici..."
-  ></textarea>
-  <div
-    class="score"
-    id="info"
-  >
-    <p>Număr de cuvinte: <span id="wordCount">0</span></p>
-    <p>Timp: <span id="timer">0</span> secunde</p>
-    <p>Cel mai bun scor (WPM): <span id="bestScore">0</span></p>
+  </header>
+  <main class="main">
+    <div
+      class="theory"
+      id="sampleTextContainer"
+    >
+      <div id="sampleText"></div>
+    </div>
+    <textarea
+      class="text-input"
+      id="testArea"
+      placeholder="Începeți să scrieți textul de mai sus aici..."
+    ></textarea>
+    <div
+      class="score"
+      id="info"
+    >
+      <p>Număr de cuvinte: <span id="wordCount">0</span></p>
+      <p>Timp: <span id="timer">0</span> secunde</p>
+      <div
+        class="leaderboard"
+        id="leaderboard"
+      >
+        <h2>Leaderboard</h2>
+        <ul id="scoresList"></ul>
+      </div>
 
 
-  </div>
-
+    </div>
+  </main>
+  
+  <footer>
+      <div class="copyrights">
+          <p>&copy; 2023 Cuculici Iulian. All rights reserved.</p>
+      </div>
+  </footer>
   <script src="js/script.js"></script>
 
 </body>

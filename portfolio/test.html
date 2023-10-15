@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <title>Document</title>
+  <link
+    rel="stylesheet"
+    href="css/test.css"
+  >
+  <link
+    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Aclonica&family=Kaushan+Script&family=Lekton:ital,wght@0,400;0,700;1,400&family=Stoke:wght@300;400&display=swap"
+    rel="stylesheet"
+  />
+</head>
+
+<body>
+  <section class="yes-form-grid">
+    <h2>Super! Spune-mi câteva lucruri despre proiectul tău.</h2>
+    <form>
+      <div class="form-group-grid">
+        <div class="input-group-grid name">
+          <label for="name-grid">Numele tau:</label>
+          <input
+            type="text"
+            id="name-grid"
+          >
+        </div>
+        <div>
+          <div class="input-group-grid email">
+            <label for="email-grid">Email:</label>
+            <input
+              type="email"
+              id="email-grid"
+            >
+          </div>
+        </div>
+      </div>
+      <div class="input-group-grid project-details">
+        <label for="project-details-grid">Doua vorbe despre proiect:</label>
+        <textarea id="project-details-grid"></textarea>
+      </div>
+      <div class="form-group-grid">
+        <div class="input-group-grid budget">
+          <label for="budget-grid">Buget</label>
+          <select id="budget-grid">
+            <option value="$1000">Sub 1000 $</option>
+            <option value="1000-3000">1000-3000</option>
+            <option value="3000-5000">3000-5000</option>
+            <option value="$5000">Peste 5000 $</option>
+          </select>
+        </div>
+        <div>
+          <div class="input-group-grid deadline">
+            <label for="deadline-grid">Cand sa fie gata:</label>
+            <input
+              type="text"
+              id="deadline-grid"
+            >
+          </div>
+        </div>
+      </div>
+      <button
+        class="lets-talk"
+        type="submit"
+      >Să discutăm!</button>
+    </form>
+  </section>
+  <section class="no-form-grid">
+    <h2>Este perfect în regulă! Ce te retine?</h2>
+    <p>Simte-te liber să îmi oferi orice răspuns.</p>
+    <form>
+      <div class="form-group-grid">
+        <div class="input-group-grid name">
+          <label for="name-grid">Numele tau:</label>
+          <input
+            type="text"
+            id="name-grid"
+          >
+        </div>
+        <div>
+          <div class="input-group-grid email">
+            <label for="email-grid">Email:</label>
+            <input
+              type="email"
+              id="email-grid"
+            >
+          </div>
+        </div>
+      </div>
+      <div class="input-group-grid project-details">
+        <label for="project-details-grid">Mesaj:</label>
+        <textarea id="project-details-grid"></textarea>
+      </div>
+      <button
+        class="lets-talk"
+        type="submit"
+      >Trimite!</button>
+    </form>
+  </section>
+</body>
+
+</html>
