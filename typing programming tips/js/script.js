@@ -183,8 +183,8 @@ const texts = {
     "'white-space' seteaza cum spatii albe sunt tratate.",
     "'word-break' seteaza cum se rup cuvintele la sfarsitul liniei.",
     "'word-wrap' seteaza daca cuvintele pot fi rupte pentru a preveni supradenivelarea.",
-  ], 
-   'js': [
+  ],
+  js: [
     'Tipurile de date primitive in JavaScript sunt String, Number si Boolean.',
     'JavaScript nu are decat tipul Number pentru a reprezenta orice fel numar.',
     'In JavaScript obiectele se transmit prin referinta si nu prin valoare.',
@@ -286,8 +286,8 @@ const texts = {
     'Metoda Element.replaceChild() inlocuieste un nod copil intr-un element parinte cu un alt nod.',
     'Metoda Element.cloneNode() creeaza o copie a unui element DOM.',
     'Metoda Element.insertBefore() insereaza un nod inainte de un nod copil specificat intr-un element parinte.',
-       ],
-  'php': [
+  ],
+  php: [
     'In PHP, variabilele incep cu simbolul dolar ($).',
     'PHP suporta tipuri de date ca int, float, string si array.',
     'Comentariile in PHP pot incepe cu // sau /* */ pentru comentarii pe mai multe linii.',
@@ -365,8 +365,8 @@ const texts = {
     'Functia addslashes() adauga backslashes inainte de caracterele speciale dintr-un sir.',
     'In PHP, functia strcmp() compara doua siruri.',
     'Functia md5() calculeaza hash-ul MD5 al unui sir.',
-      ],
-  'sql': [
+  ],
+  sql: [
     'In MySQL, comanda SELECT este folosita pentru a interoga o baza de date si a recupera datele dorite.',
     'Comanda INSERT INTO adauga noi randuri intr-o tabela din baza de date.',
     'In MySQL, cheia primara este o coloana care identifica in mod unic fiecare inregistrare din tabel.',
@@ -458,8 +458,8 @@ const texts = {
     'SQL FOREIGN KEY reprezinta o cheie straina intr-o tabela SQL.',
     'SQL CHECK permite sa specifici o conditie ca toate valorile dintr-o coloana sa o indeplineasca.',
     'SQL DEFAULT specifica o valoare implicita atunci cand este creat un nou inregistrare.',
-      ],
-  'python': [
+  ],
+  python: [
     'Python este un limbaj de programare interpretat, de nivel inalt.',
     'In Python, indentarea este folosita pentru a delimita blocurile de cod.',
     'Comentariile in Python incep cu simbolul #.',
@@ -539,10 +539,10 @@ const texts = {
     'In Python, metoda replace() inlocuieste un model cu un alt model intr-un sir.',
     'Metoda swapcase() inverseaza toate literele dintr-un sir.',
     'In Python, metoda title() converteste primul caracter al fiecarui cuvant din sir la majuscula.',
-      ]
+  ],
 };
 
-let currentTexts = texts.html; 
+let currentTexts = texts.html;
 let sampleText = '';
 
 const keySound = new Howl({
@@ -675,3 +675,12 @@ function displayLeaderboard() {
 }
 
 displayLeaderboard();
+
+// Selectează elementul
+const textArea = document.getElementById('testArea');
+
+// Adaugă un event listener pentru evenimentul "paste"
+textArea.addEventListener('paste', function (e) {
+  e.preventDefault(); // Anulează acțiunea de "paste"
+  alert('Operațiunea de paste este dezactivată.'); // O alertă sau un mesaj pentru utilizator
+});
