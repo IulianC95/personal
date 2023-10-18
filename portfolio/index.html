@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+  <title>Portfolio - CI</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"
+    ...
+  />
+
+  <link
+    rel="stylesheet"
+    href="css/app.css"
+  />
+
+
+
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  />
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  />
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  />
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Aclonica&family=Kaushan+Script&family=Lekton:ital,wght@0,400;0,700;1,400&family=Stoke:wght@300;400&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+
+<body>
+  <section class="mobile d-lg-none">
+    <header>
+      <section class="header-primary">
+        <div class="hamburger-menu">
+          <i
+            class="fa-solid fa-bars"
+            style="color: #ffa800"
+          ></i>
+        </div>
+        <div class="owner-name">
+          <h1>Iulian Cuculici</h1>
+        </div>
+        <div class="owner-img">
+          <img
+            src="images/iglow.png"
+            alt="Avatar Image"
+          />
+        </div>
+      </section>
+      <section class="header-secondary">
+        <div>
+          <a href="#contact">Contact</a>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="about-me">
+        <p>Hello!</p>
+        <h2>I am a Front-End Developer based in <br />Bucharest.</h2>
+        <h3>
+          I create websites with attention to <br />detail, meant to boost
+          your <br />business.
+        </h3>
+        <div class="about-me-ctas">
+          <button>about me</button>
+          <a href="">view my <span>cv</span></a>
+        </div>
+      </section>
+      <section class="values">
+        <div class="values-img">
+          <p>
+            My values are:<br />
+            transparency,<br />
+            creativity,<br />
+            quality.
+          </p>
+        </div>
+        <div class="slide-menu">
+          <i
+            class="fa-solid fa-circle"
+            style="color: #8c5757"
+          ></i>
+          <i
+            class="fa-solid fa-circle"
+            style="color: #c59494"
+          ></i>
+          <i
+            class="fa-solid fa-circle"
+            style="color: #beb0b0"
+          ></i>
+        </div>
+      </section>
+      <section class="projects">
+        <h2>My Projects</h2>
+        <div class="projects-images">
+          <a
+            href=""
+            title="Monochrome"
+          >
+            <img
+              src="images/web24an.png"
+              alt="Monochrome Project"
+            />
+          </a>
+          <a
+            href=""
+            title="Health Way"
+          >
+            <img
+              src="images/web14an.png"
+              alt="Health Way Project"
+            />
+          </a>
+          <a
+            href=""
+            title="Thread Affair"
+          >
+            <img
+              src="images/web34an.png"
+              alt="Thread Affair Project"
+            />
+          </a>
+        </div>
+        <div class="view-more">
+          <a href="">view more projects</a>
+        </div>
+        <div class="slide-menu">
+          <i
+            class="fa-solid fa-circle"
+            style="color: #8c5757"
+          ></i>
+          <i
+            class="fa-solid fa-circle"
+            style="color: #c59494"
+          ></i>
+          <i
+            class="fa-solid fa-circle"
+            style="color: #beb0b0"
+          ></i>
+        </div>
+      </section>
+      <section
+        id="contact"
+        class="contact-form"
+      >
+        <p>Esti pregatit sa lucram <br />impreuna?</p>
+        <div class="answer">
+          <button id="btn-yes">Da!</button>
+          <button id="btn-no">Nope.</button>
+        </div>
+
+      </section>
+      <section
+        class="yes-form"
+        style="display:none;"
+        id="yes-form"
+      >
+        <h2>Super! Spune-mi câteva lucruri despre proiectul tău.</h2>
+        <form>
+          <div class="form-style form-style-m">
+            <label
+              class="text-form-style"
+              for="name"
+            >Numele tau:</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+            >
+          </div>
+          <div class="form-style form-style-m">
+            <label
+              class="text-form-style"
+              for="email"
+            >Email:</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+            >
+          </div>
+          <div class="form-style form-style-m">
+            <label for="project-details">Doua vorbe despre proiect:</label>
+            <textarea
+              name="project-details"
+              id="project-details"
+              cols="30"
+              rows="3"
+              style="resize:none"
+            ></textarea>
+          </div>
+          <div class="form-style form-style-m">
+            <label for="budget">Buget</label>
+            <select
+              name="budget"
+              id="budget"
+            >
+              <option value="$1000">Sub 1000 $</option>
+              <option value="1000-3000">1000-3000</option>
+              <option value="3000-5000">3000-5000</option>
+              <option value="$5000">Peste 5000 $</option>
+            </select>
+          </div>
+          <div class="form-style form-style-m">
+            <label for="time-ready">Cand sa fie gata:</label>
+            <input
+              type="text"
+              id="time-ready"
+              name="time-ready"
+            >
+          </div>
+          <button type="submit">
+            Sa discutam!
+          </button>
+        </form>
+      </section>
+
+      <section
+        class="no-form"
+        style="display: none;"
+        id="no-form"
+      >
+        <form>
+          <div>
+            <h2>Este perfect în regulă! Ce te retine?</h2>
+            <p>Simte-te liber să îmi oferi orice răspuns.</p>
+          </div>
+          <div class="form-style form-style-m">
+            <label
+              class="text-form-style"
+              for="name-no"
+            >Numele tau:</label>
+            <input
+              type="text"
+              name="name-no"
+              id="name-no"
+            >
+          </div>
+          <div class="form-style form-style-m">
+            <label
+              class="text-form-style"
+              for="email-no"
+            >Email:</label>
+            <input
+              type="email"
+              name="email-no"
+              id="email-no"
+            >
+          </div>
+          <div class="form-style form-style-m">
+            <label for="message-no">Mesaj:</label>
+            <textarea
+              name="message-no"
+              id="message-no"
+              cols="30"
+              rows="3"
+              style="resize:none"
+            ></textarea>
+          </div>
+          <button type="submit">
+            Trimite!
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>Imi poti scrie oricand la adresa:</p>
+      <div class="contact-mail">
+        <a href="mailto:iuliancuculici@gmail.com">iuliancuculici@gmail.com</a>
+      </div>
+      <p>Sau ne auzim online:</p>
+      <div class="contact-social">
+        <ul>
+          <li>
+            <a
+              href="http://"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i
+                class="fa-regular fa-envelope"
+                style="color: gray"
+              ></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="http://"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i
+                class="fa-brands fa-linkedin-in"
+                style="color: gray"
+              ></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="http://"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i
+                class="fa-brands fa-github"
+                style="color: gray"
+              ></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <p>&copy; 2023 Cuculici Iulian. All rights reserved.</p>
+    </footer>
+
+
+  </section>
+
+  <section class="desktop d-none d-lg-block">
+    <header class="header-desktop">
+      <section class="header-primary-lg">
+        <div class="social-lg">
+          <ul>
+            <li>
+              <a
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i
+                  class="fa-regular fa-envelope"
+                  style="color: gray"
+                ></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i
+                  class="fa-brands fa-linkedin-in"
+                  style="color: gray"
+                ></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i
+                  class="fa-brands fa-github"
+                  style="color: gray"
+                ></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <h1>Iulian Cuculici</h1>
+        <div class="avatar-lg">
+          <img
+            src="images/iglow.png"
+            alt="Avatar IC"
+          />
+        </div>
+      </section>
+      <section class="header-secondary-lg">
+        <div>
+          <a
+            href=""
+            title="About"
+            class="button button--pallene"
+          >About</a>
+        </div>
+        <div>
+          <a
+            href=""
+            title="Portfolio"
+            class="button button--pallene"
+          >Portfolio</a>
+        </div>
+        <div>
+          <a
+            href=""
+            title="Contact"
+            class="button button--pallene"
+          >Contact</a>
+        </div>
+      </section>
+    </header>
+
+    <main class="desktop">
+      <section class="about-me-lg box">
+        <p>Hello!</p>
+        <h2>I am a Front-End Developer <br />based in Bucharest.</h2>
+        <h3>
+          I create websites with attention to <br />detail, meant to boost
+          your business.
+        </h3>
+        <div>
+          <button>about me</button>
+          <a
+            href=""
+            title="View My CV"
+            class="arrow-button"
+          >
+            view my <span>cv</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="values-lg box">
+        <div class="slide-menu box">
+          <i
+            class="fa-solid fa-circle"
+            style="color: #8c5757"
+          ></i>
+          <i
+            class="fa-solid fa-circle"
+            style="color: #c59494"
+          ></i>
+          <i
+            class="fa-solid fa-circle"
+            style="color: #beb0b0"
+          ></i>
+        </div>
+        <div>
+          <aside>
+            <h3>
+              My values are: transparency, <br />
+              creativity, <br />
+              quality.
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit, sed do
+              eiusmod tempor <br>incididunt ut labore et dolore magna aliqua. <br> Ut
+              enim ad minim veniam, quis nostrud <br> exercitation ullamco laboris
+              nisi ut aliquip ex <br>ea commodo consequat.
+            </p>
+          </aside>
+
+          <div>
+            <img
+              src="images/values-img-1.jpg"
+              alt="Man working on computer and writing on a notebook"
+            />
+          </div>
+        </div>
+
+        <div class="slide-menu box">
+          <i
+            class="fa-solid fa-circle"
+            style="color: #8c5757"
+          ></i>
+          <i
+            class="fa-solid fa-circle"
+            style="color: #c59494"
+          ></i>
+          <i
+            class="fa-solid fa-circle"
+            style="color: #beb0b0"
+          ></i>
+        </div>
+      </section>
+
+      <section class="my-projects-lg box">
+        <h2>My Projects</h2>
+        <div class="project-images-lg">
+          <img
+            src="images/web34an.png"
+            alt="Thread Affair"
+          />
+          <img
+            src="images/web14an.png"
+            alt="Health Way"
+          />
+          <img
+            src="images/web24an.png"
+            alt="Monochrome"
+          />
+        </div>
+        <div class="view-more-lg-cta">
+          <a
+            href=""
+            title="View More Projects"
+          >
+            <span>view more projects</span>
+          </a>
+        </div>
+
+        <div class="slide-menu box">
+          <i
+            class="fa-solid fa-circle"
+            style="color: #8c5757"
+          ></i>
+          <i
+            class="fa-solid fa-circle"
+            style="color: #c59494"
+          ></i>
+          <i
+            class="fa-solid fa-circle"
+            style="color: #beb0b0"
+          ></i>
+        </div>
+      </section>
+
+      <section class="technologies box">
+        <h2>Technologies I use:</h2>
+        <div>
+          <ul>
+            <li><img
+                src="images/11.png"
+                alt="JavaScript"
+              /></li>
+            <li><img
+                src="images/9.png"
+                alt="CSS 3"
+              /></li>
+            <li><img
+                src="images/5.png"
+                alt="HTML 5"
+              /></li>
+            <li><img
+                src="images/33.png"
+                alt="GitHub"
+              /></li>
+            <li><img
+                src="images/36.png"
+                alt="WordPress"
+              /></li>
+          </ul>
+          <ul>
+            <li><img
+                src="images/15.png"
+                alt="NodeJS"
+              /></li>
+            <li><img
+                src="images/34.png"
+                alt="React"
+              /></li>
+            <li><img
+                src="images/40.png"
+                alt="Bootstrap"
+              /></li>
+          </ul>
+        </div>
+      </section>
+
+      <section
+        class="contact-lg"
+        id="contact-lg"
+      >
+        <h2>Esti pregătit să lucrăm împreună?</h2>
+        <div>
+          <button id="btn-yes-lg"><span>Da!</span></button>
+          <button id="btn-no-lg"><span>Nope.</span></button>
+        </div>
+      </section>
+      <section
+        class="yes-form-grid"
+        id="yes-form-lg"
+        style="display: none;"
+      >
+        <h2>Super! Spune-mi câteva lucruri despre proiectul tău.</h2>
+        <form>
+          <div class="form-group-grid">
+            <div class="input-group-grid name">
+              <label for="name-grid">Numele tau:</label>
+              <input
+                type="text"
+                id="name-grid"
+              >
+            </div>
+            <div>
+              <div class="input-group-grid email">
+                <label for="email-grid">Email:</label>
+                <input
+                  type="email"
+                  id="email-grid"
+                >
+              </div>
+            </div>
+          </div>
+          <div class="input-group-grid project-details">
+            <label for="project-details-grid">Doua vorbe despre proiect:</label>
+            <textarea id="project-details-grid"></textarea>
+          </div>
+          <div class="form-group-grid">
+            <div class="input-group-grid budget">
+              <label for="budget-grid">Buget:</label>
+              <select id="budget-grid">
+                <option value="$1000">Sub 1000 $</option>
+                <option value="1000-3000">1000-3000 $</option>
+                <option value="3000-5000">3000-5000 $</option>
+                <option value="$5000">Peste 5000 $</option>
+              </select>
+            </div>
+            <div>
+              <div class="input-group-grid deadline">
+                <label for="deadline-grid">Cand sa fie gata:</label>
+                <input
+                  type="text"
+                  id="deadline-grid"
+                >
+              </div>
+            </div>
+          </div>
+          <button
+            class="lets-talk"
+            type="submit"
+          >Să discutăm!</button>
+        </form>
+      </section>
+      <section
+        class="no-form-grid"
+        id="no-form-lg"
+        style="display: none;"
+      >
+        <h2>Este perfect în regulă! Ce te retine?</h2>
+        <p>Simte-te liber să îmi oferi orice răspuns.</p>
+        <form>
+          <div class="form-group-grid">
+            <div class="input-group-grid name">
+              <label for="name-grid">Numele tau:</label>
+              <input
+                type="text"
+                id="name-grid"
+              >
+            </div>
+            <div>
+              <div class="input-group-grid email">
+                <label for="email-grid">Email:</label>
+                <input
+                  type="email"
+                  id="email-grid"
+                >
+              </div>
+            </div>
+          </div>
+          <div class="input-group-grid project-details">
+            <label for="project-details-grid">Mesaj:</label>
+            <textarea id="project-details-grid"></textarea>
+          </div>
+          <button
+            class="lets-talk"
+            type="submit"
+          >Trimite!</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="desktop-footer">
+      <section>
+        <p>Imi poti scrie oricand la adresa: </p>
+        <div>
+          <a href=":mailto:iuliancuculici@gmail.com">iuliancuculici@gmail.com</a>
+        </div>
+
+        <p>Sau ne auzim online:</p>
+        <div class="contact-social">
+          <ul>
+            <li>
+              <a
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i
+                  class="fa-regular fa-envelope"
+                  style="color: gray"
+                ></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i
+                  class="fa-brands fa-linkedin-in"
+                  style="color: gray"
+                ></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i
+                  class="fa-brands fa-github"
+                  style="color: gray"
+                ></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <p>&copy; 2023 Cuculici Iulian. All rights reserved.</p>
+      </section>
+    </footer>
+  </section>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

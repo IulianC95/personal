@@ -1,0 +1,138 @@
+.yes-form-grid {
+  background-color: #6c5858;
+  display: grid;
+  grid-template-areas:
+    'title'
+    'form';
+  text-align: center;
+  font-family: 'Aclonica', sans-serif;
+  color: white;
+  justify-items: center;
+  padding: 20px 0;
+}
+
+.yes-form-grid h2 {
+  grid-area: title;
+  font-size: 36px;
+  line-height: 52px;
+}
+
+.yes-form-grid form {
+  grid-area: form;
+  display: grid;
+  grid-template-areas:
+    'name email'
+    'project-details project-details'
+    'budget deadline';
+  grid-gap: 80px;
+  width: 60%;
+}
+
+.form-group-grid {
+  display: contents;
+  text-align: start;
+  width: 90%;
+  font-size: 24px;
+}
+
+.input-group-grid input,
+.input-group-grid textarea,
+.input-group-grid select {
+  max-height: 72px;
+  border-radius: 10px;
+  font-size: 36px;
+  font-family: 'Aclonica', sans-serif;
+  color: gray;
+}
+
+.input-group-grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group-grid.name {
+  grid-area: name;
+  max-width: 571px;
+}
+
+.input-group-grid.email {
+  grid-area: email;
+  max-width: 571px;
+  justify-self: end;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.input-group-grid.project-details {
+  grid-area: project-details;
+  text-align: start;
+  width: 100%;
+  font-size: 24px;
+}
+
+.input-group-grid.budget {
+  grid-area: budget;
+  max-width: 571px;
+}
+
+.input-group-grid.deadline {
+  grid-area: deadline;
+  max-width: 571px;
+  justify-self: end;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.yes-form-grid form button {
+  grid-column: 1 / span 2;
+  background-color: #a8efeb;
+  font-family: 'Aclonica', sans-serif;
+  padding: 18px 0;
+  border-radius: 10px;
+  font-size: 24px;
+}
+
+.no-form-grid {
+  background-color: #6c5858;
+  display: grid;
+  grid-template-areas:
+    'title'
+    'subtitle'
+    'form';
+  text-align: center;
+  font-family: 'Aclonica', sans-serif;
+  color: white;
+  justify-items: center;
+  padding: 20px 0;
+}
+
+.no-form-grid h2 {
+  grid-area: title;
+  font-size: 36px;
+  line-height: 52px;
+}
+
+.no-form-grod p {
+  grid-area: subtitle;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.no-form-grid form {
+  grid-area: form;
+  display: grid;
+  grid-template-areas:
+    'name email'
+    'project-details project-details';
+  grid-gap: 80px;
+  width: 60%;
+}
+
+.no-form-grid form button {
+  grid-column: 1 / span 2;
+  background-color: #a8efeb;
+  font-family: 'Aclonica', sans-serif;
+  padding: 18px 0;
+  border-radius: 10px;
+  font-size: 24px;
+}
