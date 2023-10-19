@@ -184,6 +184,79 @@ header {
   text-decoration: none;
 }
 
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 2;
+  opacity: 97%;
+  gap: 50px;
+}
+
+.menu-links {
+  display: flex;
+  flex-direction: column;
+  padding-top: 120px;
+}
+
+.mobile-menu .owner-img img {
+  width: 160px;
+  height: 160px;
+}
+
+.mobile-menu a {
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+#closeMenu {
+  color: white;
+  font-size: 24;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.technologies-mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.technologies-mobile p {
+  color: white;
+  font-size: 24px;
+  font-family: 'Abril Fatface', sans-serif;
+}
+
+.technologies-mobile div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.technologies-mobile div ul {
+  display: flex;
+  gap: 10px;
+}
+
+.technologies-mobile img {
+  width: 50px;
+}
+
 /* /header mobile*/
 
 /* header desktop */
@@ -589,7 +662,7 @@ footer {
 }
 
 .header-secondary-lg div:nth-of-type(3) a {
-  padding: 20px 40px;
+  padding: 18px 40px;
 }
 /* header desktop */
 
@@ -765,20 +838,34 @@ main.desktop div.slide-menu {
   height: 1024px;
 }
 
-.project-images-lg img:first-child {
+.project-images-lg a img {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.project-images-lg a:first-child {
   align-self: flex-end;
+}
+
+.project-images-lg a:first-child img {
   width: 447px;
   height: 600px;
 }
 
-.project-images-lg img:nth-of-type(2) {
+.project-images-lg a:nth-of-type(2) {
   align-self: center;
+}
+
+.project-images-lg a:nth-of-type(2) img {
   width: 500px;
   height: 696px;
 }
 
-.project-images-lg img:nth-of-type(3) {
+.project-images-lg a:nth-of-type(3) {
   align-self: flex-start;
+}
+
+.project-images-lg a:nth-of-type(3) img {
   width: 520px;
   height: 730px;
 }
@@ -1222,4 +1309,37 @@ main.desktop div.slide-menu {
 
 .contact-lg div button:hover span {
   transform: translate3d(0, -2px, 0);
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes slightRotate {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(3deg);
+  }
+  50% {
+    transform: rotate(-3deg);
+  }
+  75% {
+    transform: rotate(3deg);
+  }
+}
+
+.zoomIn {
+  animation: zoomIn 1s ease forwards;
+}
+
+.slightRotate {
+  animation: slightRotate 1s ease forwards;
 }
