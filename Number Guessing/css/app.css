@@ -1,0 +1,161 @@
+body {
+  background: url(../images/background.png) no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  margin: 0 auto;
+  width: 100vw;
+  overflow: hidden;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.main-app {
+  background: rgb(220, 213, 218);
+  background: linear-gradient(
+    0deg,
+    rgba(220, 213, 218, 1) 0%,
+    rgba(255, 249, 244, 1) 100%
+  );
+  height: 80vh;
+  width: 60vw;
+  border-radius: 40px;
+  box-shadow: 0 15px 8px #5f6a78;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-app h1 {
+  text-transform: uppercase;
+  font-family: 'Baloo 2', sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 60px;
+  color: #31669d;
+}
+
+.main-app input {
+  height: 36px;
+  border-radius: 40px;
+  border-top: 3px solid #475d8a;
+  border-bottom: 2px solid #9fa9b7;
+  box-shadow: 0px 1px 2px black;
+  background: #f5f2f2;
+  text-align: center;
+  font-family: 'Baloo 2';
+  text-transform: uppercase;
+}
+
+.feedback {
+  height: 36px;
+  border-radius: 40px;
+  border-top: 3px solid #475d8a;
+  border-bottom: 2px solid #9fa9b7;
+  box-shadow: 0px 1px 2px black;
+  background: #f0e7e8;
+  font-family: 'Nosifer', sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.input-feedback-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.main-app button {
+  font-family: 'Baloo 2', sans-serif;
+  color: white;
+  background-color: #51a5ee;
+  border: none;
+  border-radius: 40px;
+  padding: 10px 40px;
+  font-size: 18px;
+  box-shadow: 1px 6px 2px #566690;
+}
+
+.confetti {
+  position: fixed;
+  width: 8px;
+  height: 10px;
+  opacity: 0.7;
+  top: 0;
+  pointer-events: none;
+  z-index: 1000;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-10px);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  75% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.shake-animation {
+  animation: shake 0.2s linear;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(100vh);
+  }
+}
+
+.confetti {
+  animation: fall linear infinite;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-app {
+    width: 80vw;
+    height: auto;
+    padding: 1rem;
+    gap: 20px;
+  }
+
+  .main-app h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .main-app input,
+  .main-app button {
+    font-size: 16px;
+  }
+
+  .main-app button {
+    padding: 8px 20px;
+  }
+  img {
+    width: 50%;
+    height: auto;
+  }
+
+  p {
+    font-size: 6px;
+  }
+}
