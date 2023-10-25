@@ -1,0 +1,5 @@
+{
+  "missionId": 1,
+  "description": "Solve a basic addition problem.",
+  "code": "function add(a, b) { return a + b; }"
+}

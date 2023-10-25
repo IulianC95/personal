@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CodeRunner Game</title>
+  <style>
+    #game-container {
+      width: 600px;
+      height: 400px;
+      border: 1px solid #000;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Welcome to CodeRunner!</h1>
+  <div id="game-container">
+    <!-- Game elements go here -->
+  </div>
+  <button onclick="startMission()">Start Mission</button>
+  <div
+    id="mission-container"
+    style="display:none;"
+  >
+    <p id="mission-description"></p>
+    <textarea id="code-input"></textarea>
+    <button onclick="submitMission()">Submit</button>
+  </div>
+
+  <script>
+    async function startMission() {
+      try {
+        const response = await fetch('http://localhost:3000/mission');
+        const mission = await response.json();
+
+        document.getElementById("mission-description").innerText = `Mission: ${mission.description}`;
+        document.getElementById("mission-container").style.display = "block";
+      } catch (error) {
+        console.error("A apărut o eroare: ", error);
+      }
+    }
+
+    function submitMission() {
+      const userCode = document.getElementById("code-input").value;
+      // Aici poți verifica codul introdus de utilizator și să îl evaluezi sau să îl trimiți la server pentru evaluare
+      alert("You submitted the code: " + userCode);
+    }
+  </script>
+</body>
+
+</html>
