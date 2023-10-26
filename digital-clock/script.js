@@ -177,13 +177,19 @@ document.addEventListener('DOMContentLoaded', function () {
   alarmForm.addEventListener('submit', function (e) {
     e.preventDefault();
 
+    const alarmTime = document.getElementById('alarmTime').value;
+
+    if (!alarmTime) {
+      alert('Vă rugăm să setați ora alarmei.');
+      return;
+    }
+
     if (alarmSet) {
       return;
     }
 
     alarmSet = true;
 
-    const alarmTime = document.getElementById('alarmTime').value;
     const [hour, minute] = alarmTime.split(':').map(Number);
     const alarmInMs = hour * 60 * 60 * 1000 + minute * 60 * 1000;
 
@@ -217,7 +223,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
       const moveButtonInterval = setInterval(() => {
         if (!canStop) {
-          // Muta butonul
           const containerWidth = alarmContainer.clientWidth;
           const containerHeight = alarmContainer.clientHeight;
 
@@ -232,7 +237,6 @@ document.addEventListener('DOMContentLoaded', function () {
           alarmButton.style.top = `${y}px`;
         } else {
           clearInterval(moveButtonInterval);
-          // Reseteaza pozitia la stilul original
           alarmButton.removeAttribute('style');
         }
       }, 500);
@@ -248,7 +252,6 @@ document.addEventListener('DOMContentLoaded', function () {
       const alarmSound = document.getElementById('alarmSound');
       alarmSound.pause();
       alarmButton.innerText = 'Set Alarm';
-      // Reseteaza pozitia la stilul original
       alarmButton.removeAttribute('style');
     }
   });

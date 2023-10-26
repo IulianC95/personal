@@ -145,6 +145,13 @@ body {
   font-weight: 700;
 }
 
+footer {
+  font-size: 16px;
+  color: white;
+  margin-top: 40px;
+  text-align: center;
+}
+
 main {
   gap: 30px;
   display: flex;
@@ -300,6 +307,13 @@ hr.hr {
   border-right: 1px solid #959b9d;
 }
 
+.start-pane-ctas {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
 .start-pane {
   width: 110px;
   height: 110px;
@@ -447,4 +461,101 @@ form.form-alarm button {
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .digital-clock {
+    align-self: center;
+    width: 88vw;
+  }
+  .digital-clock-pane {
+    width: 70px;
+  }
+
+  .gradient-text {
+    font-size: 24px;
+  }
+
+  .date-round-clock {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .date-pane {
+    width: 80vw;
+  }
+
+  .date-pane div p {
+    font-size: 40px;
+  }
+
+  .round-clock {
+    width: 100%;
+  }
+
+  .hour-hand {
+    width: 6px;
+    height: 70px;
+    z-index: 3;
+  }
+
+  .minute-hand {
+    width: 4px;
+    height: 100px;
+    z-index: 2;
+  }
+
+  .second-hand {
+    width: 2px;
+    height: 115px;
+    z-index: 1;
+  }
+
+  .stop-watch {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 20px;
+    padding: 30px 0;
+  }
+
+  .start-pane-ctas {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .start-pane-ctas button {
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    padding: 2px;
+  }
+
+  .start-pane {
+    width: 60px;
+    height: 60px;
+  }
+
+  .stop-watch-panes {
+    width: 30px;
+    height: 60px;
+  }
+
+  .stop-watch-panes p {
+    font-size: 22px;
+  }
+
+  .round-clock {
+    padding: 10px 0;
+  }
+
+  .round-clock img {
+    width: 80%;
+    height: 80%;
+  }
 }
