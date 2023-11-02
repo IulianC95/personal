@@ -291,7 +291,7 @@ header {
 
 .about-me h3 {
   background-color: #beb0b0;
-  font-family: 'Stoke', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   padding: 9px 30px;
   color: #fff;
   line-height: 20px;
@@ -430,7 +430,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'Aclonica', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   color: white;
   background-color: #6c5858;
   gap: 54px;
@@ -459,7 +459,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'Aclonica', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   color: white;
   background-color: #6c5858;
   text-align: center;
@@ -518,7 +518,7 @@ header {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  font-family: 'Aclonica', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   color: white;
   background-color: #6c5858;
   text-align: center;
@@ -559,7 +559,7 @@ footer {
   gap: 20px;
   text-align: center;
   margin-top: 20px;
-  font-family: 'Stoke', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   font-size: 12px;
   line-height: 15px;
   margin-bottom: 5px;
@@ -701,7 +701,7 @@ footer {
 .about-me-lg h3 {
   background-color: #beb0b0;
   padding: 12px 50px;
-  font-family: 'Stoke', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 30px;
@@ -723,7 +723,7 @@ footer {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  font-family: 'Stoke', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
 }
 
 .about-me-lg div a {
@@ -732,7 +732,7 @@ footer {
   text-decoration: none;
   border-radius: 10px;
   background-color: #ffa800;
-  font-family: 'Stoke', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   font-weight: 400;
   font-size: 16px;
   text-align: center;
@@ -783,7 +783,7 @@ main.desktop div.slide-menu {
 }
 
 .values-lg aside h3 {
-  font-family: 'Aclonica', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   font-weight: 400;
   font-size: 40px;
   line-height: 46px;
@@ -872,7 +872,7 @@ main.desktop div.slide-menu {
 
 .view-more-lg-cta a {
   position: relative;
-  font-family: 'Stoke', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   text-decoration: none;
   color: black;
   font-size: 24px;
@@ -937,7 +937,7 @@ main.desktop div.slide-menu {
 }
 
 .contact-lg h2 {
-  font-family: 'Aclonica', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   font-weight: 400;
   font-size: 48px;
   line-height: 69px;
@@ -952,7 +952,7 @@ main.desktop div.slide-menu {
 }
 
 .contact-lg div button {
-  font-family: 'Aclonica', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   font-weight: 400;
   font-size: 48px;
   line-height: 69px;
@@ -971,7 +971,7 @@ main.desktop div.slide-menu {
     'title'
     'form';
   text-align: center;
-  font-family: 'Aclonica', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   color: white;
   justify-items: center;
   padding: 20px 0;
@@ -1007,7 +1007,7 @@ main.desktop div.slide-menu {
   max-height: 72px;
   border-radius: 10px;
   font-size: 22px;
-  font-family: sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   color: gray;
   border: none;
   height: 60px;
@@ -1017,7 +1017,7 @@ main.desktop div.slide-menu {
 .input-group-grid textarea {
   border-radius: 10px;
   font-size: 22px;
-  font-family: sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   color: gray;
   border: none;
   height: 120px;
@@ -1072,7 +1072,7 @@ main.desktop div.slide-menu {
 .yes-form-grid form button {
   grid-column: 1 / span 2;
   background-color: #a8efeb;
-  font-family: 'Aclonica', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   padding: 18px 0;
   border-radius: 10px;
   font-size: 24px;
@@ -1087,7 +1087,7 @@ main.desktop div.slide-menu {
     'subtitle'
     'form';
   text-align: center;
-  font-family: 'Aclonica', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   color: white;
   justify-items: center;
   padding: 20px 0;
@@ -1123,7 +1123,7 @@ main.desktop div.slide-menu {
 .no-form-grid form button {
   grid-column: 1 / span 2;
   background-color: #a8efeb;
-  font-family: 'Aclonica', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   padding: 18px 0;
   border-radius: 10px;
   font-size: 24px;
@@ -1139,7 +1139,7 @@ main.desktop div.slide-menu {
   justify-content: space-around;
   align-items: center;
   gap: 50px;
-  font-family: 'Stoke', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   font-size: 40px;
   line-height: 50px;
   margin-top: 113px;

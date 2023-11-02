@@ -1,0 +1,268 @@
+body {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 7vh;
+}
+
+.math-paper-background {
+  background-color: #fff;
+  background-image: linear-gradient(90deg, #ededed 1px, transparent 1px),
+    linear-gradient(180deg, #e0e0e0 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.creion {
+  position: fixed; /* 'fixed' pentru a păstra creioanele în fundal */
+  z-index: -1; /* Asigură-te că creioanele sunt sub alte elemente */
+  width: 100px; /* sau orice altă dimensiune dorești */
+  opacity: 0.7; /* Opțional, dacă vrei creioanele mai transparente */
+  pointer-events: none; /* Pentru a preveni interacțiunea cu mouse-ul */
+}
+
+.projects-header {
+  top: 0;
+  position: sticky;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fdfdf9;
+  width: 90vw;
+  align-self: center;
+  padding: 16px 0;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: -1px 1px 4px #030705, 5px 5px 10px #030705, 0 5px 10px #030705;
+}
+
+.my-projects {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #3e4646, #04171a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.home a {
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 6vh;
+}
+
+.skill-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+}
+
+.frontend {
+  background: rgb(248, 251, 252);
+  background: linear-gradient(
+    90deg,
+    rgba(248, 251, 252, 1) 0%,
+    rgba(242, 243, 240, 1) 100%
+  );
+  border: 1px solid #5b6161;
+  border-radius: 8px;
+  width: 40vw;
+  padding: 30px;
+  box-shadow: 4px 4px 10px #00111c;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  height: 15vh;
+}
+
+.frontend h2,
+.backend h2 {
+  font-weight: 600;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-size: 22px;
+  justify-content: center;
+}
+
+.backend {
+  width: 35vw;
+  border: 1px solid #5b6161;
+  border-radius: 8px;
+  box-shadow: 4px 4px 10px #00111c;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 30px;
+  color: #fefcff;
+  background: rgb(77, 85, 85);
+  background: linear-gradient(
+    90deg,
+    rgba(77, 85, 85, 1) 0%,
+    rgba(23, 30, 30, 1) 100%
+  );
+  height: 15vh;
+}
+
+.projects-panel {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-tile {
+  border: 1px solid #000b27;
+  border-radius: 10px;
+  height: 26vh;
+  width: 18vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 4px 4px 10px #585958;
+}
+
+.project-tile-up-front {
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: rgb(248, 251, 252);
+  background: linear-gradient(
+    90deg,
+    rgba(248, 251, 252, 1) 0%,
+    rgba(242, 243, 240, 1) 100%
+  );
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 1px solid #000b27;
+}
+
+.project-tile-bottom {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(240, 241, 236);
+  background: linear-gradient(
+    90deg,
+    rgba(240, 241, 236, 1) 0%,
+    rgba(235, 236, 232, 1) 100%
+  );
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 100%;
+}
+
+.project-tile-up-back {
+  background: rgb(77, 85, 85);
+  background: linear-gradient(
+    90deg,
+    rgba(77, 85, 85, 1) 0%,
+    rgba(23, 30, 30, 1) 100%
+  );
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 1px solid #000b27;
+}
+
+.h2-front {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.h2-back {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.project-tile-bottom h3 {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 18px;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.project-tile-bottom p {
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 0 12px;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.projects-footer {
+  width: 90vw;
+  height: 18vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #5b6161;
+  border-radius: 10px;
+  background: rgb(77, 85, 85);
+  background: linear-gradient(
+    90deg,
+    rgba(77, 85, 85, 1) 0%,
+    rgba(23, 30, 30, 1) 100%
+  );
+  color: white;
+}
+
+.projects-footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-size: 20px;
+}
+
+.projects-footer > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 16px;
+}
