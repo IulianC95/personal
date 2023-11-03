@@ -566,6 +566,10 @@ main {
   .project-tile-bottom p {
     font-size: 12px;
   }
+
+  .projects-footer {
+    padding: 20px 0;
+  }
 }
 
 /* /mobile version */
