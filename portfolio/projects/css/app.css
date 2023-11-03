@@ -24,6 +24,7 @@ body {
 
 .projects-header {
   top: 0;
+  z-index: 4;
   position: sticky;
   display: flex;
   flex-direction: row;
@@ -88,7 +89,7 @@ main {
   flex-direction: column;
   gap: 16px;
   font-family: 'Space Grotesk', sans-serif;
-  font-size: 18px;
+  font-size: 1vw;
   line-height: 20px;
   height: 15vh;
 }
@@ -117,7 +118,7 @@ main {
   flex-direction: column;
   gap: 16px;
   font-family: 'Space Grotesk', sans-serif;
-  font-size: 18px;
+  font-size: 1vw;
   line-height: 20px;
   padding: 30px;
   color: #fefcff;
@@ -133,16 +134,17 @@ main {
 .projects-panel {
   display: flex;
   flex-direction: row;
-
   justify-content: space-between;
   align-items: center;
+  gap: 10px;
+  width: 90vw;
 }
 
 .project-tile {
   border: 1px solid #000b27;
   border-radius: 10px;
-  height: 26vh;
-  width: 18vh;
+  height: 32vh;
+  width: 30%;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -240,7 +242,7 @@ main {
   font-size: 16px;
   text-align: center;
   color: black;
-  padding: 12px 60px 16px 60px;
+  padding: 0.5vh 3vw 0.5vh 3vw;
   overflow: hidden;
   z-index: 1;
   transition: all 0.4s ease;
@@ -263,8 +265,8 @@ main {
 
 .img-1 {
   position: relative;
-  height: 26vh;
-  width: 18vh;
+  height: 45vh;
+  width: 22vw;
   z-index: 1;
   overflow: hidden;
 }
@@ -295,8 +297,8 @@ main {
 
 .img-2 {
   position: relative;
-  height: 26vh;
-  width: 18vh;
+  height: 45vh;
+  width: 22vw;
   z-index: 1;
   overflow: hidden;
 }
@@ -327,8 +329,8 @@ main {
 
 .img-3 {
   position: relative;
-  height: 26vh;
-  width: 18vh;
+  height: 45vh;
+  width: 22vw;
   z-index: 1;
   overflow: hidden;
 }
@@ -359,8 +361,8 @@ main {
 
 .img-4 {
   position: relative;
-  height: 26vh;
-  width: 18vh;
+  height: 45vh;
+  width: 22vw;
   z-index: 1;
   overflow: hidden;
 }
@@ -391,8 +393,8 @@ main {
 
 .img-5 {
   position: relative;
-  height: 26vh;
-  width: 18vh;
+  height: 45vh;
+  width: 22vw;
   z-index: 1;
   overflow: hidden;
 }
@@ -423,8 +425,8 @@ main {
 
 .img-6 {
   position: relative;
-  height: 26vh;
-  width: 18vh;
+  height: 45vh;
+  width: 22vw;
   z-index: 1;
   overflow: hidden;
 }
@@ -453,7 +455,7 @@ main {
 
 .project-tile-bottom h3 {
   font-family: 'Space Grotesk', sans-serif;
-  font-size: 18px;
+  font-size: 1.5vw;
   text-decoration: underline;
   font-weight: 500;
 }
@@ -463,6 +465,7 @@ main {
   text-justify: inter-word;
   padding: 0 12px;
   font-family: 'Space Grotesk', sans-serif;
+  font-size: auto;
 }
 
 .projects-footer {
@@ -506,6 +509,15 @@ main {
     display: none;
   }
 
+  .projects-header {
+    width: 70vw;
+    position: initial;
+  }
+
+  .projects-header h1 {
+    font-size: 26px;
+  }
+
   main {
     width: 90vw;
   }
@@ -520,8 +532,8 @@ main {
 
   .frontend,
   .backend {
-    height: 25vh;
-    width: 74vw;
+    height: auto;
+    width: 50vw;
   }
 
   .frontend h2,
@@ -531,7 +543,7 @@ main {
 
   .frontend p,
   .backend p {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .projects-panel {
