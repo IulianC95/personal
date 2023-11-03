@@ -40,7 +40,7 @@ body {
 }
 
 .my-projects {
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   font-size: 36px;
   font-weight: 800;
 }
@@ -56,7 +56,7 @@ body {
 .home a {
   text-decoration: none;
   font-size: 30px;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 main {
@@ -87,7 +87,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   font-size: 18px;
   line-height: 20px;
   height: 15vh;
@@ -116,7 +116,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   font-size: 18px;
   line-height: 20px;
   padding: 30px;
@@ -203,7 +203,7 @@ main {
 }
 
 .h2-front {
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   font-size: 20px;
   font-weight: 800;
   text-transform: uppercase;
@@ -211,7 +211,7 @@ main {
 }
 
 .h2-back {
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   font-size: 20px;
   font-weight: 800;
   color: white;
@@ -219,8 +219,240 @@ main {
   letter-spacing: 2px;
 }
 
+.project-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.project-tile:hover .project-tile-bottom {
+  background-image: none;
+}
+
+.project-tile button {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: #ffa800;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: black;
+  padding: 12px 60px 16px 60px;
+  overflow: hidden;
+  z-index: 1;
+  transition: all 0.4s ease;
+  display: none;
+  cursor: pointer;
+}
+
+.project-tile:hover button {
+  display: block;
+  z-index: 3;
+}
+
+.project-tile:hover h2,
+.project-tile:hover p,
+.project-tile:hover h3 {
+  display: none;
+}
+
+/* img-1 hover animation */
+
+.img-1 {
+  position: relative;
+  height: 26vh;
+  width: 18vh;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.img-1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  transition: background-image 0.5s linear, opacity 0.5s linear;
+  z-index: -1;
+  opacity: 0;
+}
+
+.img-1:hover::before {
+  background-image: url('../images/web14an.png'); /* The new image */
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+}
+
+/* /img-1 hover animation */
+
+/* img-2 hover animation */
+
+.img-2 {
+  position: relative;
+  height: 26vh;
+  width: 18vh;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.img-2::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  transition: background-image 0.5s linear, opacity 0.5s linear;
+  z-index: -1;
+  opacity: 0;
+}
+
+.img-2:hover::before {
+  background-image: url('../images/raport-necesitate.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+}
+
+/* /img-2 hover animation */
+
+/* img-3 hover animation */
+
+.img-3 {
+  position: relative;
+  height: 26vh;
+  width: 18vh;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.img-3::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  transition: background-image 0.5s linear, opacity 0.5s linear;
+  z-index: -1;
+  opacity: 0;
+}
+
+.img-3:hover::before {
+  background-image: url('../images/digital-clock.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+}
+
+/* /img-3 hover animation */
+
+/* img-4 hover animation */
+
+.img-4 {
+  position: relative;
+  height: 26vh;
+  width: 18vh;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.img-4::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  transition: background-image 0.5s linear, opacity 0.5s linear;
+  z-index: -1;
+  opacity: 0;
+}
+
+.img-4:hover::before {
+  background-image: url('../images/guess-number-game.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+}
+
+/* /img-4 hover animation */
+
+/* img-5 hover animation */
+
+.img-5 {
+  position: relative;
+  height: 26vh;
+  width: 18vh;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.img-5::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  transition: background-image 0.5s linear, opacity 0.5s linear;
+  z-index: -1;
+  opacity: 0;
+}
+
+.img-5:hover::before {
+  background-image: url('../images/typing-gladiators.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+}
+
+/* /img-5 hover animation */
+
+/* img-6 hover animation */
+
+.img-6 {
+  position: relative;
+  height: 26vh;
+  width: 18vh;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.img-6::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  transition: background-image 0.5s linear, opacity 0.5s linear;
+  z-index: -1;
+  opacity: 0;
+}
+
+.img-6:hover::before {
+  background-image: url('../images/thread-affair.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+}
+
+/* /img-6 hover animation */
+
 .project-tile-bottom h3 {
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   font-size: 18px;
   text-decoration: underline;
   font-weight: 500;
@@ -230,7 +462,7 @@ main {
   text-align: justify;
   text-justify: inter-word;
   padding: 0 12px;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 .projects-footer {
@@ -266,3 +498,62 @@ main {
   gap: 10px;
   font-size: 16px;
 }
+
+/* mobile version */
+
+@media (max-width: 768px) {
+  .social-lg {
+    display: none;
+  }
+
+  main {
+    width: 90vw;
+  }
+
+  .skill-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .frontend,
+  .backend {
+    height: 25vh;
+    width: 74vw;
+  }
+
+  .frontend h2,
+  .backend h2 {
+    font-size: 16px;
+  }
+
+  .frontend p,
+  .backend p {
+    font-size: 12px;
+  }
+
+  .projects-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .project-link,
+  .project-tile {
+    width: 66vw;
+  }
+
+  .project-tile-bottom h3 {
+    font-size: 16px;
+  }
+
+  .project-tile-bottom p {
+    font-size: 12px;
+  }
+}
+
+/* /mobile version */
