@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <link
+    rel="icon"
+    href="images/icon.ico"
+    type="image/x-icon"
+  >
+  <title>Typing Gladiators</title>
+  <link
+    rel="stylesheet"
+    href="css/app.css"
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jomhuria&family=Jomolhari&family=Joti+One&display=swap"
+    rel="stylesheet"
+  >
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <div class="header-primary">
+      <h1>Typing Gladiators</h1>
+    </div>
+    <div class="header-secondary">
+      <p>Ce vrei sa inveti?</p>
+
+      <div class="btns">
+        <button id="html">HTML</button>
+        <button id="css">CSS</button>
+        <button id="js">JS</button>
+        <button id="php">PHP</button>
+        <button id="sql">MySql</button>
+        <button id="python">Python</button>
+      </div>
+
+      <button class="choose-lang-btn">Alege</button>
+      <div
+        class="btns btns-mobile"
+        id="fullscreen-menu"
+      >
+        <button id="html">HTML</button>
+        <button id="css">CSS</button>
+        <button id="js">JS</button>
+        <button id="php">PHP</button>
+        <button id="sql">MySql</button>
+        <button id="python">Python</button>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div
+      class="theory"
+      id="sampleTextContainer"
+    >
+      <div
+        id="sampleText"
+        class="sampleText"
+      ></div>
+    </div>
+    <textarea
+      class="text-input"
+      id="testArea"
+      placeholder="Începeți să scrieți textul de mai sus aici..."
+    ></textarea>
+    <div
+      class="score"
+      id="info"
+    >
+      <div class="counters">
+        <p>Număr de cuvinte: <span
+            id="wordCount"
+            class="timer"
+          >0</span></p>
+        <p>Timp: <span
+            id="timer"
+            class="timer"
+          >0</span> <span class="timer">secunde</span></p>
+      </div>
+    </div>
+    <div
+      class="leaderboard lg"
+      id="leaderboard"
+    >
+      <button class="close-menu">X</button>
+      <div>
+        <h2>Leaderboard</h2>
+        <ul id="scoresList"></ul>
+      </div>
+      <div>
+        <img
+          src="images/Rectangle 11.png"
+          alt=""
+        >
+      </div>
+      <div>
+        <h2>Definitii perfecte</h2>
+        <ul id="entriesLeaderboard"></ul>
+      </div>
+    </div>
+    <div class="leaderboard-btn">
+      <button id="leaderboard-mobile">Leaderboard</button>
+      <img
+        src="images/Rectangle 11.png"
+        alt=""
+      >
+    </div>
+
+
+
+    <p>&copy; 2023 <a
+        href="https://www.linkedin.com/in/cuculici-iulian-512649155/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >Cuculici Iulian.</a> All rights reserved.</p>
+  </main>
+
+  <script src="js/script.js"></script>
+  <script src="js/leaderboard.js"></script>
+  <script src="js/menu.js"></script>
+
+</body>
+
+</html>
