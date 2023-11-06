@@ -84,10 +84,11 @@ header {
   background: #fff;
   text-align: center;
   box-shadow: 0 4px 8px #000;
-  font-family: 'Jomolhari', serif;
+  font-family: 'Jomhuria', serif;
   resize: none;
-  font-size: 26px;
+  font-size: 46px;
   color: #989b9f;
+  height: 160px;
 }
 
 textarea.text-input::placeholder {
@@ -127,8 +128,9 @@ textarea.text-input::placeholder {
   transition: transform 0.3s ease;
   padding: 40px 30px;
   text-align: center;
-  font-family: 'Jomolhari', serif;
-  font-size: 32px;
+  font-family: 'Jomhuria', serif;
+  font-size: 40px;
+  color: #4c4f4b;
 }
 
 .correct {
@@ -203,6 +205,16 @@ footer {
   display: none;
 }
 
+.sound {
+  background: #f56b6b;
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
 @media (max-width: 768px) {
   .header-primary {
     width: 100vw;
@@ -233,10 +245,10 @@ footer {
     font-size: 36px;
   }
   .sampleText {
-    font-size: 14px;
+    font-size: 40px;
   }
   .text-input {
-    font-size: 14px;
+    font-size: 28px;
     height: 100px;
   }
   .lg {

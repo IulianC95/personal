@@ -545,10 +545,6 @@ const texts = {
 let currentTexts = texts.html;
 let sampleText = '';
 
-const keySound = new Howl({
-  src: ['keyPressSound.mp3'],
-});
-
 document.querySelectorAll('.btns button').forEach((button) => {
   button.addEventListener('click', function () {
     currentTexts = texts[this.id];
@@ -683,4 +679,29 @@ const textArea = document.getElementById('testArea');
 textArea.addEventListener('paste', function (e) {
   e.preventDefault(); // Anulează acțiunea de "paste"
   alert('Operațiunea de paste este dezactivată.'); // O alertă sau un mesaj pentru utilizator
+});
+
+const keySound = new Howl({
+  src: ['keyPressSound.mp3'],
+});
+
+let soundEnabled = true;
+
+const soundToggle = document.getElementById('sound');
+const muteEl = document.getElementById('mute');
+const unmuteEl = document.getElementById('unmute');
+
+soundToggle.addEventListener('click', function () {
+  soundEnabled = !soundEnabled;
+  if (!soundEnabled) {
+    keySound.mute(true);
+    unmuteEl.style.display = 'block';
+    muteEl.style.display = 'none';
+    soundToggle.style.backgroundColor = '#8bb37d';
+  } else {
+    keySound.mute(false);
+    unmuteEl.style.display = 'none';
+    muteEl.style.display = 'block';
+    soundToggle.style.backgroundColor = '#f56b6b';
+  }
 });
