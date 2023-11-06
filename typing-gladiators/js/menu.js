@@ -13,6 +13,10 @@ menuButtons.forEach(function (button) {
   });
 });
 
+fullscreenMenu.addEventListener('click', function () {
+  fullscreenMenu.classList.remove('active');
+});
+
 const leaderBtn = document.getElementById('leaderboard-mobile');
 
 const fullscreenLeaderboard = document.querySelector('.leaderboard');
