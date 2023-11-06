@@ -7,7 +7,12 @@
     name="viewport"
     content="width=device-width, initial-scale=1.0"
   >
-  <title>Test de viteză la scris</title>
+  <link
+    rel="icon"
+    href="images/icon.ico"
+    type="image/x-icon"
+  >
+  <title>Typing Gladiators</title>
   <link
     rel="stylesheet"
     href="css/app.css"
@@ -25,6 +30,15 @@
 <body>
   <header>
     <h1>Typing Gladiators</h1>
+    <p>Ce vrei sa inveti?</p>
+    <div class="btns">
+      <button id="html">HTML</button>
+      <button id="css">CSS</button>
+      <button id="js">JS</button>
+      <button id="php">PHP</button>
+      <button id="sql">MySql</button>
+      <button id="python">Python</button>
+    </div>
   </header>
   <main class="main">
     <div
@@ -42,20 +56,30 @@
       class="score"
       id="info"
     >
+
       <p>Număr de cuvinte: <span id="wordCount">0</span></p>
       <p>Timp: <span id="timer">0</span> secunde</p>
+      <p>&copy; 2023 Cuculici Iulian. All rights reserved.</p>
       <div
         class="leaderboard"
         id="leaderboard"
       >
-        <h2>Leaderboard</h2>
-        <ul id="scoresList"></ul>
+        <div>
+          <h2>Leaderboard</h2>
+          <ul id="scoresList"></ul>
+        </div>
+        <div>
+          <h2>Completed Phrases</h2>
+          <ul id="entriesLeaderboard"></ul>
+        </div>
       </div>
+
 
 
     </div>
   </main>
   <script src="js/script.js"></script>
+  <script src="js/leaderboard.js"></script>
 
 </body>
 
