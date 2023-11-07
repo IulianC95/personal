@@ -1,72 +1,126 @@
 const allQuestions = {
   javascript: [
     {
-      question: "Care este scopul 'use strict' în JavaScript?",
+      question: "Ce reprezintă 'this' într-un context de funcție JavaScript?",
       answers: [
-        { text: 'Permite utilizarea eval într-un mod sigur', correct: false },
+        { text: 'Referă întotdeauna la obiectul global', correct: false },
         {
-          text: 'Impune un mod mai strict de parsare și executare a codului',
-          correct: true,
-        },
-        {
-          text: 'Activează optimizări de performanță în motorul JavaScript',
+          text: 'Referă la elementul HTML care a apelat funcția',
           correct: false,
         },
-        {
-          text: 'Restrânge și aruncă erori pentru comportamente nesigure',
-          correct: false,
-        },
+        { text: 'Referă la obiectul care a invocat funcția', correct: true },
+        { text: 'Este o variabilă care stochează o funcție', correct: false },
       ],
     },
     {
       question:
-        'Cum se declara o variabilă care nu-și poate schimba valoarea în JavaScript?',
+        'Ce metodă JavaScript este folosită pentru a crea noi elemente HTML?',
       answers: [
-        { text: 'let', correct: false },
-        { text: 'var', correct: false },
-        { text: 'const', correct: true },
-        { text: 'static', correct: false },
+        { text: 'document.createElement()', correct: true },
+        { text: 'document.newElement()', correct: false },
+        { text: 'document.addChild()', correct: false },
+        { text: 'document.appendElement()', correct: false },
+      ],
+    },
+  ],
+  html: [
+    {
+      question: 'Ce element HTML este folosit pentru a defini un paragraf?',
+      answers: [
+        { text: '<div>', correct: false },
+        { text: '<p>', correct: true },
+        { text: '<span>', correct: false },
+        { text: '<br>', correct: false },
+      ],
+    },
+    {
+      question: 'Cum inserați un comentariu în HTML?',
+      answers: [
+        { text: '<-- Acesta este un comentariu -->', correct: false },
+        { text: '<!–- Acesta este un comentariu -–>', correct: true },
+        { text: '/* Acesta este un comentariu */', correct: false },
+        { text: '// Acesta este un comentariu', correct: false },
+      ],
+    },
+  ],
+  css: [
+    {
+      question: "Care este selectorul CSS pentru elementele cu clasa 'button'?",
+      answers: [
+        { text: '.button', correct: true },
+        { text: '#button', correct: false },
+        { text: 'button', correct: false },
+        { text: '*button', correct: false },
+      ],
+    },
+    {
+      question:
+        "Cum aplici un stil doar pentru paragrafele directe dintr-o clasă 'content'?",
+      answers: [
+        { text: '.content p', correct: false },
+        { text: '.content > p', correct: true },
+        { text: '.content + p', correct: false },
+        { text: '.content p:first-child', correct: false },
+      ],
+    },
+  ],
+  php: [
+    {
+      question: 'Cum declari o variabilă în PHP?',
+      answers: [
+        { text: 'var $name;', correct: false },
+        { text: 'let $name;', correct: false },
+        { text: '$name = value;', correct: true },
+        { text: 'create $name = value;', correct: false },
+      ],
+    },
+    {
+      question: 'Cum trimiți datele unui formular către server în PHP?',
+      answers: [
+        { text: 'Folosind metoda GET sau POST', correct: true },
+        { text: 'Cu apeluri AJAX', correct: false },
+        { text: 'Prin e-mail', correct: false },
+        { text: 'Direct, fără o metodă', correct: false },
+      ],
+    },
+  ],
+  mysql: [
+    {
+      question: 'Cum selectezi toate coloanele dintr-un tabel MySQL?',
+      answers: [
+        { text: 'SELECT * FROM tabel', correct: true },
+        { text: 'SELECT tabel.*', correct: false },
+        { text: 'SELECT tabel', correct: false },
+        { text: 'SHOW tabel', correct: false },
+      ],
+    },
+    {
+      question: 'Cum actualizezi un record în MySQL?',
+      answers: [
+        { text: 'UPDATE tabel SET coloana = valoare', correct: true },
+        { text: 'MODIFY tabel SET coloana = valoare', correct: false },
+        { text: 'CHANGE tabel SET coloana = valoare', correct: false },
+        { text: 'EDIT tabel WHERE coloana = valoare', correct: false },
       ],
     },
   ],
   python: [
     {
-      question: 'Cum poți verifica tipul unei variabile în Python?',
+      question: 'Cum declari o funcție în Python?',
       answers: [
-        { text: 'type(variable)', correct: true },
-        { text: 'varType(variable)', correct: false },
-        { text: 'typeof(variable)', correct: false },
-        { text: 'getType(variable)', correct: false },
+        { text: 'function myFunc():', correct: false },
+        { text: 'def myFunc():', correct: true },
+        { text: 'create myFunc():', correct: false },
+        { text: 'func myFunc():', correct: false },
       ],
     },
     {
-      question: 'Ce face operatorul `//` în Python?',
+      question: 'Ce face operatorul `==` în Python?',
       answers: [
-        { text: 'Comentariu', correct: false },
-        { text: 'Împărțire', correct: false },
-        { text: 'Împărțire floor', correct: true },
-        { text: 'Împărțire exactă', correct: false },
-      ],
-    },
-  ],
-  java: [
-    {
-      question:
-        'Care dintre următoarele cuvinte cheie este folosit pentru a moșteni o clasă în Java?',
-      answers: [
-        { text: 'super', correct: false },
-        { text: 'this', correct: false },
-        { text: 'extends', correct: true },
-        { text: 'implements', correct: false },
-      ],
-    },
-    {
-      question: 'Care este dimensiunea unui întreg (int) în Java?',
-      answers: [
-        { text: '8 bit', correct: false },
-        { text: '16 bit', correct: false },
-        { text: '32 bit', correct: true },
-        { text: '64 bit', correct: false },
+        { text: 'Atribuie o valoare', correct: false },
+        { text: 'Compară valoarea și tipul', correct: false },
+        { text: 'Compară doar valoarea', correct: true },
+        { text: 'Verifică dacă variabilele sunt identice', correct: false },
       ],
     },
   ],
