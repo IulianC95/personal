@@ -44,3 +44,32 @@ textInput.addEventListener('focus', function () {
 textInput.addEventListener('blur', function () {
   textInput.placeholder = originalPlaceholder;
 });
+
+// more like this menu
+
+const closeMenu2 = document.querySelector('.close-menu2');
+
+closeMenu2.addEventListener('click', function () {
+  slideMenu.classList.remove('active');
+});
+const slideMenu = document.querySelector('.slide-menu');
+const featuresMenu = document.getElementById('features-menu');
+
+featuresMenu.addEventListener('click', function (event) {
+  event.stopPropagation();
+  slideMenu.classList.toggle('active');
+});
+
+slideMenu.addEventListener('click', function () {
+  slideMenu.classList.remove('active');
+});
+
+document.addEventListener('click', function (event) {
+  if (!slideMenu.contains(event.target)) {
+    slideMenu.classList.remove('active');
+  }
+});
+
+slideMenu.addEventListener('click', function (event) {
+  event.stopPropagation();
+});

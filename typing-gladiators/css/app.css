@@ -52,6 +52,18 @@ header {
   display: none;
 }
 
+.features-menu {
+  border-radius: 10px;
+  background-color: #4c4f4b;
+  box-shadow: 0 4px 8px black;
+  font-size: 18px;
+  padding: 10px;
+  color: white;
+  position: absolute;
+  right: 10px;
+  top: 50px;
+}
+
 .btns button {
   width: 171px;
   height: 54px;
@@ -213,6 +225,45 @@ footer {
   margin-bottom: 20px;
   border-radius: 10px;
   text-align: center;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.slide-menu {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 30%;
+  height: 100%;
+  background: #deffbd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: left 0.3s ease;
+  z-index: 1000;
+  box-shadow: 4px 4px 4px #4c4f4b;
+}
+.slide-menu.active {
+  left: 0;
+}
+
+.slide-menu a {
+  text-decoration: none;
+  color: #4c4f4b;
+}
+
+.slide-menu p {
+  text-decoration: underline;
+}
+.slide-menu.active {
+  left: 0;
+}
+
+.close-menu2 {
+  display: none;
 }
 
 @media (max-width: 768px) {
@@ -220,7 +271,8 @@ footer {
     width: 100vw;
   }
   .header-primary h1 {
-    font-size: 36px;
+    font-size: 26px;
+    height: 60px;
   }
   .header-secondary {
     display: flex;
@@ -335,5 +387,22 @@ footer {
     font-size: 30px;
     padding-top: 10px;
     text-wrap: nowrap;
+  }
+  .features-menu {
+    font-size: 10px;
+  }
+  .slide-menu {
+    width: 100%;
+  }
+  .close-menu2 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #4c4f4b;
+    text-align: center;
+    color: #fff;
+    display: block;
   }
 }

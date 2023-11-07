@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <meta
+    property="og:title"
+    content="Quiz Gladiators"
+  >
+  <meta
+    property="og:image"
+    content="images/meta-img2.png"
+  >
+  <link
+    rel="icon"
+    href="images/icon.ico"
+    type="image/x-icon"
+  >
+  <title>Quiz Gladiators</title>
+  <link
+    rel="stylesheet"
+    href="css/quiz.css"
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jomhuria&family=Jomolhari&family=Joti+One&display=swap"
+    rel="stylesheet"
+  >
+
+  <link
+    rel="stylesheet"
+    href="css/menu.css"
+  >
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+
+<body>
+  <header>
+    <button
+      id="features-menu"
+      class="features-menu"
+    ><i class="fa-solid fa-bars"></i></button>
+    <h1>Quiz Gladiators</h1>
+    <div class="slide-menu">
+      <p>More like this:</p>
+      <a href="../">Typing Gladiators</a>
+      <button class="close-menu2">X</button>
+    </div>
+  </header>
+  <div class="language-selection">
+    <h2>Din ce limbaj de programare vrei intrebarile?</h2>
+    <button
+      class="btn"
+      onclick="selectLanguage('html')"
+    >HTML</button>
+    <button
+      class="btn"
+      onclick="selectLanguage('css')"
+    >CSS</button>
+    <button
+      class="btn"
+      onclick="selectLanguage('javascript')"
+    >JavaScript</button>
+    <button
+      class="btn"
+      onclick="selectLanguage('php')"
+    >PHP</button>
+    <button
+      class="btn"
+      onclick="selectLanguage('mysql')"
+    >MySql</button>
+    <button
+      class="btn"
+      onclick="selectLanguage('python')"
+    >Python</button>
+    <!-- Adaugă alte limbaje după preferințe -->
+  </div>
+  <div
+    class="quiz-container"
+    id="quiz-container"
+    style="display:none;"
+  >
+    <div
+      id="quiz"
+      class="quiz"
+    >
+      <div
+        class="question"
+        id="question"
+      >Întrebare?</div>
+      <div
+        class="choices"
+        id="choices"
+      >
+        <!-- Opțiunile de răspuns vor fi generate din JavaScript -->
+      </div>
+    </div>
+  </div>
+  <section class="leaderboard">
+    <div class="leader-img">
+      <img
+        src="images/Rectangle 11.png"
+        alt=""
+      >
+    </div>
+    <div class="leaderboard-text">
+      <h2>Top cele mai multe puncte:</h2>
+      <div id="leaderboard"></div>
+    </div>
+  </section>
+  <script src="js/quizz.js"></script>
+  <script src="js/menu.js"></script>
+</body>
+
+</html>
