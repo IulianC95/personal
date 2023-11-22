@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Jomhuria';
+    src: url('Jomhuria-Regular.woff2') format('woff2'),
+        url('Jomhuria-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ledger';
+    src: url('Ledger-Regular.woff2') format('woff2'),
+        url('Ledger-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
