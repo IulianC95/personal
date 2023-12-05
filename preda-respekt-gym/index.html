@@ -7,6 +7,19 @@
     name="viewport"
     content="width=device-width, initial-scale=1.0"
   >
+  <meta
+    property="og:title"
+    content="Preda Respekt Gym"
+  >
+  <meta
+    property="og:image"
+    content="images/banner.png"
+  >
+  <link
+    rel="icon"
+    href="images/icon.ico"
+    type="image/x-icon"
+  >
   <title>Preda Respekt Gym</title>
 
   <link
@@ -25,11 +38,18 @@
     rel="stylesheet"
     href="css/fonts/stylesheet.css"
   >
+
+  <link
+    rel="stylesheet"
+    href="css/mobile.css"
+  >
+
 </head>
 
 <body>
-  <header>
+  <header class="lg">
     <section class="header-primary">
+
       <nav class="container">
         <a
           href="#"
@@ -42,128 +62,286 @@
           <li><a
               href="#about-us"
               title="Despre noi"
-            ></a>Despre noi</li>
+            >Despre noi</a></li>
           <li><a
               href="#images"
               title="Galerie Foto"
-            ></a>Galerie Foto</li>
+            >Galerie Foto</a></li>
           <li><a
               href="#videos"
               title="Galerie Video"
-            ></a>Galerie Video</li>
+            >Galerie Video</a></li>
           <li><a
               href="#scheduel"
               title="Program"
-            ></a>Program</li>
+            >Program</a></li>
           <li><a
               href="#contact"
               title="Contact"
-            ></a>Contact</li>
+            >Contact</a></li>
         </ul>
       </nav>
     </section>
-    <section class="header-secondary">
-      <div class="container">
-        <div class="sports">
-          <ul>
-            <li>Kickboxing</li>
-            <li>Jiu-Jitsu</li>
-            <li>Mma</li>
-          </ul>
-        </div>
-        <a
-          href="#"
-          title="Preda Respeky Gym Logo"
-        ><img
-            src="images/logo-white.png"
-            alt="Preda Respeky Gym Logo"
-          ></a>
+    <section class="header-secondary container2">
+
+      <div class="sports">
+        <ul>
+          <li>Kickboxing</li>
+          <li>Jiu-Jitsu</li>
+          <li>Mma</li>
+        </ul>
       </div>
+      <a
+        href="#"
+        title="Preda Respeky Gym Logo"
+      ><img
+          src="images/logo-white.png"
+          alt="Preda Respeky Gym Logo"
+        ></a>
+
     </section>
   </header>
+  <header class="mb">
+    <div class="primary-mb">
+      <i
+        class="fa-solid fa-bars"
+        style="color: #ffffff;"
+      ></i>
+      <h1>Preda Respekt Gym</h1>
+    </div>
+    <div class="secondary-mb">
+      <div class="sports-mb">
+        <ul>
+          <li>Kickboxing</li>
+          <li>Jiu-Jitsu</li>
+          <li>Mma</li>
+        </ul>
+      </div>
+      <a
+        href="#"
+        title="Preda Respeky Gym Logo"
+      ><img
+          src="images/logo-white.png"
+          alt="Preda Respeky Gym Logo"
+        ></a>
+    </div>
+  </header>
 
-  <main>
-    <div
-      class="our-mission"
-      id="about-us"
-    >
-      <h2>Misiunea noastra</h2>
-      <div class="about-us-texts container">
-        <section class="about-us">
+  <main class="lg">
+    <div class="our-mission-background ">
+      <div
+        class="our-mission container"
+        id="about-us"
+      >
+        <i class="fa-solid fa-chevron-right"></i>
+        <h2>Misiunea noastra</h2>
+        <div class="about-us-texts ">
+          <section class="about-us">
 
-          <p>Devino versiunea ta mai buna cu ajutorul antrenorilor nostri,
-            <span>multipli campioni nationali</span> la lupte, kickbox
-            si jiu-jitsu.
-          </p>
-          <a
-            href="#coaches"
-            title="Antrenori"
-          >Antrenori</a>
+            <p>Devino versiunea ta mai buna cu ajutorul antrenorilor nostri,
+              <span>multipli campioni nationali</span> la lupte, kickbox
+              si jiu-jitsu.
+            </p>
+            <p class="month-offer">
+              Prima sedinta este gratuita!
+            </p>
+            <div class="ctas-lg">
+              <a
+                class="coaches coaches-lg"
+                href="#coaches"
+                title="Antrenori"
+              >Antrenori</a>
+              <a
+                class="offer-lg"
+                href="#offer"
+                title="Antrenori"
+              >Vezi oferta</a>
+            </div>
+          </section>
+          <section class="values">
+            <div>
+              <img
+                src="images/cross-health.png"
+                alt="Sanatate icon"
+              >
+              <div>
+                <h3>Sanatate</h3>
+                <p>Te ajutam sa dobandesti atat fizic cat si mental un boost de vitalitate.</p>
+              </div>
+            </div>
+            <div>
+              <img
+                src="images/lotus.png"
+                alt="Disciplina icon"
+              >
+              <div>
+                <h3>Disciplina</h3>
+                <p>Inveti sa devii organizat si disciplinat si in viata ta de zi cu zi.</p>
+              </div>
+            </div>
+            <div>
+              <img
+                src="images/shield.png"
+                alt="Siguranta icon"
+              >
+              <div>
+                <h3>Siguranta</h3>
+                <p>Inveti sa te aperi singur prin tehnicile de autoaparare predate si prin tonusul muscular capatat.</p>
+              </div>
+            </div>
+            <div>
+              <img
+                src="images/medal.png"
+                alt="Performanta icon"
+              >
+              <div>
+                <h3>Performanta</h3>
+                <p>Poti participa la competitii nationale si internationale alaturi de echipa noastra de campioni.</p>
+              </div>
+            </div>
 
-        </section>
-        <section class="values">
-          <div>
+          </section>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="our-mission-background">
+      <div class="trainers container">
+        <i
+          class="fa-solid fa-chevron-right"
+          id="fa-chevron-right"
+        ></i>
+        <h2>Echipa de antrenori</h2>
+        <section class="">
+          <div class="trainer">
             <img
-              src="images/cross-health.png"
-              alt="Sanatate icon"
+              src="images/trainer1.png"
+              alt=""
             >
-            <div>
-              <h3>Sanatate</h3>
-              <p>Te ajutam sa dobandesti atat fizic cat si mental un boost de vitalitate.</p>
-            </div>
+            <article>
+              <h3>Preda Ionel</h3>
+              <p>Activ în sporturi de contact din 1992, acest antrenor talentat de kickbox, lupte libere și MMA își
+                dedică
+                cariera formării și inspirării atleților, combinând pasiunea cu experiența vastă.</p>
+            </article>
           </div>
-          <div>
+          <div class="trainer">
             <img
-              src="images/lotus.png"
-              alt="Disciplina icon"
+              src="images/trainer2.png"
+              alt=""
             >
-            <div>
-              <h3>Disciplina</h3>
-              <p>Inveti sa devii organizat si disciplinat si in viata ta de zi cu zi.</p>
-            </div>
+            <article>
+              <h3>Chisca Liviu</h3>
+              <p>Un maestru dedicat al Jiu-jitsului brazilian, distins cu centura neagră, aduce o experiență vastă de 18
+                ani în arta acestei discipline marțiale precum si in MMA. Un expert în tehnicile sale complexe și un
+                mentor inspirațional
+                pentru elevii săi. </p>
+            </article>
           </div>
-          <div>
+          <div class="trainer">
             <img
-              src="images/shield.png"
-              alt="Siguranta icon"
+              src="images/trainer3.png"
+              alt=""
             >
-            <div>
-              <h3>Siguranta</h3>
-              <p>Inveti sa te aperi singur prin tehnicile de autoaparare predate si prin tonusul muscular capatat.</p>
-            </div>
-          </div>
-          <div>
-            <img
-              src="images/medal.png"
-              alt="Performanta icon"
-            >
-            <div>
-              <h3>Performanta</h3>
-              <p>Poti participa la competitii nationale si internationale alaturi de echipa noastra de campioni.</p>
-            </div>
+            <article>
+              <h3>Buibar Marius</h3>
+              <p>Deținător al centurii negre în Jiu-jitsu brazilian, combină măiestrie și experiență într-o carieră
+                impresionantă de 17 ani. Un exemplu de dedicare și expertiză în domeniul artelor marțiale si MMA.</p>
+
+            </article>
           </div>
         </section>
       </div>
     </div>
 
-    <section class="image-gallery">
+    <div class="see-offer-lg">
+      <div>
+        <h2>Oferta lunii <span>Decembrie</span></h2>
+        <div class="offer-text">
+          <img
+            src="images/diamond.png"
+            alt=""
+          >
+          <p><span>200 ron/luna</span> si poti veni <span>in fiecare zi</span>, de luni pana vineri.</p>
+        </div>
+        <div class="offer-text">
+          <img
+            src="images/diamond.png"
+            alt=""
+          >
+          <p>Prima sedinta este <span>gratuita</span>, cu echipamentul oferit de noi.</p>
+        </div>
+        <div class="offer-text">
+          <img
+            src="images/diamond.png"
+            alt=""
+          >
+          <p>In cazul in care decizi ca iti place iti poti achizitiona propriul echipament.</p>
+        </div>
+        <div>
+          <a href="#contact">Rezerva un loc</a>
+        </div>
+      </div>
+      <i
+        class="fa-solid fa-chevron-right"
+        id="fa-chevron-right-offer"
+      ></i>
+    </div>
+
+    <section
+      class="image-gallery"
+      id="images"
+    >
       <h2>Galerie foto</h2>
 
-      <div class="images container">
+      <div class="images lg container">
         <img
-          src="images/Rectangle 8.png"
+          src="images/1.png"
+          alt=""
+          class="visible"
+        ><img
+          src="images/2.png"
+          alt=""
+          class="visible"
+        ><img
+          src="images/3.png"
+          alt=""
+          class="visible"
+        >
+        <img
+          src="images/4.png"
           alt=""
         ><img
-          src="images/Rectangle 9.png"
+          src="images/5.png"
           alt=""
         ><img
-          src="images/Rectangle 10.png"
+          src="images/6.png"
           alt=""
         >
-        <i class="fa-solid fa-chevron-left"></i>
-        <i class="fa-solid fa-chevron-right"></i>
+        <img
+          src="images/7.png"
+          alt=""
+        ><img
+          src="images/8.png"
+          alt=""
+        ><img
+          src="images/9.png"
+          alt=""
+        >
+        <img
+          src="images/10.png"
+          alt=""
+        >
+
+        <i class="fa-solid fa-chevron-left fa-chevron-left2"></i>
+        <i class="fa-solid fa-chevron-right fa-chevron-right2"></i>
+
 
       </div>
+
+
     </section>
 
     <article class="public">
@@ -183,7 +361,10 @@
       </div>
     </article>
 
-    <section class="video-gallery container">
+    <section
+      class="video-gallery container"
+      id="videos"
+    >
       <h2>Galerie Video</h2>
 
       <div class="video-carousel">
@@ -225,7 +406,10 @@
 
     </section>
 
-    <div class="scheduel">
+    <div
+      class="scheduel"
+      id="scheduel"
+    >
       <h2>Program</h2>
 
       <div class="fight-styles container">
@@ -284,7 +468,412 @@
     </div>
   </main>
 
-  <footer>
+  <main class="mb">
+    <div class="slide-menu">
+      <section>
+        <p>X</p>
+      </section>
+      <div class="menu-list">
+        <a
+          href="#about-us-mb"
+          title=""
+        >Despre noi</a>
+        <a
+          href="#images-mb"
+          title=""
+        >Galerie foto</a>
+        <a
+          href="#videos-mb"
+          title=""
+        >Galerie video</a>
+        <a
+          href="#scheduel-mb"
+          title=""
+        >Program</a>
+        <a
+          href="#contact2"
+          title=""
+        >Contact</a>
+        <img
+          src="images/logo-white.png"
+          alt=""
+        >
+      </div>
+      <div class="logo-div"></div>
+    </div>
+    <div class="swipe-container">
+      <div class="our-mission-background-mb ">
+        <div
+          class="our-mission-mb "
+          id="about-us-mb"
+        >
+
+          <div class="about-us-texts-mb ">
+            <section class="about-us-mb container">
+
+              <p>Devino versiunea ta mai buna cu ajutorul antrenorilor nostri,
+                <span>multipli campioni nationali</span> la lupte, kickbox
+                si jiu-jitsu.
+              </p>
+
+
+            </section>
+            <section class="values-mb">
+              <div class="values-group-mb container">
+                <img
+                  src="images/cross-health.png"
+                  alt="Sanatate icon"
+                >
+                <div class="st-div">
+                  <h3>Sanatate</h3>
+                  <p>Te ajutam sa dobandesti atat fizic cat si mental un boost de vitalitate.</p>
+                </div>
+              </div>
+              <div class="values-group-mb container">
+                <img
+                  src="images/lotus.png"
+                  alt="Disciplina icon"
+                >
+                <div class="nd-div">
+                  <h3>Disciplina</h3>
+                  <p>Inveti sa devii organizat si disciplinat si in viata ta de zi cu zi.</p>
+                </div>
+              </div>
+              <div class="values-group-mb container">
+                <img
+                  src="images/shield.png"
+                  alt="Siguranta icon"
+                >
+                <div class="rd-div">
+                  <h3>Siguranta</h3>
+                  <p>Inveti sa te aperi singur prin tehnicile de autoaparare predate si prin tonusul muscular capatat.
+                  </p>
+                </div>
+              </div>
+              <div class="values-group-mb container">
+                <img
+                  src="images/medal.png"
+                  alt="Performanta icon"
+                >
+                <div class="last-div">
+                  <h3>Performanta</h3>
+                  <p>Poti participa la competitii nationale si internationale alaturi de echipa noastra de campioni.</p>
+                </div>
+              </div>
+
+            </section>
+
+          </div>
+          <div class="ctas-mb">
+            <a
+              class="coaches-mb"
+              href="#coaches"
+              title="Antrenori"
+            >Antrenori</a>
+            <a
+              class="offer-mb"
+              href="#offer"
+              title="Antrenori"
+              id="offer-btn"
+            >Vezi Oferta</a>
+          </div>
+        </div>
+
+
+      </div>
+
+
+      <section class="coaches-pane-mb">
+        <div class="trainer">
+          <img
+            src="images/trainer1.png"
+            alt=""
+          >
+          <div class="trainer-texts">
+            <h3>Preda Ionel</h3>
+            <p>Activ în sporturi de contact din 1992, acest antrenor talentat de kickbox, lupte libere și MMA își dedică
+              cariera formării și inspirării atleților, combinând pasiunea cu experiența vastă.</p>
+          </div>
+        </div>
+        <div class="trainer">
+          <img
+            src="images/trainer2.png"
+            alt=""
+          >
+          <div class="trainer-texts">
+            <h3>Chisca Liviu</h3>
+            <p>Un maestru dedicat al Jiu-jitsului brazilian, distins cu centura neagră, aduce o experiență vastă de 18
+              ani în arta acestei discipline marțiale precum si in MMA. Un expert în tehnicile sale complexe și un
+              mentor inspirațional
+              pentru elevii săi. </p>
+          </div>
+        </div>
+        <div class="trainer">
+          <img
+            src="images/trainer3.png"
+            alt=""
+          >
+          <div class="trainer-texts">
+            <h3>Buibar Marius</h3>
+            <p>Deținător al centurii negre în Jiu-jitsu brazilian, combină măiestrie și experiență într-o carieră
+              impresionantă de 17 ani. Un exemplu de dedicare și expertiză în domeniul artelor marțiale si MMA.</p>
+          </div>
+        </div>
+        <div class="ctas-mb">
+          <a
+            href=""
+            class="coaches-mb"
+            id="about-us-btn"
+          >Despre noi</a>
+          <a
+            href=""
+            class="offer-mb"
+            id="offer-btn"
+          >Vezi oferta</a>
+        </div>
+      </section>
+
+
+
+
+      <section class="see-offer-mb">
+        <h2>Oferta lunii <br><span>Decembrie</span></h2>
+        <div class="see-offer-mb-inner">
+          <div>
+
+            <div class="offer-text-mb">
+              <img
+                src="images/diamond.png"
+                alt=""
+              >
+              <p><span>200 ron/luna</span> si poti veni <span>in fiecare zi</span>, de luni pana vineri.</p>
+            </div>
+            <div class="offer-text-mb">
+              <img
+                src="images/diamond.png"
+                alt=""
+              >
+              <p>Prima sedinta este <span>gratuita</span>, cu echipamentul oferit de noi.</p>
+            </div>
+            <div class="offer-text-mb">
+              <img
+                src="images/diamond.png"
+                alt=""
+              >
+              <p>In cazul in care decizi ca iti place iti poti achizitiona propriul echipament.</p>
+            </div>
+            <div>
+              <a href="#contact2">Rezerva un loc</a>
+            </div>
+          </div>
+        </div>
+        <div class="ctas-mb offer-pane-mb">
+          <a
+            href=""
+            class="coaches-mb"
+          >Andtrenori</a>
+          <a
+            href=""
+            class="offer-mb"
+            id="about-us-btn"
+          >Despre noi</a>
+        </div>
+      </section>
+    </div>
+    <div
+      class="slideshow-container"
+      id="images-mb"
+    >
+      <h2>Galerie Foto</h2>
+      <div class="mySlides fade">
+
+        <img src="images/1.png">
+
+      </div>
+
+      <div class="mySlides fade">
+
+        <img src="images/2.png">
+
+      </div>
+
+      <div class="mySlides fade">
+
+        <img src="images/3.png">
+
+      </div>
+      <div class="mySlides fade">
+
+        <img src="images/4.png">
+
+      </div>
+      <div class="mySlides fade">
+
+        <img src="images/5.png">
+
+      </div>
+      <div class="mySlides fade">
+
+        <img src="images/6.png">
+
+      </div>
+      <div class="mySlides fade">
+
+        <img src="images/7.png">
+
+      </div>
+      <div class="mySlides fade">
+
+        <img src="images/8.png">
+
+      </div>
+      <div class="mySlides fade">
+
+        <img src="images/9.png">
+
+      </div>
+      <div class="mySlides fade">
+
+        <img src="images/10.png">
+
+      </div>
+
+    </div>
+    <br>
+
+    <div
+      class="dots"
+      style="text-align:center"
+    >
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+    <article class="public-mb">
+      <div class="container">
+        <h2>Cui ne adresam?</h2>
+        <p class="join-us-mb container">Sunt binevenite toate persoanele de orice varsta, copii si adulti, atat cei
+          interesati sa
+          faca performanata
+          cat
+          si cei care doresc sa slabeasca, sau sa faca miscare pentru sanatatea lor personala.</p>
+
+        <i class="fa-regular fa-handshake"></i>
+        <div class="levels-mb">
+          <p class="p-kids-mb">Copii</p>
+          <p class="p-begginers-mb">Incepatori</p>
+          <p class="p-advanced-mb">Avansati</p>
+        </div>
+      </div>
+    </article>
+
+    <section
+      class="video-gallery-mb"
+      id="videos-mb"
+    >
+      <h2>Galerie Video</h2>
+
+      <div class="video-carousel-mb container">
+        <video controls>
+          <source
+            src="images/clip1.mp4"
+            type="video/mp4"
+          >
+          <source
+            src="movie.ogg"
+            type="video/ogg"
+          >
+          Your browser does not support the video tag.
+        </video>
+        <video controls>
+          <source
+            src="images/clip2.mp4"
+            type="video/mp4"
+          >
+          <source
+            src="movie.ogg"
+            type="video/ogg"
+          >
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+
+    </section>
+
+    <div
+      class="scheduel-mb"
+      id="scheduel-mb"
+    >
+      <h2>Program</h2>
+
+      <div class="fight-styles-mb container">
+        <div class="fight-style-mb">
+          <h3>Jiu-Jitsu</h3>
+          <div class="day-mb">
+            <p>Luni</p>
+            <p>18:00 - 19:30</p>
+          </div>
+          <div class="day-mb">
+            <p>Marti</p>
+            <p>18:00 - 19:30</p>
+          </div>
+          <div class="day-mb">
+            <p>Miercuri</p>
+            <p>18:00 - 19:30</p>
+          </div>
+          <div class="day-mb">
+            <p>Joi</p>
+            <p>18:00 - 19:30</p>
+          </div>
+          <div class="day-mb">
+            <p>Vineri</p>
+            <p>18:00 - 19:30</p>
+          </div>
+        </div>
+        <div class="fight-style-mb">
+          <h3>Kickbox</h3>
+          <div class="day-mb">
+            <p>Luni</p>
+            <p>19:30- 21:00</p>
+          </div>
+          <div class="day-mb">
+            <p>Miercuri</p>
+            <p>19:30- 21:00</p>
+          </div>
+          <div class="day-mb">
+            <p>Vineri</p>
+            <p>19:30- 21:00</p>
+          </div>
+
+        </div>
+        <div class="fight-style-mb">
+          <h3>Mma & Lupte</h3>
+          <div class="day-mb">
+            <p>Marti</p>
+            <p>19:30 - 21:00</p>
+          </div>
+          <div class="day-mb">
+            <p>Joi</p>
+            <p>19:30 - 21:00</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer
+    class="lg"
+    id="contact"
+  >
     <div class="contact-container container">
       <section class="contact">
         <div>
@@ -297,7 +886,17 @@
             <a
               href="tel:+40772037224"
               title="Call Us"
-            >+40772037224</a>
+            ><span style="text-decoration: underline;">Antrenor Kickbox:</span> +40772037224</a>
+          </div>
+          <div class="contact-group">
+            <i
+              class="fa-solid fa-phone"
+              style="color: #ffffff;"
+            ></i>
+            <a
+              href="tel:+40766494211"
+              title="Call Us"
+            ><span style="text-decoration: underline;">Antrenor Jiu-Jitsu:</span> +40766494211</a>
           </div>
           <div class="contact-group">
             <i
@@ -357,20 +956,128 @@
       <section class="location">
         <h2>Locatie</h2>
         <p>Bdul Timisoara nr. 60-62, Sector 6, Bucuresti</p>
-        <img
-          src="images/Rectangle 17.png"
-          alt="Preda Respekt Gym Location Map"
-        >
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45590.44751142361!2d25.940527958203127!3d44.424895599999985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b201cae59f2669%3A0x45ae10dc42c0975a!2sPreda%20Respekt%20Gym!5e0!3m2!1sen!2sro!4v1700895293200!5m2!1sen!2sro"
+          width="400"
+          height="250"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+
       </section>
     </div>
 
   </footer>
-  <p class="copywrights">&copy;2023 Toate drepturile rezervate. Realizat de <a
+  <footer
+    class="mb"
+    id="contact2"
+  >
+    <section class="contact-mb container">
+      <div class="container">
+        <h2>Contact</h2>
+        <div class="contact-group">
+          <i
+            class="fa-solid fa-phone"
+            style="color: #ffffff;"
+          ></i>
+          <a
+            href="tel:+40772037224"
+            title="Call Us"
+          ><span style="text-decoration: underline;">Antrenor Kickbox:</span> +40772037224</a>
+        </div>
+        <div class="contact-group">
+          <i
+            class="fa-solid fa-phone"
+            style="color: #ffffff;"
+          ></i>
+          <a
+            href="tel:+40766494211"
+            title="Call Us"
+          ><span style="text-decoration: underline;">Antrenor Jiu-Jitsu:</span> +40766494211</a>
+        </div>
+        <div class="contact-group">
+          <i
+            class="fa-solid fa-envelope"
+            style="color: #ffffff;"
+          ></i>
+          <a
+            href="mailto:ionelpreda999@yahoo.com"
+            title="Email Us"
+          >ionelpreda999@yahoo.com</a>
+        </div>
+        <div class="contact-group">
+          <i
+            class="fa-brands fa-whatsapp"
+            style="color: #5b9d3f;"
+          ></i>
+          <a
+            href="https://wa.me/+40772037224"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Send us a message on Whatsapp"
+          >Lasa-ne un mesaj pe Whatsapp</a>
+        </div>
+        <div class="social">
+          <a
+            href="https://www.facebook.com/profile.php?id=100093110965300"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Facebook"
+          ><i
+              class="fa-brands fa-facebook"
+              style="color: #ffffff;"
+            ></i></a>
+          <a
+            href="https://instagram.com/predaionel?utm_source=qr&igshid=YzU1NGVlODEzOA=="
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Instagram"
+          ><i
+              class="fa-brands fa-instagram"
+              style="color: #ffffff;"
+            ></i></a>
+          <a
+            href="https://www.tiktok.com/@ionelpreda0?_t=8hZgcXo5s80&_r=1"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="TikTok"
+          ><i
+              class="fa-brands fa-tiktok"
+              style="color: #ffffff;"
+            ></i></a>
+        </div>
+
+      </div>
+    </section>
+    <section class="location-mb">
+      <h2>Locatie</h2>
+      <p>Bdul Timisoara nr. 60-62,<br> Sector 6, Bucuresti</p>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45590.44751142361!2d25.940527958203127!3d44.424895599999985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b201cae59f2669%3A0x45ae10dc42c0975a!2sPreda%20Respekt%20Gym!5e0!3m2!1sen!2sro!4v1700895293200!5m2!1sen!2sro"
+        width="200"
+        height="200"
+        style="border:0; margin:0 auto"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+  </footer>
+  <p class="copywrights lg">&copy;2023 Toate drepturile rezervate. Realizat de <a
+      href="https://meta-tailor.com"
+      target="_blank"
+      rel="noopener noreferrer"
+    >Cuculici Iulian</a></p>
+  <p class="copywrights-mb mb">&copy;2023 Toate drepturile rezervate. Realizat de <a
       href="https://meta-tailor.com"
       target="_blank"
       rel="noopener noreferrer"
     >Cuculici Iulian</a></p>
   <script src="js/app.js"></script>
+
+
 </body>
 
 </html>
