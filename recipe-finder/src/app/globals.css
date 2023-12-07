@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #082630;
+  --main-bg: #ede4d9;
+  --bg-secondary: #fef7ee;
+}
+
+.input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  padding: 18px 16px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.input::placeholder {
+  color: transparent;
+}
+
+.input:focus::placeholder {
+  color: rgb(131, 128, 128);
+}
+
+.input:focus,
+.input:not(:placeholder-shown) {
+  background-color: #fef7ee;
+  border: 1px solid #082630;
+  width: 290px;
+  cursor: none;
+  padding: 18px 16px 18px 45px;
+}
+
+.icon {
+  position: absolute;
+  left: 0;
+  height: 45px;
+  width: 45px;
+  background-color: #fef7ee;
+  border-radius: 99px;
+  z-index: -1;
+  fill: #082630;
+  border: 1px solid #082630;
+}
+
+.input:focus + .icon,
+.input:not(:placeholder-shown) + .icon {
+  z-index: 0;
+  background-color: transparent;
+  border: none;
+}
+
+.container {
+  display: grid;
+
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr); /* 3 coloane de dimensiune egală */
+  gap: 10px; /* Spațiu între elemente */
+}
+
+.align-left {
+  box-shadow: 4px 4px 8px rgb(83, 83, 83);
+}
+
+.align-center {
+  /* Stil pentru al doilea element din fiecare rând */
+  justify-self: center;
+  box-shadow: 0 4px 8px rgb(83, 83, 83);
+}
+
+.align-right {
+  /* Stil pentru al treilea element din fiecare rând */
+  justify-self: end;
+  box-shadow: -4px 4px 8px rgb(83, 83, 83);
+}
