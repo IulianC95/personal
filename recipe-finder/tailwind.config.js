@@ -14,6 +14,7 @@ module.exports = {
       },
       fontFamily: {
         bodoni: ['"Bodoni Moda"', 'serif'],
+        candal: ['Candal', 'sans-serif'],
       },
       boxShadow: {
         top: '0 -2px 4px -1px rgba(0, 0, 0, 0.1), 0 -2px 4px -1px rgba(0, 0, 0, 0.06)',

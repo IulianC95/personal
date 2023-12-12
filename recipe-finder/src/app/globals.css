@@ -64,10 +64,11 @@
 
 .container {
   display: grid;
-
+  opacity: 0;
+  transition: opacity 1s ease;
   justify-content: center;
-  grid-template-columns: repeat(3, 1fr); /* 3 coloane de dimensiune egală */
-  gap: 10px; /* Spațiu între elemente */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
 }
 
 .align-left {
@@ -85,3 +86,79 @@
   justify-self: end;
   box-shadow: -4px 4px 8px rgb(83, 83, 83);
 }
+
+.site-main {
+  height: calc(100vh - 60px - 60px);
+}
+
+/* animations */
+
+.container .w-24 {
+  position: relative;
+  left: 0;
+  opacity: 0;
+  transition: left 1s ease, opacity 1s ease;
+}
+
+.container .w-24:nth-child(3n + 2),
+.container .w-24:nth-child(3n + 3) {
+  left: -100%;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.fadeInDelay1 {
+  animation-delay: 0.5s;
+}
+
+.fadeInDelay2 {
+  animation-delay: 1s;
+}
+
+.fadeInDelay3 {
+  animation-delay: 1.5s;
+}
+
+iframe {
+  animation-name: fadeIn;
+  animation-duration: 4s;
+  animation-fill-mode: both;
+}
+
+.expandRight {
+  animation-name: expandRight;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s; /* Începe după animația fadeIn */
+  width: 0; /* începe cu width 0 */
+  overflow: hidden; /* previne afișarea conținutului înainte de animație */
+}
+
+@keyframes expandRight {
+  to {
+    width: 100%;
+  } /* se extinde până la 100% */
+}
+
+.fadeInDelayed {
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-delay: 2s; /* Începe după animația expandRight */
+  opacity: 0; /* inițial invizibil */
+}
+
+/* /animations */
