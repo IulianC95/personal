@@ -1,12 +1,37 @@
-const imgPath = './images/desert-images/';
-const desertRecipes = [
-  {
-    name: 'Grilled Chicken',
-    imgSrc: `${imgPath}recipe-1.png`,
-  },
-];
+'use client';
+import React, { useState, useEffect } from 'react';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStar as farStar } from '@fortawesome/free-regular-svg-icons';
+import { faStar as fasStar } from '@fortawesome/free-solid-svg-icons';
+
+import jsonData from './json-files/desert-recipes.json';
+
+const desertRecipes = jsonData.map((recipe) => ({
+  name: recipe.title,
+  imgSrc: recipe.image_url,
+  recipeUrl: recipe.recipe_url,
+}));
 
 export default function Desert() {
+  const [favorites, setFavorites] = useState(() => {
+    const savedFavorites = localStorage.getItem('Favorites');
+    return savedFavorites ? JSON.parse(savedFavorites) : [];
+  });
+
+  useEffect(() => {
+    localStorage.setItem('Favorites', JSON.stringify(favorites));
+  }, [favorites]);
+
+  const toggleFavorite = (recipe) => {
+    setFavorites((currentFavorites) => {
+      if (currentFavorites.some((fav) => fav.name === recipe.name)) {
+        return currentFavorites.filter((fav) => fav.name !== recipe.name);
+      } else {
+        return [...currentFavorites, recipe];
+      }
+    });
+  };
   return (
     <div className="pt-4 flex flex-col gap-5">
       <h2 className="text-xl text-center font-candal font-bold text-[var(--primary)]">
@@ -27,9 +52,31 @@ export default function Desert() {
               {recipe.name}
             </h3>
 
-            <button className="bg-[var(--primary)] text-white font-candal px-10 py-1 rounded-lg fadeInDelayed">
-              Recipe
-            </button>
+            <div className="flex gap-4 items-center">
+              <a
+                key={index}
+                href={recipe.recipeUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="bg-[var(--primary)] text-white font-candal px-10 py-1 rounded-lg fadeInDelayed">
+                  Recipe
+                </button>
+              </a>
+              <FontAwesomeIcon
+                icon={
+                  favorites.some((fav) => fav.name === recipe.name)
+                    ? fasStar
+                    : farStar
+                }
+                onClick={() => toggleFavorite(recipe)}
+                className={`cursor-pointer ${
+                  favorites.some((fav) => fav.name === recipe.name)
+                    ? 'text-yellow-500'
+                    : '--primary'
+                } text-xl fadeInDelayed`}
+              />
+            </div>
           </aside>
         </section>
       ))}

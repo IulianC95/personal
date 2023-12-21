@@ -6,7 +6,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 export default function Footer({ onFooterClick }) {
   return (
-    <footer className="grid fixed bottom-0 left-0 right-0 z-50 h-16 bg-[var(--bg-secondary)] shadow-top max-w-xl center m-auto">
+    <footer className="grid sticky w-screen bottom-0 left-0 right-0 z-50 h-16 bg-[var(--bg-secondary)] shadow-top max-w-xl center m-auto">
       <div className="flex justify-between px-4 self-center pt-2">
         {/* Home */}
         <div

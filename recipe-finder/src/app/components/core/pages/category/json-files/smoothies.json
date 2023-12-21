@@ -1,0 +1,679 @@
+[
+  {
+    "title": "Two-minute breakfast smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/two-minute-breakfast-smoothie-4a4722d.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/two-minute-breakfast-smoothie",
+    "ingredients": [
+      "banana",
+      "porridge oats",
+      "80gsoft fruit(whatever you have \u2013 strawberries, blueberries, and mango all work well)",
+      "milk",
+      "honey",
+      "vanilla extract"
+    ]
+  },
+  {
+    "title": "Strawberry smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/smoothie-e080f40.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/strawberry-smoothie",
+    "ingredients": ["strawberries,", "small banana,", "orange juice,"]
+  },
+  {
+    "title": "Peanut butter smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/05/Peanut-Butter-Smoothie-3430e32.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/peanut-butter-smoothie",
+    "ingredients": [
+      "200mloat milk",
+      "banana,",
+      "peanut butter",
+      "rolled oats",
+      "cinnamon",
+      "pinch ofallspice",
+      "nutmeg",
+      "small handfulice cubes"
+    ]
+  },
+  {
+    "title": "Kale smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/kale-smoothie-b96d533.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/kale-smoothie",
+    "ingredients": [
+      "kale",
+      "avocado",
+      "lime,",
+      "frozen pineapple chunks",
+      "ginger",
+      "cashew nuts",
+      "banana,"
+    ]
+  },
+  {
+    "title": "Breakfast smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1201467_11-c0694ef.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/breakfast-smoothie",
+    "ingredients": [
+      "small ripe banana",
+      "blackberries, blueberries, raspberries or strawberries",
+      "apple juice",
+      "runny honey"
+    ]
+  },
+  {
+    "title": "Spinach smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/spinach-smoothie-0f2f213.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/spinach-smoothie",
+    "ingredients": [
+      "frozen spinach",
+      "avocado",
+      "1fresh or frozenchopped mango",
+      "banana",
+      "milk"
+    ]
+  },
+  {
+    "title": "Watermelon smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/04/Watermelon-Smoothie-99503bb.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/watermelon-smoothie",
+    "ingredients": ["watermelon,", "banana,", "cold apple juice"]
+  },
+  {
+    "title": "Pineapple smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/04/Pineapple-Smoothie-e838246.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/pineapple-smoothie",
+    "ingredients": ["pineapple,", "banana,", "lime,", "ice(optional)"]
+  },
+  {
+    "title": "Avocado & strawberry smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/berry-smoothie-5543fc2.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/avocado-strawberry-smoothie",
+    "ingredients": [
+      "avocado",
+      "strawberry",
+      "low-fat natural yogurt",
+      "200mlsemi-skimmed milk",
+      "lemon or  lime juice",
+      "honey"
+    ]
+  },
+  {
+    "title": "Kiwi fruit smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/kiwi-smoothie-3086931.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/kiwi-fruit-smoothie",
+    "ingredients": [
+      "peeled kiwi fruit",
+      "1mango, peeled, stoned and chopped",
+      "pineapple juice",
+      "banana"
+    ]
+  },
+  {
+    "title": "Raspberry and apple smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/raspberry-smoothie-e687525.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/raspberry-and-apple-smoothie",
+    "ingredients": [
+      "apples",
+      "frozen raspberries",
+      "natural yogurt",
+      "porridge oats",
+      "lemon",
+      "milk"
+    ]
+  },
+  {
+    "title": "Cherry smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/smoothie-b9a2765.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/cherry-smoothie",
+    "ingredients": [
+      "frozen or fresh cherries",
+      "natural yogurt",
+      "banana",
+      "vanilla extract"
+    ]
+  },
+  {
+    "title": "Smoothie bowl",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2022/12/Smoothie-bowl-16df176.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/smoothie-bowl",
+    "ingredients": [
+      "200gfrozen mixed berries",
+      "ripe banana",
+      "75mloat milk",
+      "maple syrup",
+      "\u00bd tbspvanilla protein powder,vegan version if needed",
+      "sliced kiwis,",
+      "25ggranola",
+      "1 tbspmixed nutsand seeds",
+      "almond butter"
+    ]
+  },
+  {
+    "title": "Sunshine smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/sunshine-smoothie-0250bef.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/sunshine-smoothie",
+    "ingredients": [
+      "carrot",
+      "pineapple",
+      "bananas,",
+      "ginger,",
+      "cashew nuts",
+      "lime"
+    ]
+  },
+  {
+    "title": "Coconut & banana smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/cropped-immune-boosting-smoothie-6c125e6.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/immune-boosting-smoothie",
+    "ingredients": [
+      "100gcoconut yogurt",
+      "milk",
+      "ground turmeric",
+      "of fresh ginger",
+      "2 tspbaobab powder(optional)",
+      "small ripe banana",
+      "honey",
+      "oats",
+      "lemon"
+    ]
+  },
+  {
+    "title": "Blueberry smoothie recipe",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2022/01/Blueberry-smoothie-573aa19.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/blueberry-smoothie-recipe",
+    "ingredients": [
+      "blueberries",
+      "banana,",
+      "1 tbspnatural or Greek yogurt",
+      "apple juice,",
+      "mint leaves"
+    ]
+  },
+  {
+    "title": "Green smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/cropped-clean-green-smoothie-40e7904.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/clean-green-smoothie",
+    "ingredients": [
+      "milk",
+      "ground flaxseed",
+      "maca powder",
+      "ground cinnamon",
+      "medjool date",
+      "small ripe banana",
+      "cavolo nero",
+      "almond butter"
+    ]
+  },
+  {
+    "title": "Mango smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-10554_12-cdb372e.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/mango-banana-smoothie",
+    "ingredients": ["1medium mango", "banana", "orange juice", "4ice cubes"]
+  },
+  {
+    "title": "Cranberry & raspberry smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1201507_12-908c372.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/cranberry-raspberry-smoothie",
+    "ingredients": [
+      "cranberry juice",
+      "frozen raspberry",
+      "milk",
+      "natural yogurt",
+      "caster sugar",
+      "mint"
+    ]
+  },
+  {
+    "title": "Strawberry green goddess smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/440-400-strawberry-green-goddess-smoothie-5c7a02a.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/strawberry-green-goddess-smoothie",
+    "ingredients": [
+      "ripe strawberries,",
+      "baby spinach",
+      "small avocado,",
+      "150mlpot bio yogurt",
+      "small oranges,"
+    ]
+  },
+  {
+    "title": "Blueberry & banana power smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/blueberry-banana-power-smoothie-5c9475a.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/blueberry-banana-power-smoothie",
+    "ingredients": [
+      "ripe  bananas",
+      "blueberries",
+      "silken tofu",
+      "porridge oats"
+    ]
+  },
+  {
+    "title": "Green goddess smoothie bowl",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/green-goddess-smoothie-bowl-3a11855.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/green-goddess-smoothie-bowl",
+    "ingredients": [
+      "bananas",
+      "ripe avocado",
+      "1small ripe mango, stoned, peeled and chopped into chunks",
+      "spinach",
+      "milk",
+      "unsweetened almond",
+      "clear honey",
+      "chia seeds",
+      "linseeds",
+      "4 tbsppumpkin seeds",
+      "4 tbspsunflower seeds",
+      "coconut flakes",
+      "flaked almonds",
+      "ground cinnamon",
+      "clear honey",
+      "175gmixed fresh fruit, chopped (we used banana, mango, raspberries and blueberries)"
+    ]
+  },
+  {
+    "title": "Keto smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2022/01/Keto-smoothie-b0c12d2.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/keto-smoothie",
+    "ingredients": [
+      "coconut milk",
+      "spinach leaves,",
+      "130g frozen or freshberries",
+      "40g shelledhemp seeds",
+      "20gmilled flaxseed",
+      "10gpiece of ginger",
+      "tahini",
+      "1 tspcinnamon powder"
+    ]
+  },
+  {
+    "title": "Super berry smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-901773_11-afec2d8.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/super-berry-smoothie",
+    "ingredients": [
+      "450gbag frozen berry",
+      "pot fat-free strawberry yogurt",
+      "milk",
+      "25gporridge oat",
+      "honey"
+    ]
+  },
+  {
+    "title": "Avocado smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/bone-builder-47d17f7.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/bone-builder-smoothie",
+    "ingredients": [
+      "avocado",
+      "generous handful spinach",
+      "generous handful kale",
+      "50g pineapple",
+      "10cm piece cucumber, roughly chopped",
+      "300ml coconut"
+    ]
+  },
+  {
+    "title": "Green breakfast smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/green-breakfast-smoothie-60e5e6a.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/green-breakfast-smoothie",
+    "ingredients": [
+      "handful spinach",
+      "broccoli",
+      "celery",
+      "desiccated coconut",
+      "banana",
+      "300mlrice milk(good dairy alternative - we used one from Rude Health)",
+      "spirulina"
+    ]
+  },
+  {
+    "title": "Strawberry & banana almond smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/smoothie-b065afd.png?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/strawberry-banana-almond-smoothie",
+    "ingredients": [
+      "small banana",
+      "strawberries",
+      "0% bio-yogurt",
+      "3 tbspskimmed milk",
+      "ground almond"
+    ]
+  },
+  {
+    "title": "Creamy mango & coconut smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1243538_8-d0d9ee5.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/creamy-mango-coconut-smoothie",
+    "ingredients": [
+      "(\u00bd tall glass)  coconut milk",
+      "coconut milk yogurt",
+      "banana",
+      "1 tbspground flaxseed, sunflower and  pumpkin seed(we used Linwoods)",
+      "120g (\u00bc bag) frozen mangochunks",
+      "1passion fruit, to finish (optional)"
+    ]
+  },
+  {
+    "title": "Green spirulina smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2022/04/Spirulina-smoothie-40fc97e.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/green-spirulina-smoothie",
+    "ingredients": [
+      "avocado,",
+      "1 tspspirulina powder",
+      "baby spinach",
+      "\u00bccucumber,roughly chopped",
+      "lime,",
+      "mint,",
+      "apple juice",
+      "honey"
+    ]
+  },
+  {
+    "title": "Frozen blackberry smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/10/Frozen-blackberry-smoothie-829927b.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/frozen-blackberry-smoothie",
+    "ingredients": [
+      "blackberries",
+      "banana",
+      "stem ginger,",
+      "100mlpomegranate juiceor red grape juice",
+      "ice",
+      "thyme sprig"
+    ]
+  },
+  {
+    "title": "Carrot and orange smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/carrot_and_orange_smoothie-34883d5.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/carrot-and-orange-smoothie",
+    "ingredients": ["medium carrots", "oranges", "ginger", "oats", "100gice"]
+  },
+  {
+    "title": "Kefir breakfast smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/kefir-breakfast-smoothie-dd34b92.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/kefir-breakfast-smoothie",
+    "ingredients": [
+      "1large  mango, stoned and chopped",
+      "ginger",
+      "turmeric",
+      "fresh orange juice",
+      "kefir",
+      "honey"
+    ]
+  },
+  {
+    "title": "Banana smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/afternoon-pick-me-up-smoothie-506a768.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/afternoon-pick-me-smoothie",
+    "ingredients": [
+      "unsweetened almond milk",
+      "almond butter",
+      "6prunes",
+      "cinnamon",
+      "small ripe banana"
+    ]
+  },
+  {
+    "title": "Tropical breakfast smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-484466_11-fac2879.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/tropical-breakfast-smoothie",
+    "ingredients": [
+      "3passion fruits",
+      "banana",
+      "1smallmango, peeled, stoned and chopped",
+      "orange juice",
+      "ice cubes"
+    ]
+  },
+  {
+    "title": "Tropical smoothie bowl",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/tropical-smoothie-bowl-37e6a75.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/tropical-smoothie-bowl",
+    "ingredients": [
+      "1small ripe mango, stoned, peeled and cut into chunks",
+      "pineapple",
+      "ripe bananas",
+      "2 tbspcoconut yogurt(not coconut-flavoured yogurt)",
+      "coconut drinking milk",
+      "2passion fruits, halved, seeds scooped out",
+      "blueberries",
+      "coconut flakes",
+      "mint leaves"
+    ]
+  },
+  {
+    "title": "Beetroot smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/heart-helper-c1578c7.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/heart-helper-smoothie",
+    "ingredients": [
+      "small raw beetroots",
+      "small apple",
+      "blueberry",
+      "grated ginger",
+      "300mlwater"
+    ]
+  },
+  {
+    "title": "Peach Melba smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1081496_11-dde2a76.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/peach-melba-smoothie",
+    "ingredients": [
+      "410g can  peach",
+      "frozen raspberry",
+      "orange juice",
+      "150mlfresh custard, plus a spoonful for garnish"
+    ]
+  },
+  {
+    "title": "Turmeric smoothie bowl",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/turmeric-smoothie-4a1d6e9.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/turmeric-smoothie-bowl",
+    "ingredients": [
+      "turmeric",
+      "coconut milk yogurt",
+      "gluten-free oats",
+      "cashew",
+      "bananas",
+      "ground cinnamon",
+      "chia seeds"
+    ]
+  },
+  {
+    "title": "Forest fruit & banana smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-879_12-a6be392.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/forest-fruit-banana-smoothie",
+    "ingredients": [
+      "frozen fruitsof the forest",
+      "banana,",
+      "low-fat fruits of the forest yogurt"
+    ]
+  },
+  {
+    "title": "Vitamin booster smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/vitamin-booster-3c28ae8.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/vitamin-booster-smoothie",
+    "ingredients": [
+      "orange",
+      "large carrot",
+      "sticks celery",
+      "50gmango, roughly chopped",
+      "200mlwater"
+    ]
+  },
+  {
+    "title": "Blackberry & beetroot smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/cropped-winter-warmer-smoothie-f6283a8.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/winter-warmer-smoothie",
+    "ingredients": [
+      "coconut water",
+      "ground cinnamon",
+      "ground nutmeg",
+      "fresh ginger",
+      "1 tbspshelled hemp seeds",
+      "small cooked beetroot",
+      "blackberries",
+      "pear",
+      "kale"
+    ]
+  },
+  {
+    "title": "Banana, clementine & mango smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1201463_12-6bca4fd.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/banana-clementine-mango-smoothie",
+    "ingredients": [
+      "clementines",
+      "2small, very ripe and juicy mangoes",
+      "ripe bananas",
+      "tub whole milk",
+      "handful ofice cubes(optional)"
+    ]
+  },
+  {
+    "title": "Green rainbow smoothie bowl",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/green-rainbow-smoothie-bowl-6b74cc0.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/green-rainbow-smoothie-bowl",
+    "ingredients": [
+      "spinach",
+      "avocado",
+      "1ripe mango, stoned, peeled and cut into chunks",
+      "apple",
+      "almond milk",
+      "1dragon fruit, peeled and cut into even chunks",
+      "100gmixed berries(we used strawberries, raspberries and blueberries)"
+    ]
+  },
+  {
+    "title": "Minty pineapple smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/green-smoothie-5287182.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/minty-pineapple-smoothie",
+    "ingredients": [
+      "200g pineapple",
+      "a few  mint",
+      "baby spinach",
+      "oats",
+      "linseed",
+      "handful unsalted, unroasted cashew",
+      "fresh  lime juice"
+    ]
+  },
+  {
+    "title": "Smoothie cubes",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1201480_11-4be211d.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/smoothie-cubes",
+    "ingredients": [
+      "blackberries, strawberries, raspberries, passion fruit, mango, any other fruits you like"
+    ]
+  },
+  {
+    "title": "Banana, honey & hazelnut smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1505_11-1a01aab.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/banana-honey-hazelnut-smoothie",
+    "ingredients": [
+      "peeled, sliced banana",
+      "250mlsoya milk",
+      "honey",
+      "nutmeg",
+      "chopped hazelnuts"
+    ]
+  },
+  {
+    "title": "Smoothie jellies with ice cream",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-7365_10-832e07c.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/smoothie-jellies-ice-cream",
+    "ingredients": [
+      "sheets leaf gelatine",
+      "1lbottle orange, mango and passion fruit  smoothie(we used Innocent)",
+      "500ml tubgood-quality vanilla ice creamsuch as Green & Black's (you might not need it all)"
+    ]
+  },
+  {
+    "title": "A\u00e7a\u00ed smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/smoothie-74a25d5.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/acai-smoothie",
+    "ingredients": [
+      "100graw, frozen, unsweetened  a\u00e7a\u00edpulp, thawed",
+      "50g frozen pineapple",
+      "strawberry",
+      "medium banana",
+      "mango or orange juice",
+      "agave nectar"
+    ]
+  },
+  {
+    "title": "Mango & passion fruit smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1201651_11-b12935c.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/mango-passion-fruit-smoothie",
+    "ingredients": [
+      "400g/14oz peeled and chopped ripe mango",
+      "2 x 125g pots fat-free mango yogurt",
+      "250mlskimmed milk",
+      "juice 1  lime",
+      "4passion fruits, halved"
+    ]
+  },
+  {
+    "title": "Vegan smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1243527_9-adebe32.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/vegan-smoothie",
+    "ingredients": [
+      "100ml (\u00bc tall glass) cherry",
+      "200ml(\u00bd tall glass) unsweetened soya milk",
+      "1cherry soyayogurt",
+      "or 50g firm silken tofu",
+      "(1 empty yogurt pot) frozen cherry",
+      "2 tbspporridge oat"
+    ]
+  },
+  {
+    "title": "Perfect mashed potatoes",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/creamy_mashed_potatoes-a78053f.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/creamy-mash",
+    "ingredients": [
+      "1\u00bd kgfloury potatoes,such as King Edward or Maris Piper, cut into even chunks",
+      "125mlsemi-skimmed milk",
+      "butter",
+      "cr\u00e8me fra\u00eeche"
+    ]
+  },
+
+  {
+    "title": "Breakfast super-shake",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/breakfast-super-shake-e63774c.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/breakfast-super-shake",
+    "ingredients": [
+      "full-fat milk",
+      "natural yogurt",
+      "banana",
+      "150gfrozen fruits of the forest",
+      "blueberries",
+      "chia seeds",
+      "cinnamon",
+      "goji berries",
+      "1 tspmixed seeds",
+      "honey"
+    ]
+  },
+
+  {
+    "title": "Acai bowl",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/acai-bowl-e1d7cbc.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/acai-bowl",
+    "ingredients": [
+      "2 tspa\u00e7a\u00ed powder",
+      "handful frozenberries",
+      "banana",
+      "handfulice cubes",
+      "coconut flakes"
+    ]
+  },
+  {
+    "title": "Slow cooker bio yogurt",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/liveyogurt-7a3acd3.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/slow-cooker-bio-yogurt",
+    "ingredients": ["whole milk", "live yogurt"]
+  },
+  {
+    "title": "Mango lassi",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/mango-lassi_1-6049b30.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/mango-lassi",
+    "ingredients": [
+      "3-4ripe mangoes(honey mangoes if possible)",
+      "natural yogurt",
+      "a pinchground cardamom(crush the seeds from 1-2 pods)",
+      "honey",
+      "limes"
+    ]
+  }
+]

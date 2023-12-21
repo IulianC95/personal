@@ -9,6 +9,7 @@ import Main from './components/core/Main';
 import React, { useState } from 'react';
 import { metadata } from './components/core/pages/Metadata';
 import { Candal } from 'next/font/google';
+import { Capriola } from 'next/font/google';
 
 const inter = Inter({ subsets: ['latin'] });
 const bodoniModa = Bodoni_Moda({ subsets: ['latin'] });
@@ -16,6 +17,7 @@ const candal = Candal({
   subsets: ['latin'],
   weight: '400',
 });
+const capriola = Capriola({ subsets: ['latin'], weight: '400' });
 
 export default function RootLayout({ children }) {
   const [activePage, setActivePage] = useState('home');
@@ -30,9 +32,9 @@ export default function RootLayout({ children }) {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
       </head>
-      <body className="max-w-xl center m-auto h-screen flex flex-col">
+      <body className="max-w-xl mx-auto min-h-screen flex flex-col">
         <Header onPageChange={handlePageChange} />
-        <div className="bg-[var(--main-bg)] site-main">
+        <div className="bg-[var(--main-bg)] flex-grow">
           <Main activePage={activePage} onCategorySelect={handlePageChange} />
         </div>
         <Footer onFooterClick={handlePageChange} />

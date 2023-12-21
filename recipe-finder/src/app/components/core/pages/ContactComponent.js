@@ -84,25 +84,27 @@ const JotFormIFrame = () => {
   }, []);
 
   return (
-    <iframe
-      ref={iframeRef}
-      id="JotFormIFrame-233452889744066"
-      title="Contact-Us Recipe Finder"
-      onLoad={() => window.parent.scrollTo(0, 0)}
-      allowTransparency="true"
-      allowFullScreen
-      allow="geolocation; microphone; camera"
-      src="https://form.jotform.com/233452889744066"
-      frameBorder="0"
-      style={{
-        minWidth: '100%',
-        maxWidth: '100%',
-        height: '539px',
-        border: 'none',
-      }}
-      scrolling="no"
-      className="site-main"
-    ></iframe>
+    <div className="site-main">
+      <iframe
+        ref={iframeRef}
+        id="JotFormIFrame-233452889744066"
+        title="Contact-Us Recipe Finder"
+        onLoad={() => window.parent.scrollTo(0, 0)}
+        allowTransparency="true"
+        allowFullScreen
+        allow="geolocation; microphone; camera"
+        src="https://form.jotform.com/233452889744066"
+        frameBorder="0"
+        style={{
+          minWidth: '100%',
+          maxWidth: '100%',
+          height: '539px',
+          border: 'none',
+        }}
+        scrolling="no"
+        className="site-main"
+      ></iframe>
+    </div>
   );
 };
 
