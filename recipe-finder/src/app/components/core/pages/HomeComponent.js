@@ -87,7 +87,7 @@ export default function HomeComponent({ onCategorySelect }) {
   }
 
   return (
-    <main className="bg-[var(--main-bg)] mb-9 flex-grow site-main">
+    <main className="bg-[var(--main-bg)] mb-9 flex-grow">
       <div className="container flex justify-between pt-6 px-4">
         {items.map((item, index) => (
           <div
