@@ -6,7 +6,7 @@ import { faThumbsUp } from '@fortawesome/free-solid-svg-icons';
 
 export default function AboutUs() {
   return (
-    <div className="flex flex-col text-center pt-10 px-4 bg-[var(--main-bg)] gap-10 site-main">
+    <div className="flex flex-col text-center pt-10 px-4 bg-[var(--main-bg)] gap-10 flex-grow">
       <div className="flex flex-col gap-2 fadeIn">
         <FontAwesomeIcon
           className="text-4xl text-[var(--primary)]"

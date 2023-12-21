@@ -84,7 +84,7 @@ const JotFormIFrame = () => {
   }, []);
 
   return (
-    <div className="site-main">
+    <div className="flex-grow">
       <iframe
         ref={iframeRef}
         id="JotFormIFrame-233452889744066"

@@ -348,7 +348,7 @@ export default function CookPageComponent() {
   return (
     <div className="flex flex-col">
       {!showRecipes && (
-        <div className="flex flex-col items-center px-4 gap-2 pt-2 fadeIn">
+        <div className="flex flex-col items-center px-4 gap-2 pt-2 flex-grow fadeIn">
           <h3 className="font-capriola text-base font-medium text-[var(--primary)] text-center">
             Select the ingredients you have right now in the kitchen
           </h3>
@@ -404,7 +404,7 @@ export default function CookPageComponent() {
         </div>
       )}
       {showRecipes && (
-        <div className="pt-4 flex flex-col px-4 gap-5 grow1">
+        <div className="pt-4 flex flex-col px-4 gap-5 flex-grow">
           <button
             onClick={handleBackClick}
             className="bg-[var(--primary)] text-white font-candal px-10 py-1 rounded-lg fadeInDelayed"
