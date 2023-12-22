@@ -554,5 +554,63 @@
       "Lime",
       "French stick"
     ]
+  },
+  {
+    "title": "BBQ chicken platter",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/bbq-chicken-platter-26e7757.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/bbq-chicken-platter",
+    "ingredients": [
+      "Chicken",
+      "Salt",
+      "Paprika",
+      "Garlic",
+      "Honey",
+      "Apple cider vinegar",
+      "Brown sugar",
+      "Mustard"
+    ]
+  },
+  {
+    "title": "Spatchcock barbecue chicken",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1032451_11-090840c.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/spatchcock-barbecue-chicken",
+    "ingredients": [
+      "Chicken",
+      "Beer",
+      "Lemon",
+      "Olive oil",
+      "Paprika",
+      "Garlic"
+    ]
+  },
+  {
+    "title": "BBQ chorizo potato salad",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/bbq-chorizo-potato-salad-445f7a0.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/bbq-chorizo-potato-salad",
+    "ingredients": [
+      "Potato",
+      "Chorizo",
+      "Soured cream",
+      "Mayonnaise",
+      "Mustard",
+      "Celery",
+      "Dill"
+    ]
+  },
+  {
+    "title": "Barbecued bavette steak & tomato salad",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/barbecued-bavette-steak-tomato-salad-fc1bd3d.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/barbecued-bavette-steak-tomato-salad",
+    "ingredients": [
+      "Tomato",
+      "Olive oil",
+      "Beef steak",
+      "Red onion",
+      "Artichokes",
+      "Feta cheese",
+      "Chive",
+      "Red wine vinegar",
+      "Onion"
+    ]
   }
 ]

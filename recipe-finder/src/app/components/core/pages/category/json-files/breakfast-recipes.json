@@ -4,12 +4,47 @@
     "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/two-minute-breakfast-smoothie-4a4722d.jpg?quality=90&resize=93,85",
     "recipe_url": "https://www.bbcgoodfood.com/recipes/two-minute-breakfast-smoothie",
     "ingredients": [
-      "banana",
-      "porridge oats",
-      "fruit",
-      "milk",
-      "honey",
-      "vanilla extract"
+      "Banana",
+      "Porridge oats",
+      "Any fruits",
+      "Milk",
+      "Honey",
+      "Vanilla extract"
+    ]
+  },
+  {
+    "title": "Breakfast burrito",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/breakfast-burrito-b086548.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/breakfast-burrito",
+    "ingredients": [
+      "Chipotle paste",
+      "Egg",
+      "Rapeseed oil",
+      "Kale",
+      "Cherry tomatoes",
+      "Avocado",
+      "Tortillas"
+    ]
+  },
+  {
+    "title": "Breakfast muffins",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/muffins-d49653c.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/breakfast-muffins",
+    "ingredients": [
+      "Egg",
+      "Yogurt",
+      "Rapeseed oil",
+      "Apple sauce",
+      "Banana",
+      "Honey",
+      "Vanilla extract",
+      "Wholemeal flour",
+      "Porridge oats",
+      "Baking powder",
+      "Bicarbonate of soda",
+      "Cinnamon",
+      "Blueberry",
+      "Mixed seed"
     ]
   }
 ]

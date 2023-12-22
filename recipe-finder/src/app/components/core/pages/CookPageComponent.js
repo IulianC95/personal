@@ -489,6 +489,62 @@ export default function CookPageComponent() {
       name: 'Pork mince',
       image: './images/ingredients-images/pork-mince.png',
     },
+    {
+      name: 'Beer',
+      image: './images/ingredients-images/beer.png',
+    },
+    {
+      name: 'Chorizo',
+      image: './images/ingredients-images/chorizo.png',
+    },
+    {
+      name: 'Dill',
+      image: './images/ingredients-images/dill.png',
+    },
+    {
+      name: 'Beef steak',
+      image: './images/ingredients-images/beef-steak.png',
+    },
+    {
+      name: 'Artichokes',
+      image: './images/ingredients-images/artichokes.png',
+    },
+    {
+      name: 'Porridge oats',
+      image: './images/ingredients-images/porridge-oats.png',
+    },
+    {
+      name: 'Any fruits',
+      image: './images/ingredients-images/any-fruits.png',
+    },
+    {
+      name: 'Milk',
+      image: './images/ingredients-images/milk.png',
+    },
+    {
+      name: 'Kale',
+      image: './images/ingredients-images/kale.png',
+    },
+    {
+      name: 'Apple sauce',
+      image: './images/ingredients-images/apple-sauce.png',
+    },
+    {
+      name: 'Baking powder',
+      image: './images/ingredients-images/baking-powder.png',
+    },
+    {
+      name: 'Bicarbonate of soda',
+      image: './images/ingredients-images/bicarbonate-of-soda.png',
+    },
+    {
+      name: 'Blueberry',
+      image: './images/ingredients-images/blueberry.png',
+    },
+    {
+      name: 'Mixed seed',
+      image: './images/ingredients-images/mixed-seeds.png',
+    },
   ]);
 
   const filteredIngredients = searchText
