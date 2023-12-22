@@ -22,17 +22,17 @@ export default function CookPageComponent() {
     { name: 'Basil', image: './images/ingredients-images/basil.png' },
     { name: 'Beef', image: './images/ingredients-images/beef.png' },
     {
-      name: 'Bell Pepper',
+      name: 'Bell pepper',
       image: './images/ingredients-images/bell-pepper.png',
     },
     { name: 'Brown Rice', image: './images/ingredients-images/brown-rice.png' },
     { name: 'Carrot', image: './images/ingredients-images/carrot.png' },
     {
-      name: 'Chedar Cheese',
+      name: 'Chedar cheese',
       image: './images/ingredients-images/chedar-cheese.png',
     },
     {
-      name: 'Chicken Breast',
+      name: 'Chicken breast',
       image: './images/ingredients-images/chicken-breast.png',
     },
     { name: 'Egg', image: './images/ingredients-images/egg.png' },
@@ -288,6 +288,206 @@ export default function CookPageComponent() {
     {
       name: 'Wholegrain mustard',
       image: './images/ingredients-images/wholegrain-mustard.png',
+    },
+    {
+      name: 'Banana',
+      image: './images/ingredients-images/banana.png',
+    },
+    {
+      name: 'Horseradish sauce',
+      image: './images/ingredients-images/horseradish-sauce.png',
+    },
+    {
+      name: 'Blue cheese',
+      image: './images/ingredients-images/blue-cheese.png',
+    },
+    {
+      name: 'Iceberg lettuce',
+      image: './images/ingredients-images/iceberg-lettuce.png',
+    },
+    {
+      name: 'Chicken wings',
+      image: './images/ingredients-images/chicken-wings.png',
+    },
+    {
+      name: 'French radishes',
+      image: './images/ingredients-images/french-radish.png',
+    },
+    {
+      name: 'Bourbon',
+      image: './images/ingredients-images/bourbon.png',
+    },
+    {
+      name: 'Hot chilli sauce',
+      image: './images/ingredients-images/hot-chilli-sauce.png',
+    },
+    {
+      name: 'Coriander',
+      image: './images/ingredients-images/coriander.png',
+    },
+    {
+      name: 'Gorgonzola',
+      image: './images/ingredients-images/gorgonzola.png',
+    },
+    {
+      name: 'Salt',
+      image: './images/ingredients-images/salt.png',
+    },
+    {
+      name: 'Chipotle paste',
+      image: './images/ingredients-images/chipotle-paste.png',
+    },
+    {
+      name: 'Tomato paste',
+      image: './images/ingredients-images/tomato-paste.png',
+    },
+    {
+      name: 'Black treacle',
+      image: './images/ingredients-images/black-treacle.png',
+    },
+    {
+      name: 'Bacon',
+      image: './images/ingredients-images/bacon.png',
+    },
+    {
+      name: 'Lettuce',
+      image: './images/ingredients-images/lettuce.png',
+    },
+    {
+      name: 'Lamb',
+      image: './images/ingredients-images/lamb.png',
+    },
+    {
+      name: 'Cucumber',
+      image: './images/ingredients-images/cucumber.png',
+    },
+    {
+      name: 'Mint',
+      image: './images/ingredients-images/mint.png',
+    },
+    {
+      name: 'Mackerel',
+      image: './images/ingredients-images/mackerel.png',
+    },
+    {
+      name: 'Red chilli',
+      image: './images/ingredients-images/red-chilli.png',
+    },
+    {
+      name: 'Fish sauce',
+      image: './images/ingredients-images/fish-sauce.png',
+    },
+    {
+      name: 'Pork belly',
+      image: './images/ingredients-images/pork-belly.png',
+    },
+    {
+      name: 'Hoisin sauce',
+      image: './images/ingredients-images/hoisin-sauce.png',
+    },
+    {
+      name: 'Golden caster sugar',
+      image: './images/ingredients-images/golden-caster-sugar.png',
+    },
+    {
+      name: 'Rice vinegar',
+      image: './images/ingredients-images/rice-vinegar.png',
+    },
+    {
+      name: 'Wasabi',
+      image: './images/ingredients-images/wasabi.png',
+    },
+    {
+      name: 'Vanilla extract',
+      image: './images/ingredients-images/vanilla-extract.png',
+    },
+    {
+      name: 'Pecans',
+      image: './images/ingredients-images/pecans.png',
+    },
+    {
+      name: 'Tortillas',
+      image: './images/ingredients-images/tortillas.png',
+    },
+    {
+      name: 'Black pepper',
+      image: './images/ingredients-images/black-pepper.png',
+    },
+    {
+      name: 'Ice cream',
+      image: './images/ingredients-images/ice-cream.png',
+    },
+    {
+      name: 'Corn',
+      image: './images/ingredients-images/corn.png',
+    },
+    {
+      name: 'Medjool date',
+      image: './images/ingredients-images/medjool-date.png',
+    },
+    {
+      name: 'Romaine lettuce',
+      image: './images/ingredients-images/romaine-lettuce.png',
+    },
+    {
+      name: 'Watercress',
+      image: './images/ingredients-images/watercress.png',
+    },
+    {
+      name: 'Potato',
+      image: './images/ingredients-images/potato.png',
+    },
+    {
+      name: 'Tarragon',
+      image: './images/ingredients-images/tarragon.png',
+    },
+    {
+      name: 'Yogurt',
+      image: './images/ingredients-images/yogurt.png',
+    },
+    {
+      name: 'Wholemeal flour',
+      image: './images/ingredients-images/wholemeal-flour.png',
+    },
+    {
+      name: 'Instant yeast',
+      image: './images/ingredients-images/instant-yeast.png',
+    },
+    {
+      name: 'Rapeseed oil',
+      image: './images/ingredients-images/rapeseed-oil.png',
+    },
+    {
+      name: 'Fennel seeds',
+      image: './images/ingredients-images/fennel-seeds.png',
+    },
+    {
+      name: 'Cherry tomatoes',
+      image: './images/ingredients-images/cherry-tomatoes.png',
+    },
+    {
+      name: 'White bread',
+      image: './images/ingredients-images/white-bread.png',
+    },
+    {
+      name: 'Lamb cutlet',
+      image: './images/ingredients-images/lamb-cutlet.png',
+    },
+    {
+      name: 'Courgette',
+      image: './images/ingredients-images/courgette.png',
+    },
+    {
+      name: 'Butter beans',
+      image: './images/ingredients-images/butter-beans.png',
+    },
+    {
+      name: 'Feta cheese',
+      image: './images/ingredients-images/feta-cheese.png',
+    },
+    {
+      name: 'Pork mince',
+      image: './images/ingredients-images/pork-mince.png',
     },
   ]);
 
