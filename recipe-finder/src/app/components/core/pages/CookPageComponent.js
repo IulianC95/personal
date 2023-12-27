@@ -689,6 +689,106 @@ export default function CookPageComponent() {
       name: 'Ice cubes',
       image: './images/ingredients-images/ice-cubes.png',
     },
+    {
+      name: 'Turmeric',
+      image: './images/ingredients-images/turmeric.png',
+    },
+    {
+      name: 'Kefir',
+      image: './images/ingredients-images/kefir.png',
+    },
+    {
+      name: 'Strawberries',
+      image: './images/ingredients-images/strawberries.png',
+    },
+    {
+      name: 'Raisins',
+      image: './images/ingredients-images/raisins.png',
+    },
+    {
+      name: 'Nuts',
+      image: './images/ingredients-images/nuts.png',
+    },
+    {
+      name: 'Oyster sauce',
+      image: './images/ingredients-images/oyster-sauce.png',
+    },
+    {
+      name: 'Sausage meat',
+      image: './images/ingredients-images/sausage-meat.png',
+    },
+    {
+      name: 'Ciabatta bun',
+      image: './images/ingredients-images/ciabatta-bun.png',
+    },
+    {
+      name: 'Chickpea',
+      image: './images/ingredients-images/chickpea.png',
+    },
+    {
+      name: 'Tofu',
+      image: './images/ingredients-images/tofu.png',
+    },
+    {
+      name: 'Soy yogurt',
+      image: './images/ingredients-images/soy-yogurt.png',
+    },
+    {
+      name: 'Nutella',
+      image: './images/ingredients-images/nutella.png',
+    },
+    {
+      name: 'Raspberry',
+      image: './images/ingredients-images/raspberry.png',
+    },
+    {
+      name: 'Raspberry jam',
+      image: './images/ingredients-images/raspberry-jam.png',
+    },
+    {
+      name: 'Pork chipolata',
+      image: './images/ingredients-images/pork-chipolata.png',
+    },
+    {
+      name: 'White baps',
+      image: './images/ingredients-images/white-baps.png',
+    },
+    {
+      name: 'Black pudding',
+      image: './images/ingredients-images/black-pudding.png',
+    },
+    {
+      name: 'Asparagus',
+      image: './images/ingredients-images/asparagus.png',
+    },
+    {
+      name: 'Basmati rice',
+      image: './images/ingredients-images/basmati-rice.png',
+    },
+    {
+      name: 'Apricot',
+      image: './images/ingredients-images/apricot.png',
+    },
+    {
+      name: 'Walnuts',
+      image: './images/ingredients-images/walnuts.png',
+    },
+    {
+      name: 'Matcha powder',
+      image: './images/ingredients-images/matcha-powder.png',
+    },
+    {
+      name: 'Kiwi',
+      image: './images/ingredients-images/kiwi.png',
+    },
+    {
+      name: 'Peach',
+      image: './images/ingredients-images/peach.png',
+    },
+    {
+      name: 'Coconut flakes',
+      image: './images/ingredients-images/coconut-flakes.png',
+    },
   ]);
 
   const filteredIngredients = searchText
