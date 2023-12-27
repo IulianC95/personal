@@ -545,6 +545,118 @@ export default function CookPageComponent() {
       name: 'Mixed seed',
       image: './images/ingredients-images/mixed-seeds.png',
     },
+    {
+      name: 'Parsley',
+      image: './images/ingredients-images/parsley.png',
+    },
+    {
+      name: 'Naan bread',
+      image: './images/ingredients-images/naan-bread.png',
+    },
+    {
+      name: 'Cream cheese',
+      image: './images/ingredients-images/cream-cheese.png',
+    },
+    {
+      name: 'Mango',
+      image: './images/ingredients-images/mango.png',
+    },
+    {
+      name: 'Cereals',
+      image: './images/ingredients-images/cereals.png',
+    },
+    {
+      name: 'Muscovado sugar',
+      image: './images/ingredients-images/muscovado-sugar.png',
+    },
+    {
+      name: 'Golden syrup',
+      image: './images/ingredients-images/golden-syrup.png',
+    },
+    {
+      name: 'Veggie sausages',
+      image: './images/ingredients-images/veggie-sausages.png',
+    },
+    {
+      name: 'Muesli',
+      image: './images/ingredients-images/muesli.png',
+    },
+    {
+      name: 'White flour',
+      image: './images/ingredients-images/white-flour.png',
+    },
+    {
+      name: 'Soy milk',
+      image: './images/ingredients-images/soy-milk.png',
+    },
+    {
+      name: 'Grapeseed oil',
+      image: './images/ingredients-images/grapeseed-oil.png',
+    },
+    {
+      name: 'Demerara sugar',
+      image: './images/ingredients-images/demerara-sugar.png',
+    },
+    {
+      name: 'Double cream',
+      image: './images/ingredients-images/double-cream.png',
+    },
+    {
+      name: 'Maple syrup',
+      image: './images/ingredients-images/maple-syrup.png',
+    },
+    {
+      name: 'Chia seeds',
+      image: './images/ingredients-images/chia-seeds.png',
+    },
+    {
+      name: 'Goji berries',
+      image: './images/ingredients-images/goji-berries.png',
+    },
+    {
+      name: 'Almond milk',
+      image: './images/ingredients-images/almond-milk.png',
+    },
+    {
+      name: 'Red pear',
+      image: './images/ingredients-images/red-pear.png',
+    },
+    {
+      name: 'Pumpkin seeds',
+      image: './images/ingredients-images/pumpkin-seeds.png',
+    },
+    {
+      name: 'Broccoli',
+      image: './images/ingredients-images/broccoli.png',
+    },
+    {
+      name: 'Coconut',
+      image: './images/ingredients-images/coconut.png',
+    },
+    {
+      name: 'Rice milk',
+      image: './images/ingredients-images/rice-milk.png',
+    },
+    {
+      name: 'Spirulina',
+      image: './images/ingredients-images/spirulina.png',
+    },
+    {
+      name: 'Capers',
+      image: './images/ingredients-images/capers.png',
+    },
+    {
+      name: 'Sausages',
+      image: './images/ingredients-images/sausages.png',
+    },
+    {
+      name: 'Pinto beans',
+      image: './images/ingredients-images/pinto-beans.png',
+    },
+    {
+      name: 'Cannellini beans',
+      image: './images/ingredients-images/cannellini-beans.png',
+    },
   ]);
 
   const filteredIngredients = searchText
