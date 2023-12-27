@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import bbqRecipes from './category/json-files/bbq-recipes.json';
 import breakfastRecipes from './category/json-files/breakfast-recipes.json';
+import soupsRecipes from './category/json-files/soup-recipes.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar as farStar } from '@fortawesome/free-regular-svg-icons';
 import { faStar as fasStar } from '@fortawesome/free-solid-svg-icons';
@@ -789,6 +790,158 @@ export default function CookPageComponent() {
       name: 'Coconut flakes',
       image: './images/ingredients-images/coconut-flakes.png',
     },
+    {
+      name: 'Caraway seeds',
+      image: './images/ingredients-images/caraway-seeds.png',
+    },
+    {
+      name: 'Brussels sprouts',
+      image: './images/ingredients-images/brussels-sprouts.png',
+    },
+    {
+      name: 'Mixed berries',
+      image: './images/ingredients-images/mixed-berries.png',
+    },
+    {
+      name: 'Croissants',
+      image: './images/ingredients-images/croissants.png',
+    },
+    {
+      name: 'Almond butter',
+      image: './images/ingredients-images/almond-butter.png',
+    },
+    {
+      name: 'Dark chocolate',
+      image: './images/ingredients-images/dark-chocolate.png',
+    },
+    {
+      name: 'Blackberry',
+      image: './images/ingredients-images/blackberry.png',
+    },
+    {
+      name: 'Buttermilk',
+      image: './images/ingredients-images/buttermilk.png',
+    },
+    {
+      name: 'Oat milk',
+      image: './images/ingredients-images/oat-milk.png',
+    },
+    {
+      name: 'Nutmeg',
+      image: './images/ingredients-images/nutmeg.png',
+    },
+    {
+      name: 'Sunflower seeds',
+      image: './images/ingredients-images/sunflower-seeds.png',
+    },
+    {
+      name: 'Sultans',
+      image: './images/ingredients-images/sultans.png',
+    },
+    {
+      name: 'Protein powder',
+      image: './images/ingredients-images/protein-powder.png',
+    },
+    {
+      name: 'Coconut oil',
+      image: './images/ingredients-images/coconut-oil.png',
+    },
+    {
+      name: 'Single cream',
+      image: './images/ingredients-images/single-cream.png',
+    },
+    {
+      name: 'Ham',
+      image: './images/ingredients-images/ham.png',
+    },
+    {
+      name: 'Clotted cream',
+      image: './images/ingredients-images/clotted-cream.png',
+    },
+    {
+      name: 'Chicken stock',
+      image: './images/ingredients-images/chicken-stock.png',
+    },
+    {
+      name: 'Spring onion',
+      image: './images/ingredients-images/spring-onion.png',
+    },
+    {
+      name: 'Red lentils',
+      image: './images/ingredients-images/red-lentils.png',
+    },
+    {
+      name: 'Vegetable stock',
+      image: './images/ingredients-images/vegetable-stock.png',
+    },
+    {
+      name: 'Pesto',
+      image: './images/ingredients-images/pesto.png',
+    },
+    {
+      name: 'Leek',
+      image: './images/ingredients-images/leek.png',
+    },
+    {
+      name: 'Butternut squash',
+      image: './images/ingredients-images/butternut-squash.png',
+    },
+    {
+      name: 'Water',
+      image: './images/ingredients-images/water.png',
+    },
+    {
+      name: 'Ras el hanout',
+      image: './images/ingredients-images/ras-el-hanout.png',
+    },
+    {
+      name: 'Pasta',
+      image: './images/ingredients-images/pasta.png',
+    },
+    {
+      name: 'Tortellini',
+      image: './images/ingredients-images/tortellini.png',
+    },
+    {
+      name: 'Parmesan',
+      image: './images/ingredients-images/parmesan.png',
+    },
+    {
+      name: 'White wine',
+      image: './images/ingredients-images/white-wine.png',
+    },
+    {
+      name: 'Gruyere cheese',
+      image: './images/ingredients-images/gruyere-cheese.png',
+    },
+    {
+      name: 'Pancetta',
+      image: './images/ingredients-images/pancetta.png',
+    },
+    {
+      name: 'Couscous',
+      image: './images/ingredients-images/couscous.png',
+    },
+    {
+      name: 'Pork meatballs',
+      image: './images/ingredients-images/pork-meatballs.png',
+    },
+    {
+      name: 'Cauliflower',
+      image: './images/ingredients-images/cauliflower.png',
+    },
+    {
+      name: 'Chinese five spice',
+      image: './images/ingredients-images/chinese-five-spice.png',
+    },
+    {
+      name: 'Ramen noodles',
+      image: './images/ingredients-images/ramen-noodles.png',
+    },
+    {
+      name: 'Nori',
+      image: './images/ingredients-images/nori.png',
+    },
   ]);
 
   const filteredIngredients = searchText
@@ -820,7 +973,11 @@ export default function CookPageComponent() {
       .filter((ingredient) => ingredient.selected)
       .map((ingredient) => ingredient.name);
 
-    const allRecipes = [...bbqRecipes, ...breakfastRecipes].map((recipe) => ({
+    const allRecipes = [
+      ...bbqRecipes,
+      ...breakfastRecipes,
+      ...soupsRecipes,
+    ].map((recipe) => ({
       name: recipe.title,
       imgSrc: recipe.image_url,
       recipeUrl: recipe.recipe_url,
