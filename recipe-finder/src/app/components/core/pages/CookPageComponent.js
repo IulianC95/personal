@@ -657,6 +657,38 @@ export default function CookPageComponent() {
       name: 'Cannellini beans',
       image: './images/ingredients-images/cannellini-beans.png',
     },
+    {
+      name: 'Bagels',
+      image: './images/ingredients-images/bagels.png',
+    },
+    {
+      name: 'Cayenne pepper',
+      image: './images/ingredients-images/cayenne-pepper.png',
+    },
+    {
+      name: 'Linseeds',
+      image: './images/ingredients-images/linseeds.png',
+    },
+    {
+      name: 'Hazelnuts',
+      image: './images/ingredients-images/hazelnuts.png',
+    },
+    {
+      name: 'Peanut butter',
+      image: './images/ingredients-images/peanut-butter.png',
+    },
+    {
+      name: 'Granola',
+      image: './images/ingredients-images/granola.png',
+    },
+    {
+      name: 'Passion fruit',
+      image: './images/ingredients-images/passion-fruit.png',
+    },
+    {
+      name: 'Ice cubes',
+      image: './images/ingredients-images/ice-cubes.png',
+    },
   ]);
 
   const filteredIngredients = searchText

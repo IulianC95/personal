@@ -264,5 +264,79 @@
       "Avocado",
       "Chedar cheese"
     ]
+  },
+  {
+    "title": "Breakfast bagel club",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/avocado-salmon-bagel12476-b4a4f98.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/breakfast-bagel-club",
+    "ingredients": [
+      "Cream cheese",
+      "Bagels",
+      "Salmon",
+      "Avocado",
+      "Lemon",
+      "Olive oil",
+      "Egg",
+      "Cayenne pepper"
+    ]
+  },
+  {
+    "title": "On-the-run breakfast bars",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1230_11-fd4ab8a.jpg?quality=90&webp=true&resize=300,272",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/run-breakfast-bars",
+    "ingredients": [
+      "Butter",
+      "Golden syrup",
+      "Demerara sugar",
+      "Porridge oats",
+      "Cinnamon",
+      "Coconut",
+      "Linseeds",
+      "Sesame seeds",
+      "Hazelnuts"
+    ]
+  },
+  {
+    "title": "Slow cooker breakfast eggs",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/turkishbreakfasteggs-10a1988.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/slow-cooker-baked-turkish-breakfast-eggs",
+    "ingredients": [
+      "Olive oil",
+      "Onion",
+      "Bell pepper",
+      "Red chilli",
+      "Cherry tomatoes",
+      "White bread",
+      "Egg",
+      "Milk",
+      "Parsley",
+      "Yogurt"
+    ]
+  },
+  {
+    "title": "Breakfast banana split",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/breakfast-banana-split-099eb16.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/breakfast-banana-split",
+    "ingredients": ["Banana", "Peanut butter", "Yogurt", "Blueberry", "Granola"]
+  },
+  {
+    "title": "Tropical breakfast smoothie",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-484466_11-fac2879.jpg?quality=90&webp=true&resize=300,272",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/tropical-breakfast-smoothie",
+    "ingredients": ["Passion fruit", "Banana", "Mango", "Orange", "Ice cubes"]
+  },
+  {
+    "title": "High protein breakfast",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/fry-up-e377f9d.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/high-protein-breakfast",
+    "ingredients": [
+      "Olive oil",
+      "Tomato",
+      "Bacon",
+      "Beef steak",
+      "Mushroom",
+      "Spinach",
+      "Egg"
+    ]
   }
 ]
