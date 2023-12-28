@@ -942,6 +942,14 @@ export default function CookPageComponent() {
       name: 'Nori',
       image: './images/ingredients-images/nori.png',
     },
+    {
+      name: 'Whipping cream',
+      image: './images/ingredients-images/whipping-cream.png',
+    },
+    {
+      name: 'Vegetable powder',
+      image: './images/ingredients-images/vegetable-powder.png',
+    },
   ]);
 
   const filteredIngredients = searchText

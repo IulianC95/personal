@@ -372,5 +372,53 @@
       "Water",
       "Soured cream"
     ]
+  },
+  {
+    "title": "Courgette, potato & cheddar soup",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-740509_11-32e6d17.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/courgette-potato-cheddar-soup",
+    "ingredients": [
+      "Potato",
+      "Water",
+      "Courgette",
+      "Onion",
+      "Chedar cheese",
+      "Nutmeg"
+    ]
+  },
+  {
+    "title": "Leek & potato soup",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-22567_12-4803173.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/leek-potato-soup",
+    "ingredients": [
+      "Butter",
+      "Potato",
+      "Onion",
+      "Leek",
+      "Chicken",
+      "Whipping cream",
+      "Milk",
+      "Chive"
+    ]
+  },
+  {
+    "title": "Mexican bean soup with guacamole",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/wdp-lunch-mexicanguacamolesoup_02051-d1c462c.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/mexican-bean-soup-guacamole",
+    "ingredients": [
+      "Rapeseed oil",
+      "Onion",
+      "Bell pepper",
+      "Garlic",
+      "Chilli powder",
+      "Coriander",
+      "Cumin seeds",
+      "Tomato",
+      "Black beans",
+      "Vegetable powder",
+      "Avocado",
+      "Lime",
+      "Red chilli"
+    ]
   }
 ]
