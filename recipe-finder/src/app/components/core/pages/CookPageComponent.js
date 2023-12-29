@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import bbqRecipes from './category/json-files/bbq-recipes.json';
 import breakfastRecipes from './category/json-files/breakfast-recipes.json';
 import soupsRecipes from './category/json-files/soup-recipes.json';
+import vegetarianRecipes from './category/json-files/vegetarian-recipes.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar as farStar } from '@fortawesome/free-regular-svg-icons';
 import { faStar as fasStar } from '@fortawesome/free-solid-svg-icons';
@@ -26,7 +27,7 @@ export default function CookPageComponent() {
       name: 'Bell pepper',
       image: './images/ingredients-images/bell-pepper.png',
     },
-    { name: 'Brown Rice', image: './images/ingredients-images/brown-rice.png' },
+    { name: 'Brown rice', image: './images/ingredients-images/brown-rice.png' },
     { name: 'Carrot', image: './images/ingredients-images/carrot.png' },
     {
       name: 'Chedar cheese',
@@ -1010,6 +1011,94 @@ export default function CookPageComponent() {
       name: 'Marrow',
       image: './images/ingredients-images/marrow.png',
     },
+    {
+      name: 'Green peas',
+      image: './images/ingredients-images/green-peas.png',
+    },
+    {
+      name: 'Harissa paste',
+      image: './images/ingredients-images/harissa-paste.png',
+    },
+    {
+      name: 'Red curry paste',
+      image: './images/ingredients-images/red-curry-paste.png',
+    },
+    {
+      name: 'Coconut cream',
+      image: './images/ingredients-images/coconut-cream.png',
+    },
+    {
+      name: 'Lasagne sheets',
+      image: './images/ingredients-images/lasagne-sheets.png',
+    },
+    {
+      name: 'Mozzarella',
+      image: './images/ingredients-images/mozzarella.png',
+    },
+    {
+      name: 'Vegetarian mince',
+      image: './images/ingredients-images/vegetarian-mince.png',
+    },
+    {
+      name: 'Vegetable stock cube',
+      image: './images/ingredients-images/vegetable-stock-cube.png',
+    },
+    {
+      name: 'Chestnut mushrooms',
+      image: './images/ingredients-images/chestnut-mushrooms.png',
+    },
+    {
+      name: 'Green lentils',
+      image: './images/ingredients-images/green-lentils.png',
+    },
+    {
+      name: 'Red wine',
+      image: './images/ingredients-images/red-wine.png',
+    },
+    {
+      name: 'Mixed herbs',
+      image: './images/ingredients-images/mixed-herbs.png',
+    },
+    {
+      name: 'Kidney beans',
+      image: './images/ingredients-images/kidney-beans.png',
+    },
+    {
+      name: 'Instant noodles',
+      image: './images/ingredients-images/instant-noodles.png',
+    },
+    {
+      name: 'Pak choi',
+      image: './images/ingredients-images/pak-choi.png',
+    },
+    {
+      name: 'Sage',
+      image: './images/ingredients-images/sage.png',
+    },
+    {
+      name: 'Mace',
+      image: './images/ingredients-images/mace.png',
+    },
+    {
+      name: 'Chestnuts',
+      image: './images/ingredients-images/chestnuts.png',
+    },
+    {
+      name: 'Puff pastry',
+      image: './images/ingredients-images/puff-pastry.png',
+    },
+    {
+      name: 'Sugar pea',
+      image: './images/ingredients-images/sugar-pea.png',
+    },
+    {
+      name: 'Beetroot',
+      image: './images/ingredients-images/beetroot.png',
+    },
+    {
+      name: 'Leicester cheese',
+      image: './images/ingredients-images/leicester-cheese.png',
+    },
   ]);
 
   const filteredIngredients = searchText
@@ -1045,6 +1134,7 @@ export default function CookPageComponent() {
       ...bbqRecipes,
       ...breakfastRecipes,
       ...soupsRecipes,
+      ...vegetarianRecipes,
     ].map((recipe) => ({
       name: recipe.title,
       imgSrc: recipe.image_url,
