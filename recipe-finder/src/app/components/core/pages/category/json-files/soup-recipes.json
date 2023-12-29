@@ -420,5 +420,358 @@
       "Lime",
       "Red chilli"
     ]
+  },
+  {
+    "title": "Soup maker mushroom soup",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/soup-maker-mushroom-soup-ff5ebe8.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/soup-maker-easy-mushroom-soup",
+    "ingredients": [
+      "Onion",
+      "Garlic",
+      "Mushroom",
+      "Water",
+      "Single cream",
+      "Parsley"
+    ]
+  },
+  {
+    "title": "Spicy chilli bean soup",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/spicy-chilli-bean-soup-fa2799f.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/spicy-chilli-bean-soup",
+    "ingredients": [
+      "Olive oil",
+      "Onion",
+      "Garlic",
+      "Tomato paste",
+      "Chilli powder",
+      "Cumin seeds",
+      "Tomato",
+      "Water",
+      "Cannellini beans",
+      "Bell pepper",
+      "Tortilla chips",
+      "Lime"
+    ]
+  },
+  {
+    "title": "Pumpkin soup",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-879453_11-5257860.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/pumpkin-soup",
+    "ingredients": [
+      "Olive oil",
+      "Onion",
+      "Pumpkin",
+      "Water",
+      "Double cream",
+      "White bread",
+      "Pumpkin seeds"
+    ]
+  },
+  {
+    "title": "Sweet potato & lentil soup",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-424727_12-793eaac.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/sweet-potato-lentil-soup",
+    "ingredients": [
+      "Curry powder",
+      "Olive oil",
+      "Onion",
+      "Apple",
+      "Garlic",
+      "Coriander",
+      "Ginger",
+      "Sweet potato",
+      "Water",
+      "Red lentils",
+      "Milk",
+      "Lime"
+    ]
+  },
+  {
+    "title": "Carrot & parsnip soup",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/02/Carrot-and-parsnip-soup-0691bd0.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/carrot-parsnip-soup",
+    "ingredients": [
+      "Olive oil",
+      "Onion",
+      "Celery",
+      "Garlic",
+      "Thyme",
+      "Carrot",
+      "Parsnip",
+      "Water",
+      "Double cream",
+      "Parsley"
+    ]
+  },
+  {
+    "title": "Chicken soup",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1074495_11-fe11955.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/roast-chicken-soup",
+    "ingredients": [
+      "Olive oil",
+      "Onion",
+      "Carrot",
+      "Thyme",
+      "Water",
+      "Chicken",
+      "Peas",
+      "Greek yogurt",
+      "Garlic",
+      "Lemon",
+      "Feta cheese"
+    ]
+  },
+  {
+    "title": "Cabbage soup",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/cabbage-soup-bbee23f.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/cabbage-soup",
+    "ingredients": [
+      "Olive oil",
+      "Onion",
+      "Celery",
+      "Carrot",
+      "Pancetta",
+      "Savoy cabbage",
+      "Garlic",
+      "Paprika",
+      "Tomato",
+      "Water",
+      "Chickpea",
+      "Parmesan"
+    ]
+  },
+  {
+    "title": "Cauliflower cheese soup",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1202495_11-3fdf46d.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/cauliflower-cheese-soup",
+    "ingredients": [
+      "Butter",
+      "Onion",
+      "Cauliflower",
+      "Potato",
+      "Water",
+      "Milk",
+      "Chedar cheese"
+    ]
+  },
+  {
+    "title": "Spicy roasted parsnip soup",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2010/12/Spicy-roasted-parsnip-soup-abc72fe.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/spicy-roasted-parsnip-soup",
+    "ingredients": [
+      "Olive oil",
+      "Coriander seeds",
+      "Cumin seeds",
+      "Turmeric",
+      "Mustard seeds",
+      "Onion",
+      "Garlic",
+      "Parsnip",
+      "Tomato",
+      "Water",
+      "Lemon"
+    ]
+  },
+  {
+    "title": "Moroccan-style chickpea soup",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-192471_11-88af07f.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/moroccan-chickpea-soup-0",
+    "ingredients": [
+      "Olive oil",
+      "Onion",
+      "Celery",
+      "Cumin seeds",
+      "Water",
+      "Tomato",
+      "Chicken",
+      "Broad beans",
+      "Lemon",
+      "Coriander"
+    ]
+  },
+  {
+    "title": "Chunky Minestrone soup",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1259719_8-3492c0f.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/chunky-minestrone-soup",
+    "ingredients": [
+      "Carrot",
+      "Onion",
+      "Celery",
+      "Olive oil",
+      "Garlic",
+      "Potato",
+      "Tomato paste",
+      "Water",
+      "Tomato",
+      "Cannellini beans",
+      "Spaghetti",
+      "Savoy cabbage"
+    ]
+  },
+  {
+    "title": "Soup maker leek and potato soup",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/leek-and-potato-soup-fe276f6.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/soup-maker-leek-and-potato-soup",
+    "ingredients": [
+      "Potato",
+      "Onion",
+      "Leek",
+      "Water",
+      "Whipping cream",
+      "Milk",
+      "Butter",
+      "Chive"
+    ]
+  },
+  {
+    "title": "Soup maker carrot and coriander soup",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/carrot-and-coriander-soup-533c814.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/soup-maker-carrot-and-coriander-soup",
+    "ingredients": ["Onion", "Coriander", "Potato", "Carrot", "Water"]
+  },
+  {
+    "title": "Lentil & bacon soup",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-946456_11-afbfcba.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/lentil-bacon-soup",
+    "ingredients": [
+      "Olive oil",
+      "Onion",
+      "Pancetta",
+      "Carrot",
+      "Cumin seeds",
+      "Turmeric",
+      "Garlic",
+      "Red chilli",
+      "Salt",
+      "Red lentils"
+    ]
+  },
+  {
+    "title": "Spiced black bean & chicken soup with kale",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/spiced-black-bean-chicken-soup-with-kale-2fc2ea4.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/spiced-black-bean-chicken-soup-kale",
+    "ingredients": [
+      "Olive oil",
+      "Garlic",
+      "Coriander",
+      "Lime",
+      "Cumin seeds",
+      "Chilli flakes",
+      "Tomato",
+      "Black beans",
+      "Water",
+      "Kale",
+      "Chicken",
+      "Feta cheese",
+      "Tortillas"
+    ]
+  },
+  {
+    "title": "Spicy pumpkin soup",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/07/Spicy-pumpkin-soup-fcf2fe5.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/spiced-pumpkin-soup-2",
+    "ingredients": [
+      "Pumpkin",
+      "Garam masala",
+      "Coriander",
+      "Cumin seeds",
+      "Chilli flakes",
+      "Olive oil",
+      "Onion",
+      "Ginger",
+      "Garlic",
+      "Water",
+      "Double cream"
+    ]
+  },
+  {
+    "title": "Rustic vegetable soup",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/rustic-vegetable-soup-c22aaf1.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/rustic-vegetable-soup",
+    "ingredients": [
+      "Rapeseed oil",
+      "Onion",
+      "Carrot",
+      "Celery",
+      "Red lentils",
+      "Vegetable bouillon",
+      "Tomato paste",
+      "Thyme",
+      "Leek",
+      "Cauliflower",
+      "Courgette",
+      "Garlic",
+      "Savoy cabbage",
+      "Basil"
+    ]
+  },
+  {
+    "title": "Thai pumpkin soup",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-404477_10-ec2b60a.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/thai-pumpkin-soup",
+    "ingredients": [
+      "Pumpkin",
+      "Sunflower oil",
+      "Onion",
+      "Ginger",
+      "Lemongrass",
+      "Curry powder",
+      "Coconut milk",
+      "Water",
+      "Lime",
+      "Red chilli"
+    ]
+  },
+  {
+    "title": "Italian vegetable soup",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1168468_11-4bb5726.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/italian-vegetable-soup",
+    "ingredients": [
+      "Onion",
+      "Celery",
+      "Olive oil",
+      "Sugar",
+      "Garlic",
+      "Tomato paste",
+      "Bay leaves",
+      "Thyme",
+      "Courgette",
+      "Butter beans",
+      "Tomato",
+      "Water",
+      "Parmesan",
+      "Pasta",
+      "Basil"
+    ]
+  },
+  {
+    "title": "Marrow soup",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2022/07/marrow-soup-ccc3c5d.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/marrow-soup",
+    "ingredients": [
+      "Sunflower oil",
+      "Onion",
+      "Potato",
+      "Marrow",
+      "Curry powder",
+      "Water",
+      "Butter beans",
+      "Coconut milk",
+      "Coriander"
+    ]
+  },
+  {
+    "title": "Soup maker butternut squash soup",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/soup-maker-butternut-squash-soup-ead03b4.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/soup-maker-butternut-squash-soup-chilli-and-creme-fraiche",
+    "ingredients": [
+      "Butternut squash",
+      "Olive oil",
+      "Onion",
+      "Garlic",
+      "Red chilli",
+      "Water",
+      "Soured cream"
+    ]
   }
 ]

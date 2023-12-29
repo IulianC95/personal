@@ -950,6 +950,66 @@ export default function CookPageComponent() {
       name: 'Vegetable powder',
       image: './images/ingredients-images/vegetable-powder.png',
     },
+    {
+      name: 'Tortilla chips',
+      image: './images/ingredients-images/tortilla-chips.png',
+    },
+    {
+      name: 'Pumpkin',
+      image: './images/ingredients-images/pumpkin.png',
+    },
+    {
+      name: 'Curry powder',
+      image: './images/ingredients-images/curry-powder.png',
+    },
+    {
+      name: 'Parsnip',
+      image: './images/ingredients-images/parsnip.png',
+    },
+    {
+      name: 'Peas',
+      image: './images/ingredients-images/peas.png',
+    },
+    {
+      name: 'Savoy cabbage',
+      image: './images/ingredients-images/savoy-cabbage.png',
+    },
+    {
+      name: 'Coriander seeds',
+      image: './images/ingredients-images/coriander-seeds.png',
+    },
+    {
+      name: 'Mustard seeds',
+      image: './images/ingredients-images/mustard-seeds.png',
+    },
+    {
+      name: 'Broad beans',
+      image: './images/ingredients-images/broad-beans.png',
+    },
+    {
+      name: 'Spaghetti',
+      image: './images/ingredients-images/spaghetti.png',
+    },
+    {
+      name: 'Garam masala',
+      image: './images/ingredients-images/garam-masala.png',
+    },
+    {
+      name: 'Vegetable bouillon',
+      image: './images/ingredients-images/vegetable-bouillon.png',
+    },
+    {
+      name: 'Lemongrass',
+      image: './images/ingredients-images/lemongrass.png',
+    },
+    {
+      name: 'Coconut milk',
+      image: './images/ingredients-images/coconut-milk.png',
+    },
+    {
+      name: 'Marrow',
+      image: './images/ingredients-images/marrow.png',
+    },
   ]);
 
   const filteredIngredients = searchText
