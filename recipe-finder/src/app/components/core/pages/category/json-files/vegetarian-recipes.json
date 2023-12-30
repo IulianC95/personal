@@ -577,5 +577,124 @@
       "Honey",
       "Brown rice"
     ]
+  },
+  {
+    "title": "Vegetarian club",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-3292_12-57d39a9.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/vegetarian-club",
+    "ingredients": [
+      "Granary bread",
+      "Watercress",
+      "Carrot",
+      "Lemon",
+      "Olive oil",
+      "Hummus",
+      "Tomato"
+    ]
+  },
+  {
+    "title": "Vegetarian pastitsio",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2022/05/Vegetarian-pastitsio-b35e6e0.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/vegetarian-pastitsio",
+    "ingredients": [
+      "Onion",
+      "Olive oil",
+      "Vegetable bouillon",
+      "Bay leaves",
+      "Apple cider vinegar",
+      "Garlic",
+      "Oregano",
+      "Cinnamon",
+      "Penne pasta",
+      "Tomato",
+      "Tomato paste",
+      "Green lentils",
+      "Milk",
+      "Wholemeal flour",
+      "Egg",
+      "Vegetarian feta"
+    ]
+  },
+  {
+    "title": "Vegetarian chilli-stuffed peppers with feta topping",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/peppers_0-8769caf.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/chilli-stuffed-peppers-feta-topping",
+    "ingredients": [
+      "Bell pepper",
+      "Cumin seeds",
+      "Coriander",
+      "Tomato",
+      "Red onion",
+      "Garlic",
+      "Red chilli",
+      "Aubergines",
+      "Kidney beans",
+      "Coriander",
+      "Egg",
+      "Feta cheese",
+      "Cream cheese",
+      "Rucola",
+      "Lime"
+    ]
+  },
+  {
+    "title": "Vegetarian scotch eggs",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/scotch-dc9411f.png?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/falafel-scotch-eggs",
+    "ingredients": [
+      "Egg",
+      "Olive oil",
+      "Onion",
+      "Garlic",
+      "Cumin seeds",
+      "Coriander",
+      "Chickpea",
+      "Granary bread",
+      "White flour",
+      "Breadcrumbs",
+      "Sesame seeds",
+      "Sunflower oil"
+    ]
+  },
+  {
+    "title": "Vegetarian spring rolls",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/12/veg-spring-rolls-530731f.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/vegetarian-spring-rolls",
+    "ingredients": [
+      "Instant noodles",
+      "Chinese cabbage",
+      "Carrot",
+      "Beansprouts",
+      "Spring onion",
+      "Sesame oil",
+      "Soy sauce",
+      "Shaoxing wine",
+      "Coriander",
+      "Spring roll wrappers",
+      "Sunflower oil",
+      "Garlic oil",
+      "Rice vinegar"
+    ]
+  },
+  {
+    "title": "Vegetarian bean pot with herby breadcrumbs",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/vegetarian-bean-pot-with-herby-breadcrumbs-c47e1cc.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/vegetarian-bean-pot-herby-breadcrumbs",
+    "ingredients": [
+      "Granary bread",
+      "Parsley",
+      "Lemon",
+      "Olive oil",
+      "Chilli flakes",
+      "Leek",
+      "Carrot",
+      "Celery",
+      "Fennel bulb",
+      "Garlic",
+      "Tomato paste",
+      "Thyme",
+      "White wine",
+      "Cannellini beans"
+    ]
   }
 ]

@@ -1099,6 +1099,54 @@ export default function CookPageComponent() {
       name: 'Leicester cheese',
       image: './images/ingredients-images/leicester-cheese.png',
     },
+    {
+      name: 'Granary bread',
+      image: './images/ingredients-images/granary-bread.png',
+    },
+    {
+      name: 'Hummus',
+      image: './images/ingredients-images/hummus.png',
+    },
+    {
+      name: 'Penne pasta',
+      image: './images/ingredients-images/penne-pasta.png',
+    },
+    {
+      name: 'Rucola',
+      image: './images/ingredients-images/rucola.png',
+    },
+    {
+      name: 'Vegetarian feta',
+      image: './images/ingredients-images/vegetarian-feta.png',
+    },
+    {
+      name: 'Breadcrumbs',
+      image: './images/ingredients-images/breadcrumbs.png',
+    },
+    {
+      name: 'Chinese cabbage',
+      image: './images/ingredients-images/chinese-cabbage.png',
+    },
+    {
+      name: 'Beansprouts',
+      image: './images/ingredients-images/beansprouts.png',
+    },
+    {
+      name: 'Shaoxing wine',
+      image: './images/ingredients-images/shaoxing-wine.png',
+    },
+    {
+      name: 'Spring roll wrappers',
+      image: './images/ingredients-images/spring-roll-wrappers.png',
+    },
+    {
+      name: 'Garlic oil',
+      image: './images/ingredients-images/garlic-oil.png',
+    },
+    {
+      name: 'Fennel bulb',
+      image: './images/ingredients-images/fennel-bulb.png',
+    },
   ]);
 
   const filteredIngredients = searchText
