@@ -1151,6 +1151,86 @@ export default function CookPageComponent() {
       name: 'Garlic paste',
       image: './images/ingredients-images/garlic-paste.png',
     },
+    {
+      name: 'Swiss chard',
+      image: './images/ingredients-images/swiss-chard.png',
+    },
+    {
+      name: 'Wholemeal spaghetti',
+      image: './images/ingredients-images/wholemeal-spaghetti.png',
+    },
+    {
+      name: 'Porcini mushrooms',
+      image: './images/ingredients-images/porcini-mushrooms.png',
+    },
+    {
+      name: 'Pine nuts',
+      image: './images/ingredients-images/pine-nuts.png',
+    },
+    {
+      name: 'Risotto rice',
+      image: './images/ingredients-images/risotto-rice.png',
+    },
+    {
+      name: 'Mushroom ketchup',
+      image: './images/ingredients-images/mushroom-ketchup.png',
+    },
+    {
+      name: 'Bulgur',
+      image: './images/ingredients-images/bulgur.png',
+    },
+    {
+      name: 'Tahini',
+      image: './images/ingredients-images/tahini.png',
+    },
+    {
+      name: 'Ricotta cheese',
+      image: './images/ingredients-images/ricotta-cheese.png',
+    },
+    {
+      name: 'Frozen vegetable mix',
+      image: './images/ingredients-images/frozen-vegetable-mix.png',
+    },
+    {
+      name: 'Cocoa powder',
+      image: './images/ingredients-images/cocoa-powder.png',
+    },
+    {
+      name: 'Cashews',
+      image: './images/ingredients-images/cashews.png',
+    },
+    {
+      name: 'Coconut yogurt',
+      image: './images/ingredients-images/coconut-yogurt.png',
+    },
+    {
+      name: 'Halloumi',
+      image: './images/ingredients-images/halloumi.png',
+    },
+    {
+      name: 'Arborio rice',
+      image: './images/ingredients-images/arborio-rice.png',
+    },
+    {
+      name: 'Rice',
+      image: './images/ingredients-images/rice.png',
+    },
+    {
+      name: 'Paneer cheese',
+      image: './images/ingredients-images/paneer-cheese.png',
+    },
+    {
+      name: 'Chutney sauce',
+      image: './images/ingredients-images/chutney-sauce.png',
+    },
+    {
+      name: 'Champignon mushrooms',
+      image: './images/ingredients-images/champignon-mushrooms.png',
+    },
+    {
+      name: 'Wild rice',
+      image: './images/ingredients-images/wild-rice.png',
+    },
   ]);
 
   const filteredIngredients = searchText
