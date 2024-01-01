@@ -696,5 +696,52 @@
       "White wine",
       "Cannellini beans"
     ]
+  },
+  {
+    "title": "Vegetarian moussaka",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2013/12/Vegetarian-moussaka-e3f3ecb.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/veggie-moussaka",
+    "ingredients": [
+      "Green lentils",
+      "Onion",
+      "Garlic",
+      "Bay leaves",
+      "Oregano",
+      "Cinnamon",
+      "Allspice",
+      "Tomato",
+      "Vegetable stock cube",
+      "Sweet potato",
+      "Aubergines",
+      "Cream cheese",
+      "Egg",
+      "Feta cheese"
+    ]
+  },
+  {
+    "title": "Vegetarian egg-fried rice",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-3830_12-f1432ca.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/veggie-egg-fried-rice",
+    "ingredients": [
+      "Sunflower oil",
+      "Garlic paste",
+      "Bell pepper",
+      "Broccoli",
+      "Basmati rice",
+      "Egg",
+      "Soy sauce"
+    ]
+  },
+  {
+    "title": "Easy vegetarian puff pastry tart",
+    "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-202455_11-f77374d.jpg?quality=90&resize=93,85",
+    "recipe_url": "https://www.bbcgoodfood.com/recipes/mediterranean-slices",
+    "ingredients": [
+      "Puff pastry",
+      "Pesto",
+      "Bell pepper",
+      "Artichokes",
+      "Mozzarella"
+    ]
   }
 ]

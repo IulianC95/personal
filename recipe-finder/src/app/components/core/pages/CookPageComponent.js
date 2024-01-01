@@ -1147,6 +1147,10 @@ export default function CookPageComponent() {
       name: 'Fennel bulb',
       image: './images/ingredients-images/fennel-bulb.png',
     },
+    {
+      name: 'Garlic paste',
+      image: './images/ingredients-images/garlic-paste.png',
+    },
   ]);
 
   const filteredIngredients = searchText
