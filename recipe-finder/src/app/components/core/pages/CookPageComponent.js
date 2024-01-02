@@ -3,6 +3,7 @@ import bbqRecipes from './category/json-files/bbq-recipes.json';
 import breakfastRecipes from './category/json-files/breakfast-recipes.json';
 import soupsRecipes from './category/json-files/soup-recipes.json';
 import vegetarianRecipes from './category/json-files/vegetarian-recipes.json';
+import burgersRecipes from './category/json-files/burgers-recipes.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar as farStar } from '@fortawesome/free-regular-svg-icons';
 import { faStar as fasStar } from '@fortawesome/free-solid-svg-icons';
@@ -1231,6 +1232,70 @@ export default function CookPageComponent() {
       name: 'Wild rice',
       image: './images/ingredients-images/wild-rice.png',
     },
+    {
+      name: 'Pitta bread',
+      image: './images/ingredients-images/pitta-bread.png',
+    },
+    {
+      name: 'Tomato salsa',
+      image: './images/ingredients-images/tomato-salsa.png',
+    },
+    {
+      name: 'Piri-piri sauce',
+      image: './images/ingredients-images/piri-piri-sauce.png',
+    },
+    {
+      name: 'Jalapeno',
+      image: './images/ingredients-images/jalapeno.png',
+    },
+    {
+      name: 'Prawns',
+      image: './images/ingredients-images/prawns.png',
+    },
+    {
+      name: 'Beef mince',
+      image: './images/ingredients-images/beef-mince.png',
+    },
+    {
+      name: 'Onion granules',
+      image: './images/ingredients-images/onion-granules.png',
+    },
+    {
+      name: 'Red cabbage',
+      image: './images/ingredients-images/red-cabbage.png',
+    },
+    {
+      name: 'Pineapple',
+      image: './images/ingredients-images/pineapple.png',
+    },
+    {
+      name: 'Pickled cucumber',
+      image: './images/ingredients-images/pickled-cucumber.png',
+    },
+    {
+      name: 'Cornflour',
+      image: './images/ingredients-images/cornflour.png',
+    },
+    {
+      name: 'Mooli',
+      image: './images/ingredients-images/mooli.png',
+    },
+    {
+      name: 'Lingonberry sauce',
+      image: './images/ingredients-images/lingonberry-sauce.png',
+    },
+    {
+      name: 'Onion marmalade',
+      image: './images/ingredients-images/onion-marmalade.png',
+    },
+    {
+      name: 'Sriracha',
+      image: './images/ingredients-images/sriracha.png',
+    },
+    {
+      name: 'Turkey mince',
+      image: './images/ingredients-images/turkey-mince.png',
+    },
   ]);
 
   const filteredIngredients = searchText
@@ -1267,6 +1332,7 @@ export default function CookPageComponent() {
       ...breakfastRecipes,
       ...soupsRecipes,
       ...vegetarianRecipes,
+      ...burgersRecipes,
     ].map((recipe) => ({
       name: recipe.title,
       imgSrc: recipe.image_url,
