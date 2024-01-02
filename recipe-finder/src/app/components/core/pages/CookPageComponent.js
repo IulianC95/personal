@@ -4,6 +4,7 @@ import breakfastRecipes from './category/json-files/breakfast-recipes.json';
 import soupsRecipes from './category/json-files/soup-recipes.json';
 import vegetarianRecipes from './category/json-files/vegetarian-recipes.json';
 import burgersRecipes from './category/json-files/burgers-recipes.json';
+import desertRecipes from './category/json-files/desert-recipes.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar as farStar } from '@fortawesome/free-regular-svg-icons';
 import { faStar as fasStar } from '@fortawesome/free-solid-svg-icons';
@@ -1296,6 +1297,130 @@ export default function CookPageComponent() {
       name: 'Turkey mince',
       image: './images/ingredients-images/turkey-mince.png',
     },
+    {
+      name: 'Tuna',
+      image: './images/ingredients-images/tuna.png',
+    },
+    {
+      name: 'Wholemeal bread bun',
+      image: './images/ingredients-images/wholemeal-bread-bun.png',
+    },
+    {
+      name: 'Shichimi',
+      image: './images/ingredients-images/shichimi.png',
+    },
+    {
+      name: 'Rice flour',
+      image: './images/ingredients-images/rice-flour.png',
+    },
+    {
+      name: 'Burger sauce',
+      image: './images/ingredients-images/burger-sauce.png',
+    },
+    {
+      name: 'White miso',
+      image: './images/ingredients-images/white-miso.png',
+    },
+    {
+      name: 'Vegan mayonnaise',
+      image: './images/ingredients-images/vegan-mayonnaise.png',
+    },
+    {
+      name: 'Oat flour',
+      image: './images/ingredients-images/oat-flour.png',
+    },
+    {
+      name: 'Flaxseed',
+      image: './images/ingredients-images/flaxseed.png',
+    },
+    {
+      name: 'Cornmeal',
+      image: './images/ingredients-images/cornmeal.png',
+    },
+    {
+      name: 'Mixed beans',
+      image: './images/ingredients-images/mixed-beans.png',
+    },
+    {
+      name: 'Lamb mince',
+      image: './images/ingredients-images/lamb-mince.png',
+    },
+    {
+      name: 'Peppadew peppers',
+      image: './images/ingredients-images/peppadew-peppers.png',
+    },
+    {
+      name: 'Mixed grains',
+      image: './images/ingredients-images/mixed-grains.png',
+    },
+    {
+      name: 'Turkey',
+      image: './images/ingredients-images/turkey.png',
+    },
+    {
+      name: 'Rice wine',
+      image: './images/ingredients-images/rice-wine.png',
+    },
+    {
+      name: 'Icing sugar',
+      image: './images/ingredients-images/icing-sugar.png',
+    },
+    {
+      name: 'Buffalo hot sauce',
+      image: './images/ingredients-images/buffalo-hot-sauce.png',
+    },
+    {
+      name: 'Monterey Jack cheese',
+      image: './images/ingredients-images/monterey-jack-cheese.png',
+    },
+    {
+      name: 'Mango chutney',
+      image: './images/ingredients-images/mango-chutney.png',
+    },
+    {
+      name: 'Red Leicester',
+      image: './images/ingredients-images/red-leicester.png',
+    },
+    {
+      name: 'Corn salad',
+      image: './images/ingredients-images/corn-salad.png',
+    },
+    {
+      name: 'Sumac',
+      image: './images/ingredients-images/sumac.png',
+    },
+    {
+      name: 'Wholemeal breadcrumbs',
+      image: './images/ingredients-images/wholemeal-breadcrumbs.png',
+    },
+    {
+      name: 'Tzatziki',
+      image: './images/ingredients-images/tzatziki.png',
+    },
+    {
+      name: 'Pomegranate',
+      image: './images/ingredients-images/pomegranate.png',
+    },
+    {
+      name: 'Cranberry sauce',
+      image: './images/ingredients-images/cranberry-sauce.png',
+    },
+    {
+      name: 'Chicory',
+      image: './images/ingredients-images/chicory.png',
+    },
+    {
+      name: 'Little gem lettuce',
+      image: './images/ingredients-images/little-gem-lettuce.png',
+    },
+    {
+      name: 'Green olives',
+      image: './images/ingredients-images/green-olives.png',
+    },
+    {
+      name: 'Pea shoots',
+      image: './images/ingredients-images/pea-shoots.png',
+    },
   ]);
 
   const filteredIngredients = searchText
@@ -1333,6 +1458,7 @@ export default function CookPageComponent() {
       ...soupsRecipes,
       ...vegetarianRecipes,
       ...burgersRecipes,
+      ...desertRecipes,
     ].map((recipe) => ({
       name: recipe.title,
       imgSrc: recipe.image_url,
