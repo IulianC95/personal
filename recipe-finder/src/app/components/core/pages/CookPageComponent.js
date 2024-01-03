@@ -5,6 +5,7 @@ import soupsRecipes from './category/json-files/soup-recipes.json';
 import vegetarianRecipes from './category/json-files/vegetarian-recipes.json';
 import burgersRecipes from './category/json-files/burgers-recipes.json';
 import desertRecipes from './category/json-files/desert-recipes.json';
+import pizzaRecipes from './category/json-files/pizza-recipes.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar as farStar } from '@fortawesome/free-regular-svg-icons';
 import { faStar as fasStar } from '@fortawesome/free-solid-svg-icons';
@@ -1647,6 +1648,7 @@ export default function CookPageComponent() {
       ...vegetarianRecipes,
       ...burgersRecipes,
       ...desertRecipes,
+      ...pizzaRecipes,
     ].map((recipe) => ({
       name: recipe.title,
       imgSrc: recipe.image_url,
