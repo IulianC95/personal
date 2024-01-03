@@ -1421,6 +1421,194 @@ export default function CookPageComponent() {
       name: 'Pea shoots',
       image: './images/ingredients-images/pea-shoots.png',
     },
+    {
+      name: 'Mascarpone',
+      image: './images/ingredients-images/mascarpone.png',
+    },
+    {
+      name: 'Vanilla custard',
+      image: './images/ingredients-images/vanilla-custard.png',
+    },
+    {
+      name: 'Amaretti biscuit',
+      image: './images/ingredients-images/amaretti-biscuit.png',
+    },
+    {
+      name: 'Milk chocolate',
+      image: './images/ingredients-images/milk-chocolate.png',
+    },
+    {
+      name: 'Shortbread',
+      image: './images/ingredients-images/shortbread.png',
+    },
+    {
+      name: 'Cranberries',
+      image: './images/ingredients-images/cranberries.png',
+    },
+    {
+      name: 'Peppermint extract',
+      image: './images/ingredients-images/peppermint-extract.png',
+    },
+    {
+      name: 'Cherries',
+      image: './images/ingredients-images/cherries.png',
+    },
+    {
+      name: 'White chocolate',
+      image: './images/ingredients-images/white-chocolate.png',
+    },
+    {
+      name: 'Toffee sauce',
+      image: './images/ingredients-images/toffee-sauce.png',
+    },
+    {
+      name: 'Redcurrants',
+      image: './images/ingredients-images/redcurrants.png',
+    },
+    {
+      name: 'Grapes',
+      image: './images/ingredients-images/grapes.png',
+    },
+    {
+      name: 'Clementines',
+      image: './images/ingredients-images/clementines.png',
+    },
+    {
+      name: 'Plums',
+      image: './images/ingredients-images/plums.png',
+    },
+    {
+      name: 'Chocolate chips',
+      image: './images/ingredients-images/chocolate-chips.png',
+    },
+    {
+      name: 'Dried banana',
+      image: './images/ingredients-images/dried-banana.png',
+    },
+    {
+      name: 'Digestive biscuits',
+      image: './images/ingredients-images/digestive-biscuits.png',
+    },
+    {
+      name: 'Shortcrust pastry',
+      image: './images/ingredients-images/shortcrust-pastry.png',
+    },
+    {
+      name: 'Unsalted butter',
+      image: './images/ingredients-images/unsalted-butter.png',
+    },
+    {
+      name: 'Apricot jam',
+      image: './images/ingredients-images/apricot-jam.png',
+    },
+    {
+      name: 'Toblerone',
+      image: './images/ingredients-images/toblerone.png',
+    },
+    {
+      name: 'White marzipan',
+      image: './images/ingredients-images/white-marzipan.png',
+    },
+    {
+      name: 'Blue food colouring',
+      image: './images/ingredients-images/blue-food-colouring.png',
+    },
+    {
+      name: 'Quark',
+      image: './images/ingredients-images/quark.png',
+    },
+    {
+      name: 'Dark muscovado sugar',
+      image: './images/ingredients-images/dark-muscovado-sugar.png',
+    },
+    {
+      name: 'Condensed milk',
+      image: './images/ingredients-images/condensed-milk.png',
+    },
+    {
+      name: 'Kirsch',
+      image: './images/ingredients-images/kirsch.png',
+    },
+    {
+      name: 'Brownie squares',
+      image: './images/ingredients-images/brownie-squares.png',
+    },
+    {
+      name: 'Red food colouring',
+      image: './images/ingredients-images/red-food-colouring.png',
+    },
+    {
+      name: 'Blackcurrant',
+      image: './images/ingredients-images/blackcurrant.png',
+    },
+    {
+      name: 'Meringue nests',
+      image: './images/ingredients-images/meringue-nests.png',
+    },
+    {
+      name: 'Tropical fruit juice',
+      image: './images/ingredients-images/tropical-fruit-juice.png',
+    },
+    {
+      name: 'Madeira cake',
+      image: './images/ingredients-images/madeira-cake.png',
+    },
+    {
+      name: 'Belgian chocolate',
+      image: './images/ingredients-images/belgian-chocolate.png',
+    },
+    {
+      name: 'Dulce de leche',
+      image: './images/ingredients-images/dulce-de-leche.png',
+    },
+    {
+      name: 'Mixed dried fruits',
+      image: './images/ingredients-images/mixed-dried-fruits.png',
+    },
+    {
+      name: 'Brandy',
+      image: './images/ingredients-images/brandy.png',
+    },
+    {
+      name: 'Mixed spice',
+      image: './images/ingredients-images/mixed-spice.png',
+    },
+    {
+      name: 'Ground cloves',
+      image: './images/ingredients-images/ground-cloves.png',
+    },
+    {
+      name: 'Gooseberries',
+      image: './images/ingredients-images/gooseberries.png',
+    },
+    {
+      name: 'Gelatine',
+      image: './images/ingredients-images/gelatine.png',
+    },
+    {
+      name: 'Elderflower cordial',
+      image: './images/ingredients-images/elderflower-cordial.png',
+    },
+    {
+      name: 'Vanilla pod',
+      image: './images/ingredients-images/vanilla-pod.png',
+    },
+    {
+      name: 'Rice pudding',
+      image: './images/ingredients-images/rice-pudding.png',
+    },
+    {
+      name: 'Bramley apple',
+      image: './images/ingredients-images/bramley-apple.png',
+    },
+    {
+      name: 'Marshmallow',
+      image: './images/ingredients-images/marshmallow.png',
+    },
+    {
+      name: 'Sprinkles',
+      image: './images/ingredients-images/sprinkles.png',
+    },
   ]);
 
   const filteredIngredients = searchText
