@@ -1448,11 +1448,12 @@
     "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1030462_11-a401388.jpg?quality=90&resize=93,85",
     "recipe_url": "https://www.bbcgoodfood.com/recipes/sloppy-joe-pizza-breads",
     "ingredients": [
-      "pack lean  beef mince",
-      "350g jar tomato and chilli pasta sauce",
-      "1baguette",
-      "2 x 125g balls mozzarella, drained and torn",
-      "small handful  basil"
+      "Beef mince",
+      "Tomato paste",
+      "Sweet chilli sauce",
+      "Bread baguettes",
+      "Mozzarella",
+      "Basil"
     ]
   },
   {
@@ -1460,15 +1461,14 @@
     "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-740614_11-2d52ced.jpg?quality=90&resize=93,85",
     "recipe_url": "https://www.bbcgoodfood.com/recipes/no-oven-pizza",
     "ingredients": [
-      "self-raising flour",
-      "olive oil",
-      "olive oil",
-      "onion",
-      "garlic cloves",
-      "pack cherry tomatoes",
-      "4 tbsppassata",
-      "handful fresh basil leaves",
-      "cheddar"
+      "White flour",
+      "Olive oil",
+      "Onion",
+      "Garlic",
+      "Cherry tomatoes",
+      "Tomato paste",
+      "Basil",
+      "Chedar cheese"
     ]
   },
   {
@@ -1476,15 +1476,15 @@
     "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/mini-top-your-own-pizzas-dc26a26.jpg?quality=90&resize=93,85",
     "recipe_url": "https://www.bbcgoodfood.com/recipes/mini-top-your-own-pizzas",
     "ingredients": [
-      "strong white bread flour",
-      "fast-action dried yeast",
-      "caster sugar",
-      "olive oil",
-      "150mlpassata",
-      "basil",
-      "1 tspmixed herbs",
-      "choose your favourites (we used black olives",
-      "200gball mozzarella, torn into small pieces"
+      "White flour",
+      "Instant yeast",
+      "Golden caster sugar",
+      "Olive oil",
+      "Tomato paste",
+      "Basil",
+      "Mixed herbs",
+      "Black olives",
+      "Mozzarella"
     ]
   },
   {
@@ -1492,19 +1492,18 @@
     "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/goats-cheese-pizza-c23fce6.jpg?quality=90&resize=93,85",
     "recipe_url": "https://www.bbcgoodfood.com/recipes/caramelised-onion-goats-cheese-pizza",
     "ingredients": [
-      "wholemeal flour",
-      "instant yeast",
-      "pinch of salt",
-      "rapeseed oil",
-      "onions",
-      "rapeseed oil",
-      "balsamic vinegar",
-      "baby spinach leaves",
-      "large garlic cloves",
-      "50gsoft goat's cheese",
-      "pitted Kalamata olives",
-      "few soft thyme leaves",
-      "1 tspsunflower seeds"
+      "Wholemeal flour",
+      "Instant yeast",
+      "Salt",
+      "Rapeseed oil",
+      "Onion",
+      "Apple cider vinegar",
+      "Spinach",
+      "Garlic",
+      "Goat cheese",
+      "Black olives",
+      "Thyme",
+      "Sunflower seeds"
     ]
   },
   {
@@ -1512,12 +1511,11 @@
     "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-350527_11-0dc853f.jpg?quality=90&resize=93,85",
     "recipe_url": "https://www.bbcgoodfood.com/recipes/puff-pizza-tart",
     "ingredients": [
-      "375gsheet ready-rolled puff pastry",
-      "red pesto",
-      "pack sliced salami",
-      "125gball mozzarella, torn into pieces",
-      "drizzle  extra-virgin olive oil(optional)",
-      "handful rocket"
+      "Puff pastry",
+      "Red pesto",
+      "Salami",
+      "Mozzarella",
+      "Rucola"
     ]
   },
   {
@@ -1525,23 +1523,19 @@
     "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/spelt-pizza-f00b9b8.jpg?quality=90&resize=93,85",
     "recipe_url": "https://www.bbcgoodfood.com/recipes/spelt-pizza-bianco-jersey-royals",
     "ingredients": [
-      "75gspelt flour",
-      "plain flour",
-      "fast-action dried yeast",
-      "caster sugar",
-      "150gspelt flour",
-      "wholemeal flour",
-      "fast-action dried yeast",
-      "olive oil",
-      "6Jersey Royal potatoes",
-      "thyme sprigs",
-      "extra virgin olive oil",
-      "garlic clove",
-      "cr\u00e8me fra\u00eeche",
-      "fresh mint",
-      "pack watercress",
-      "extra virgin olive oil",
-      "1 tspred wine vinegar"
+      "Spelt flour",
+      "White flour",
+      "Instant yeast",
+      "Golden caster sugar",
+      "Wholemeal flour",
+      "Olive oil",
+      "Potato",
+      "Thyme",
+      "Garlic",
+      "Soured cream",
+      "Mint",
+      "Watercress",
+      "Red wine vinegar"
     ]
   },
   {
@@ -1549,12 +1543,12 @@
     "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-5282_11-48b3130.jpg?quality=90&resize=93,85",
     "recipe_url": "https://www.bbcgoodfood.com/recipes/pizza-omelette",
     "ingredients": [
-      "eggs",
-      "oregano",
-      "olive oil",
-      "4 tbsptomato passatasauce (from a jar)",
-      "stoned black olives",
-      "vegetarian cheddar"
+      "Egg",
+      "Oregano",
+      "Olive oil",
+      "Tomato paste",
+      "Black olives",
+      "Chedar cheese"
     ]
   },
   {
@@ -1562,17 +1556,16 @@
     "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-24471_11-f05770e.jpg?quality=90&resize=93,85",
     "recipe_url": "https://www.bbcgoodfood.com/recipes/garlic-bread-pizzas",
     "ingredients": [
-      "strong white flour",
-      "sachet fast-action yeast",
-      "1 tspsalt",
-      "olive oil",
-      "butter",
-      "garlic cloves",
-      "300gpack mozzarella, drained",
-      "tomatoes",
-      "handful basil leaves",
-      "1 tbspextra-virgin olive oil",
-      "balsamic vinegar"
+      "White flour",
+      "Instant yeast",
+      "Salt",
+      "Olive oil",
+      "Butter",
+      "Garlic",
+      "Mozzarella",
+      "Tomato",
+      "Basil",
+      "Apple cider vinegar"
     ]
   }
 ]

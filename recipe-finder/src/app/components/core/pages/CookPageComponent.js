@@ -1610,6 +1610,102 @@ export default function CookPageComponent() {
       name: 'Sprinkles',
       image: './images/ingredients-images/sprinkles.png',
     },
+    {
+      name: 'Vegan mozzarella',
+      image: './images/ingredients-images/vegan-mozzarella.png',
+    },
+    {
+      name: 'Gluten-free flour',
+      image: './images/ingredients-images/gluten-free-flour.png',
+    },
+    {
+      name: 'Gluten-free baking powder',
+      image: './images/ingredients-images/gluten-free-baking-powder.png',
+    },
+    {
+      name: 'Xanthan gum',
+      image: './images/ingredients-images/xanthan-gum.png',
+    },
+    {
+      name: 'Salami',
+      image: './images/ingredients-images/salami.png',
+    },
+    {
+      name: 'Black olives',
+      image: './images/ingredients-images/black-olives.png',
+    },
+    {
+      name: 'Pizza base',
+      image: './images/ingredients-images/pizza-base.png',
+    },
+    {
+      name: 'Yellow tomato',
+      image: './images/ingredients-images/yellow-tomato.png',
+    },
+    {
+      name: 'Pickled jalapeno',
+      image: './images/ingredients-images/pickled-jalapeno.png',
+    },
+    {
+      name: 'Sourdough base',
+      image: './images/ingredients-images/sourdough-base.png',
+    },
+    {
+      name: 'Prosciutto',
+      image: './images/ingredients-images/prosciutto.png',
+    },
+    {
+      name: 'Goat cheese',
+      image: './images/ingredients-images/goat-cheese.png',
+    },
+    {
+      name: 'Chickpea flour',
+      image: './images/ingredients-images/chickpea-flour.png',
+    },
+    {
+      name: 'Pasta sauce',
+      image: './images/ingredients-images/pasta-sauce.png',
+    },
+    {
+      name: 'Sweetcorn',
+      image: './images/ingredients-images/sweetcorn.png',
+    },
+    {
+      name: 'Crumpet',
+      image: './images/ingredients-images/crumpet.png',
+    },
+    {
+      name: 'Smoked cheese',
+      image: './images/ingredients-images/smoked-cheese.png',
+    },
+    {
+      name: 'Bread baguettes',
+      image: './images/ingredients-images/bread-baguettes.png',
+    },
+    {
+      name: 'Pepperoni',
+      image: './images/ingredients-images/pepperoni.png',
+    },
+    {
+      name: 'Rye flour',
+      image: './images/ingredients-images/rye-flour.png',
+    },
+    {
+      name: 'Figs',
+      image: './images/ingredients-images/figs.png',
+    },
+    {
+      name: 'Semolina flour',
+      image: './images/ingredients-images/semolina-flour.png',
+    },
+    {
+      name: 'Red pesto',
+      image: './images/ingredients-images/red-pesto.png',
+    },
+    {
+      name: 'Spelt flour',
+      image: './images/ingredients-images/spelt-flour.png',
+    },
   ]);
 
   const filteredIngredients = searchText
