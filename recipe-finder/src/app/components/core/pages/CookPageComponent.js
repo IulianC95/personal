@@ -6,6 +6,9 @@ import vegetarianRecipes from './category/json-files/vegetarian-recipes.json';
 import burgersRecipes from './category/json-files/burgers-recipes.json';
 import desertRecipes from './category/json-files/desert-recipes.json';
 import pizzaRecipes from './category/json-files/pizza-recipes.json';
+import piesRecipes from './category/json-files/pie-recipes.json';
+import smoothiesRecipes from './category/json-files/smoothies-recipes.json';
+import saucesRecipes from './category/json-files/sauce-recipes.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar as farStar } from '@fortawesome/free-regular-svg-icons';
 import { faStar as fasStar } from '@fortawesome/free-solid-svg-icons';
@@ -1706,6 +1709,142 @@ export default function CookPageComponent() {
       name: 'Spelt flour',
       image: './images/ingredients-images/spelt-flour.png',
     },
+    {
+      name: 'Haddock',
+      image: './images/ingredients-images/haddock.png',
+    },
+    {
+      name: 'Macaroni',
+      image: './images/ingredients-images/macaroni.png',
+    },
+    {
+      name: 'Lard',
+      image: './images/ingredients-images/lard.png',
+    },
+    {
+      name: 'Dried tomato',
+      image: './images/ingredients-images/dried-tomato.png',
+    },
+    {
+      name: 'Brown miso',
+      image: './images/ingredients-images/brown-miso.png',
+    },
+    {
+      name: 'Sweet brown ale',
+      image: './images/ingredients-images/sweet-brown-ale.png',
+    },
+    {
+      name: 'Caramel',
+      image: './images/ingredients-images/caramel.png',
+    },
+    {
+      name: 'Vodka',
+      image: './images/ingredients-images/vodka.png',
+    },
+    {
+      name: 'Nigella seeds',
+      image: './images/ingredients-images/nigella-seeds.png',
+    },
+    {
+      name: 'Pistachios',
+      image: './images/ingredients-images/pistachios.png',
+    },
+    {
+      name: 'Pomegranate molasses',
+      image: './images/ingredients-images/pomegranate-molasses.png',
+    },
+    {
+      name: 'Ghee',
+      image: './images/ingredients-images/ghee.png',
+    },
+    {
+      name: 'Fenugreek seeds',
+      image: './images/ingredients-images/fenugreek-seeds.png',
+    },
+    {
+      name: 'Cashew butter',
+      image: './images/ingredients-images/cashew-butter.png',
+    },
+    {
+      name: 'Dried apricots',
+      image: './images/ingredients-images/dried-apricots.png',
+    },
+    {
+      name: 'Camembert cheese',
+      image: './images/ingredients-images/camembert-cheese.png',
+    },
+    {
+      name: 'Rutabaga',
+      image: './images/ingredients-images/rutabaga.png',
+    },
+    {
+      name: 'Cod',
+      image: './images/ingredients-images/cod.png',
+    },
+    {
+      name: 'Suet',
+      image: './images/ingredients-images/suet.png',
+    },
+    {
+      name: 'Gnocchi',
+      image: './images/ingredients-images/gnocchi.png',
+    },
+    {
+      name: 'Beef stock cube',
+      image: './images/ingredients-images/beef-stock-cube.png',
+    },
+    {
+      name: 'Chicken stock cube',
+      image: './images/ingredients-images/chicken-stock-cube.png',
+    },
+    {
+      name: 'Poppy seeds',
+      image: './images/ingredients-images/poppy-seeds.png',
+    },
+    {
+      name: 'Watermelon',
+      image: './images/ingredients-images/watermelon.png',
+    },
+    {
+      name: 'Maca powder',
+      image: './images/ingredients-images/maca-powder.png',
+    },
+    {
+      name: 'Hemp seeds',
+      image: './images/ingredients-images/hemp-seeds.png',
+    },
+    {
+      name: 'Coconut water',
+      image: './images/ingredients-images/coconut-water.png',
+    },
+    {
+      name: 'Dragon fruit',
+      image: './images/ingredients-images/dragon-fruit.png',
+    },
+    {
+      name: 'Acai powder',
+      image: './images/ingredients-images/acai-powder.png',
+    },
+    {
+      name: 'Cardamom',
+      image: './images/ingredients-images/cardamom.png',
+    },
+    {
+      name: 'Star anise',
+      image: './images/ingredients-images/star-anise.png',
+    },
+    {
+      name: 'Peppercorns',
+      image: './images/ingredients-images/peppercorns.png',
+    },
+    {
+      name: 'Whiskey',
+      image: './images/ingredients-images/whiskey.png',
+    },
+    {
+      name: 'Muffin',
+      image: './images/ingredients-images/muffin.png',
+    },
   ]);
 
   const filteredIngredients = searchText
@@ -1745,6 +1884,9 @@ export default function CookPageComponent() {
       ...burgersRecipes,
       ...desertRecipes,
       ...pizzaRecipes,
+      ...piesRecipes,
+      ...smoothiesRecipes,
+      ...saucesRecipes,
     ].map((recipe) => ({
       name: recipe.title,
       imgSrc: recipe.image_url,

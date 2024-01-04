@@ -25,4 +25,4 @@ def adauga_ingredientele(fisier_sursa, fisier_destinatie):
         json.dump(date_destinatie, file, indent=4)
 
 # Exemplu de utilizare
-adauga_ingredientele('/home/iulian/curs/personal/personal/recipe-finder/src/app/components/core/pages/category/json-files/desert-recipes.json', 'fisier_destinatie.json')
+adauga_ingredientele('/home/iulian/curs/personal/personal/recipe-finder/src/app/components/core/pages/category/json-files/smoothies-recipes.json', 'fisier_destinatie.json')
