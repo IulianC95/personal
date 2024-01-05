@@ -9,6 +9,8 @@ import pizzaRecipes from './category/json-files/pizza-recipes.json';
 import piesRecipes from './category/json-files/pie-recipes.json';
 import smoothiesRecipes from './category/json-files/smoothies-recipes.json';
 import saucesRecipes from './category/json-files/sauce-recipes.json';
+import pastaRecipes from './category/json-files/pasta-recipes.json';
+import seafoodRecipes from './category/json-files/seafood-recipes.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar as farStar } from '@fortawesome/free-regular-svg-icons';
 import { faStar as fasStar } from '@fortawesome/free-solid-svg-icons';
@@ -1842,8 +1844,180 @@ export default function CookPageComponent() {
       image: './images/ingredients-images/whiskey.png',
     },
     {
-      name: 'Muffin',
-      image: './images/ingredients-images/muffin.png',
+      name: 'Fusilli',
+      image: './images/ingredients-images/fusilli.png',
+    },
+    {
+      name: 'Tagliatelle pasta',
+      image: './images/ingredients-images/tagliatelle-pasta.png',
+    },
+    {
+      name: 'Anchovy',
+      image: './images/ingredients-images/anchovy.png',
+    },
+    {
+      name: 'Rigatoni',
+      image: './images/ingredients-images/rigatoni.png',
+    },
+    {
+      name: 'Pickled chilli',
+      image: './images/ingredients-images/pickled-chilli.png',
+    },
+    {
+      name: 'Nduja',
+      image: './images/ingredients-images/nduja.png',
+    },
+    {
+      name: 'Pecorino cheese',
+      image: './images/ingredients-images/pecorino-cheese.png',
+    },
+    {
+      name: 'Pappardelle pasta',
+      image: './images/ingredients-images/pappardelle-pasta.png',
+    },
+    {
+      name: 'Farfalle pasta',
+      image: './images/ingredients-images/farfalle-pasta.png',
+    },
+    {
+      name: 'Sardines',
+      image: './images/ingredients-images/sardines.png',
+    },
+    {
+      name: 'Long grain rice',
+      image: './images/ingredients-images/long-grain-rice.png',
+    },
+    {
+      name: 'Seafood mix',
+      image: './images/ingredients-images/seafood-mix.png',
+    },
+    {
+      name: 'Fish stock',
+      image: './images/ingredients-images/fish-stock.png',
+    },
+    {
+      name: 'Mixed shellfish',
+      image: './images/ingredients-images/mixed-shellfish.png',
+    },
+    {
+      name: 'Hake',
+      image: './images/ingredients-images/hake.png',
+    },
+    {
+      name: 'Mussels',
+      image: './images/ingredients-images/mussels.png',
+    },
+    {
+      name: 'Squid',
+      image: './images/ingredients-images/squid.png',
+    },
+    {
+      name: 'Monkfish',
+      image: './images/ingredients-images/monkfish.png',
+    },
+    {
+      name: 'Saffron',
+      image: './images/ingredients-images/saffron.png',
+    },
+    {
+      name: 'Mirin',
+      image: './images/ingredients-images/mirin.png',
+    },
+    {
+      name: 'Bonito flakes',
+      image: './images/ingredients-images/bonito-flakes.png',
+    },
+    {
+      name: 'Seaweed',
+      image: './images/ingredients-images/seaweed.png',
+    },
+    {
+      name: 'Guajillo chillies',
+      image: './images/ingredients-images/guajillo-chillies.png',
+    },
+    {
+      name: 'Halibut',
+      image: './images/ingredients-images/halibut.png',
+    },
+    {
+      name: 'Clams',
+      image: './images/ingredients-images/clams.png',
+    },
+    {
+      name: 'Crab',
+      image: './images/ingredients-images/crab.png',
+    },
+    {
+      name: 'Linguine pasta',
+      image: './images/ingredients-images/linguine-pasta.png',
+    },
+    {
+      name: 'Oysters',
+      image: './images/ingredients-images/oysters.png',
+    },
+    {
+      name: 'Lobster',
+      image: './images/ingredients-images/lobster.png',
+    },
+    {
+      name: 'Vermicelli pasta',
+      image: './images/ingredients-images/vermicelli-pasta.png',
+    },
+    {
+      name: 'Crackers',
+      image: './images/ingredients-images/crackers.png',
+    },
+    {
+      name: 'Trout',
+      image: './images/ingredients-images/trout.png',
+    },
+    {
+      name: 'Pollock',
+      image: './images/ingredients-images/pollock.png',
+    },
+    {
+      name: 'Asafoetida',
+      image: './images/ingredients-images/asafoetida.png',
+    },
+    {
+      name: 'Bass',
+      image: './images/ingredients-images/bass.png',
+    },
+    {
+      name: 'Taco shells',
+      image: './images/ingredients-images/taco-shells.png',
+    },
+    {
+      name: 'Scallops',
+      image: './images/ingredients-images/scallops.png',
+    },
+    {
+      name: 'Cheese sauce',
+      image: './images/ingredients-images/cheese-sauce.png',
+    },
+    {
+      name: 'Garlic butter',
+      image: './images/ingredients-images/garlic-butter.png',
+    },
+    {
+      name: 'Rice noodles',
+      image: './images/ingredients-images/rice-noodles.png',
+    },
+    {
+      name: 'White pepper',
+      image: './images/ingredients-images/white-pepper.png',
+    },
+    {
+      name: 'Teriyaki sauce',
+      image: './images/ingredients-images/teriyaki-sauce.png',
+    },
+    {
+      name: 'Dried curry leaves',
+      image: './images/ingredients-images/dried-curry-leaves.png',
+    },
+    {
+      name: 'Groundnut oil',
+      image: './images/ingredients-images/groundnut-oil.png',
     },
   ]);
 
@@ -1887,6 +2061,8 @@ export default function CookPageComponent() {
       ...piesRecipes,
       ...smoothiesRecipes,
       ...saucesRecipes,
+      ...pastaRecipes,
+      ...seafoodRecipes,
     ].map((recipe) => ({
       name: recipe.title,
       imgSrc: recipe.image_url,
