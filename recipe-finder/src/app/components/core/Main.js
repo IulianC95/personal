@@ -17,8 +17,14 @@ import Smoothies from './pages/category/Smoothies';
 import Sauces from './pages/category/Sauces';
 import Pasta from './pages/category/Pasta';
 import Seafood from './pages/category/Seafood';
+import RecipeDetails from './pages/category/RecipeDetails';
 
-export default function Main({ activePage, onCategorySelect }) {
+export default function Main({
+  activePage,
+  onCategorySelect,
+  selectedRecipe,
+  setSelectedRecipe,
+}) {
   return (
     <main>
       {activePage === 'home' && (
@@ -28,18 +34,37 @@ export default function Main({ activePage, onCategorySelect }) {
       {activePage === 'favorites' && <FavoritesComponent />}
       {activePage === 'about' && <AboutUsComponent />}
       {activePage === 'contact' && <ContactComponent />}
-      {activePage === 'soups' && <SoupsComponent />}
-      {activePage === 'bbq' && <BBQ />}
-      {activePage === 'vegetarian' && <Vegetarian />}
-      {activePage === 'breakfast' && <Breakfast />}
-      {activePage === 'burgers' && <Burgers />}
-      {activePage === 'desert' && <Desert />}
-      {activePage === 'pizza' && <Pizza />}
-      {activePage === 'pies' && <Pies />}
-      {activePage === 'smoothies' && <Smoothies />}
-      {activePage === 'sauces' && <Sauces />}
-      {activePage === 'pasta' && <Pasta />}
-      {activePage === 'seafood' && <Seafood />}
+      {activePage === 'soups' && (
+        <SoupsComponent onCategorySelect={onCategorySelect} />
+      )}
+      {activePage === 'bbq' && <BBQ onCategorySelect={onCategorySelect} />}{' '}
+      {activePage === 'vegetarian' && (
+        <Vegetarian onCategorySelect={onCategorySelect} />
+      )}
+      {activePage === 'breakfast' && (
+        <Breakfast onCategorySelect={onCategorySelect} />
+      )}
+      {activePage === 'burgers' && (
+        <Burgers onCategorySelect={onCategorySelect} />
+      )}
+      {activePage === 'desert' && (
+        <Desert onCategorySelect={onCategorySelect} />
+      )}
+      {activePage === 'pizza' && <Pizza onCategorySelect={onCategorySelect} />}
+      {activePage === 'pies' && <Pies onCategorySelect={onCategorySelect} />}
+      {activePage === 'smoothies' && (
+        <Smoothies onCategorySelect={onCategorySelect} />
+      )}
+      {activePage === 'sauces' && (
+        <Sauces onCategorySelect={onCategorySelect} />
+      )}
+      {activePage === 'pasta' && <Pasta onCategorySelect={onCategorySelect} />}
+      {activePage === 'seafood' && (
+        <Seafood onCategorySelect={onCategorySelect} />
+      )}
+      {activePage === 'recipe-details' && (
+        <RecipeDetails recipe={selectedRecipe} />
+      )}
     </main>
   );
 }

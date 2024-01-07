@@ -22,8 +22,11 @@ const capriola = Capriola({ subsets: ['latin'], weight: '400' });
 export default function RootLayout({ children }) {
   const [activePage, setActivePage] = useState('home');
 
-  const handlePageChange = (page) => {
+  const [selectedRecipe, setSelectedRecipe] = useState(null);
+
+  const handlePageChange = (page, recipe) => {
     setActivePage(page);
+    setSelectedRecipe(recipe);
   };
 
   return (
@@ -35,7 +38,11 @@ export default function RootLayout({ children }) {
       <body className="max-w-xl mx-auto min-h-screen flex flex-col">
         <Header onPageChange={handlePageChange} />
         <div className="bg-[var(--main-bg)] flex-grow">
-          <Main activePage={activePage} onCategorySelect={handlePageChange} />
+          <Main
+            activePage={activePage}
+            onCategorySelect={handlePageChange}
+            selectedRecipe={selectedRecipe}
+          />
         </div>
         <Footer onFooterClick={handlePageChange} />
       </body>
