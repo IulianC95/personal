@@ -1,4 +1,4 @@
-export default function RecipeDetails({ recipe }) {
+export default function RecipeDetails({ recipe, onBackToCategory }) {
   if (!recipe) {
     return <div>No recipe selected.</div>;
   }
