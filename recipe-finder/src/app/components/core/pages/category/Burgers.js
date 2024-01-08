@@ -48,7 +48,7 @@ export default function Burgers({ onCategorySelect }) {
             <img
               src={recipe.image_url}
               alt={recipe.title}
-              className="h-20 w-32 fadeIn"
+              className="h-20 w-32 fadeIn border-solid border border-black"
             ></img>
           </picture>
           <aside className="relative h-20 w-full bg-[var(--bg-secondary)] rounded-r-lg flex flex-col gap-1 items-center justify-center expandRight">

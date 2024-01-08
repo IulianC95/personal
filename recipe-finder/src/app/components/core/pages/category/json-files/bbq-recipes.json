@@ -612,5 +612,176 @@
       "Red wine vinegar",
       "Onion"
     ]
+  },
+  {
+    "title": "Grilled Pork Chops",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Grilled%20Pork%20Chops.png",
+    "original": true,
+    "steps": [
+      "Season pork chops with salt and black pepper.",
+      "Preheat the grill to medium-high heat.",
+      "Grill the pork chops for about 4-5 minutes per side or until cooked through.",
+      "Brush with barbecue sauce during the last 2 minutes of cooking."
+    ],
+    "ingredients": ["Pork", "BBQ sauce", "Salt", "Black pepper"]
+  },
+  {
+    "title": "BBQ Shrimp Skewers",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/BBQ%20Shrimp%20Skewers.png",
+    "original": true,
+    "steps": [
+      "Thread shrimp onto skewers.",
+      "Combine barbecue sauce, lemon juice, and garlic powder.",
+      "Preheat the grill to medium-high heat.",
+      "Grill shrimp skewers for 2-3 minutes per side, basting with the sauce."
+    ],
+    "ingredients": ["Prawns", "BBQ sauce", "Lemon", "Garlic granules"]
+  },
+  {
+    "title": "Barbecue Tofu Steaks",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Barbecue%20Tofu%20Steaks.png",
+    "original": true,
+    "steps": [
+      "Slice tofu into steaks.",
+      "Mix barbecue sauce, soy sauce, and smoked paprika.",
+      "Preheat a grill or grill pan to medium-high heat.",
+      "Grill tofu steaks for 4-5 minutes per side, brushing with sauce."
+    ],
+    "ingredients": ["Tofu", "BBQ sauce", "Soy sauce", "Paprika"]
+  },
+  {
+    "title": "BBQ Portobello Mushrooms",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/BBQ%20Portobello%20Mushrooms.png",
+    "original": true,
+    "steps": [
+      "Brush mushrooms with olive oil and minced garlic.",
+      "Preheat the grill to medium heat.",
+      "Grill mushrooms for about 4-5 minutes per side, brushing with barbecue sauce."
+    ],
+    "ingredients": ["Mushroom", "BBQ sauce", "Olive oil", "Garlic"]
+  },
+  {
+    "title": "Barbecue Zucchini Slices",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Barbecue%20Zucchini%20Slices.png",
+    "original": true,
+    "steps": [
+      "Toss zucchini slices in olive oil and dried thyme.",
+      "Preheat grill to medium-high heat.",
+      "Grill zucchini for 2-3 minutes per side, brushing with barbecue sauce."
+    ],
+    "ingredients": ["Courgette", "BBQ sauce", "Olive oil", "Thyme"]
+  },
+  {
+    "title": "BBQ Sweet Potato Wedges",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/BBQ%20Sweet%20Potato%20Wedges.png",
+    "original": true,
+    "steps": [
+      "Toss sweet potato wedges in olive oil and barbecue seasoning.",
+      "Preheat grill to medium heat.",
+      "Grill sweet potato wedges for about 10-15 minutes, turning occasionally until tender."
+    ],
+    "ingredients": ["Sweet potato", "BBQ sauce", "Olive oil", "Salt"]
+  },
+  {
+    "title": "Grilled Pineapple with Honey Glaze",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Grilled%20Pineapple%20with%20Honey%20Glaze.png",
+    "original": true,
+    "steps": [
+      "Mix barbecue sauce, honey, and cinnamon.",
+      "Preheat grill to medium-high heat.",
+      "Grill pineapple slices for 2-3 minutes per side, basting with the glaze."
+    ],
+    "ingredients": ["Pineapple", "BBQ sauce", "Honey", "Cinnamon"]
+  },
+  {
+    "title": "BBQ Corn on the Cob",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/BBQ%20Corn%20on%20the%20Cob.png",
+    "original": true,
+    "steps": [
+      "Brush corn with melted butter and season with salt.",
+      "Preheat grill to medium-high heat.",
+      "Grill corn for about 10-15 minutes, turning occasionally until kernels are tender."
+    ],
+    "ingredients": ["Corn", "BBQ sauce", "Butter", "Salt"]
+  },
+  {
+    "title": "BBQ Chicken Wings",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/BBQ%20Chicken%20Wings.png",
+    "original": true,
+    "steps": [
+      "Season chicken wings with salt and cayenne pepper (if desired).",
+      "Preheat grill to medium-high heat.",
+      "Grill chicken wings for about 20-25 minutes, turning occasionally and brushing with barbecue sauce."
+    ],
+    "ingredients": ["Chicken wings", "BBQ sauce", "Salt", "Cayenne pepper"]
+  },
+  {
+    "title": "BBQ Salmon Fillets",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/BBQ%20Salmon%20Fillets.png",
+    "original": true,
+    "steps": [
+      "Combine barbecue sauce, lemon juice, and dill.",
+      "Preheat the grill to medium-high heat.",
+      "Grill salmon fillets for 4-5 minutes per side, brushing with the sauce."
+    ],
+    "ingredients": ["Salmon", "BBQ sauce", "Lemon", "Dill"]
+  },
+  {
+    "title": "BBQ Beef Skewers",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/BBQ%20Beef%20Skewers.png",
+    "original": true,
+    "steps": [
+      "Thread beef, onion, and bell pepper onto skewers.",
+      "Preheat grill to medium-high heat.",
+      "Grill skewers for 6-8 minutes, turning occasionally and brushing with barbecue sauce."
+    ],
+    "ingredients": ["Beef steak", "BBQ sauce", "Red onion", "Bell pepper"]
+  },
+  {
+    "title": "BBQ Tuna Steaks",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/BBQ%20Tuna%20Steaks.png",
+    "original": true,
+    "steps": [
+      "Mix barbecue sauce, olive oil, and lemon zest.",
+      "Preheat the grill to high heat.",
+      "Grill tuna steaks for 2-3 minutes per side, brushing with the sauce."
+    ],
+    "ingredients": ["Tuna", "BBQ sauce", "Olive oil", "Lemon"]
+  },
+  {
+    "title": "BBQ Portobello Burger",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/BBQ%20Portobello%20Burger.png",
+    "original": true,
+    "steps": [
+      "Brush mushroom caps with barbecue sauce.",
+      "Preheat grill to medium-high heat.",
+      "Grill mushroom caps for 4-5 minutes per side, topping with cheese if desired, and serve on burger buns."
+    ],
+    "ingredients": ["Mushroom", "BBQ sauce", "Burger bun", "Chedar cheese"]
+  },
+  {
+    "title": "BBQ Pulled Pork Sliders",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/BBQ%20Pulled%20Pork%20Sliders.png",
+    "original": true,
+    "steps": [
+      "Heat pulled pork on the grill.",
+      "Warm slider buns.",
+      "Assemble sliders with pulled pork and pickles, and drizzle with barbecue sauce."
+    ],
+    "ingredients": ["Pork", "BBQ sauce", "Burger bun", "Pickled cucumber"]
+  },
+  {
+    "title": "BBQ Vegetable Medley",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/BBQ%20Vegetable%20Medley.png",
+    "original": true,
+    "steps": ["step", "step", "step", "step"],
+    "ingredients": [
+      "Bell pepper",
+      "BBQ sauce",
+      "Courgette",
+      "Mushroom",
+      "Olive oil",
+      "Garlic granules"
+    ]
   }
 ]

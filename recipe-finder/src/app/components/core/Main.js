@@ -30,7 +30,9 @@ export default function Main({
       {activePage === 'home' && (
         <HomeComponent onCategorySelect={onCategorySelect} />
       )}
-      {activePage === 'cookPage' && <CookPageComponent />}
+      {activePage === 'cookPage' && (
+        <CookPageComponent onCategorySelect={onCategorySelect} />
+      )}
       {activePage === 'favorites' && <FavoritesComponent />}
       {activePage === 'about' && <AboutUsComponent />}
       {activePage === 'contact' && <ContactComponent />}

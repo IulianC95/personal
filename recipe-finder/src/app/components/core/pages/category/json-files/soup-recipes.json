@@ -1013,5 +1013,61 @@
       "Sugar",
       "Water"
     ]
+  },
+  {
+    "title": "Tomato Basil Soup",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Tomato%20Basil%20Soup.png",
+    "original": true,
+    "steps": [
+      "Sauté onion and garlic in olive oil.",
+      "Add tomatoes and basil, then simmer for 20 minutes.",
+      "Blend until smooth and serve hot."
+    ],
+    "ingredients": ["Tomato", "Basil", "Onion", "Garlic"]
+  },
+  {
+    "title": "Chicken Noodle Soup",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Chicken%20Noodle%20Soup.png",
+    "original": true,
+    "steps": [
+      "Cook chicken in broth until tender, then shred.",
+      "Add vegetables and noodles, simmer until tender.",
+      "Return chicken to the soup and serve."
+    ],
+    "ingredients": [
+      "Chicken stock",
+      "Chicken breast",
+      "Rice Noodles",
+      "Carrot",
+      "Celery"
+    ]
+  },
+  {
+    "title": "Potato Leek Soup",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Potato%20Leek%20Soup.png",
+    "original": true,
+    "steps": [
+      "Sauté leeks in butter until soft.",
+      "Add potatoes and broth, simmer until potatoes are tender.",
+      "Blend until smooth and season to taste."
+    ],
+    "ingredients": ["Potato", "Leek", "Chicken stock", "Butter"]
+  },
+  {
+    "title": "Lentil Soup",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Lentil%20Soup.png",
+    "original": true,
+    "steps": [
+      "Sauté onions and carrots, then add lentils and broth.",
+      "Simmer until lentils are tender and serve."
+    ],
+    "ingredients": ["Red lentils", "Onion", "Carrot", "Vegetable stock"]
+  },
+  {
+    "title": "Cream of Mushroom Soup",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Cream%20of%20Mushroom%20Soup.png",
+    "original": true,
+    "steps": ["step", "step", "step", "step"],
+    "ingredients": ["Mushroom", "Onion", "Soured cream", "Chicken stock"]
   }
 ]

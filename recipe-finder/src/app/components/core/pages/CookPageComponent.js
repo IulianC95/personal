@@ -1,20 +1,39 @@
-import React, { useState } from 'react';
-import bbqRecipes from './category/json-files/bbq-recipes.json';
-import breakfastRecipes from './category/json-files/breakfast-recipes.json';
-import soupsRecipes from './category/json-files/soup-recipes.json';
-import vegetarianRecipes from './category/json-files/vegetarian-recipes.json';
-import burgersRecipes from './category/json-files/burgers-recipes.json';
-import desertRecipes from './category/json-files/desert-recipes.json';
-import pizzaRecipes from './category/json-files/pizza-recipes.json';
-import piesRecipes from './category/json-files/pie-recipes.json';
-import smoothiesRecipes from './category/json-files/smoothies-recipes.json';
-import saucesRecipes from './category/json-files/sauce-recipes.json';
-import pastaRecipes from './category/json-files/pasta-recipes.json';
-import seafoodRecipes from './category/json-files/seafood-recipes.json';
+import React, { useState, useEffect } from 'react';
+import {
+  bbqRecipes,
+  breakfastRecipes,
+  soupsRecipes,
+  vegetarianRecipes,
+  burgersRecipes,
+  desertRecipes,
+  pizzaRecipes,
+  piesRecipes,
+  smoothiesRecipes,
+  saucesRecipes,
+  pastaRecipes,
+  seafoodRecipes,
+} from './category/json-files.js';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar as farStar } from '@fortawesome/free-regular-svg-icons';
 import { faStar as fasStar } from '@fortawesome/free-solid-svg-icons';
-import jsonData from './category/json-files/bbq-recipes.json';
+
+const allRecipes = [
+  bbqRecipes,
+  breakfastRecipes,
+  soupsRecipes,
+  vegetarianRecipes,
+  burgersRecipes,
+  desertRecipes,
+  pizzaRecipes,
+  piesRecipes,
+  smoothiesRecipes,
+  saucesRecipes,
+  pastaRecipes,
+  seafoodRecipes,
+];
+
+const jsonData = [].concat(...allRecipes);
 
 const Recipes = jsonData.map((recipe) => ({
   name: recipe.title,
@@ -22,8 +41,33 @@ const Recipes = jsonData.map((recipe) => ({
   recipeUrl: recipe.recipe_url,
 }));
 
-export default function CookPageComponent() {
+const originalRecipeImage = '/images/original-chef.png';
+
+export default function CookPageComponent({ onCategorySelect }) {
+  const [hasSeenMessage, setHasSeenMessage] = useState(false);
+
+  useEffect(() => {
+    const seenMessage = localStorage.getItem('hasSeenMessage');
+    if (!seenMessage) {
+      setHasSeenMessage(false);
+    }
+  }, []);
+
+  const handleOkClick = () => {
+    localStorage.setItem('hasSeenMessage', 'true');
+    setHasSeenMessage(true);
+  };
+
   const [searchText, setSearchText] = useState('');
+
+  const handleRecipeClick = (recipe) => {
+    if (recipe.recipe_url) {
+      window.open(recipe.recipe_url, '_blank');
+    } else {
+      onCategorySelect('recipe-details', recipe);
+    }
+  };
+
   const [ingredients, setIngredients] = useState([
     { name: 'Tomato', image: './images/ingredients-images/tomato.png' },
     { name: 'Onion', image: './images/ingredients-images/onion.png' },
@@ -2050,27 +2094,7 @@ export default function CookPageComponent() {
       .filter((ingredient) => ingredient.selected)
       .map((ingredient) => ingredient.name);
 
-    const allRecipes = [
-      ...bbqRecipes,
-      ...breakfastRecipes,
-      ...soupsRecipes,
-      ...vegetarianRecipes,
-      ...burgersRecipes,
-      ...desertRecipes,
-      ...pizzaRecipes,
-      ...piesRecipes,
-      ...smoothiesRecipes,
-      ...saucesRecipes,
-      ...pastaRecipes,
-      ...seafoodRecipes,
-    ].map((recipe) => ({
-      name: recipe.title,
-      imgSrc: recipe.image_url,
-      recipeUrl: recipe.recipe_url,
-      ingredients: recipe.ingredients,
-    }));
-
-    const recipesWithMatch = allRecipes.filter((recipe) =>
+    const recipesWithMatch = jsonData.filter((recipe) =>
       recipe.ingredients.every((ingredient) =>
         selectedIngredients.includes(ingredient),
       ),
@@ -2090,6 +2114,30 @@ export default function CookPageComponent() {
   }
   return (
     <div className="flex flex-col">
+      {!hasSeenMessage && (
+        <div className="p-4 z-50 fixed top-0 left-0 w-full h-full bg-black bg-opacity-70 flex justify-center items-center">
+          <div className="flex flex-col gap-2 bg-[var(--bg-secondary)] p-6 rounded-lg shadow-lg text-center">
+            <h3 className="text-xl text-[var(--primary)]">
+              Important Notice for Optimal App Experience
+            </h3>
+            <p>
+              To ensure the best experience with our app, it is crucial to
+              select all the ingredients you currently have in your kitchen.
+              This includes not only the main items like fruits, vegetables, and
+              meats, but also the essentials often overlooked – such as bread,
+              spices, salt, and even alcoholic beverages. Accurate selection of
+              every ingredient at hand is key to getting the most relevant and
+              creative recipe suggestions.
+            </p>
+            <button
+              onClick={handleOkClick}
+              className="mt-4 bg-[var(--primary)] text-white py-2 px-4 rounded hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50"
+            >
+              Ok
+            </button>
+          </div>
+        </div>
+      )}
       {!showRecipes && (
         <div className="flex flex-col items-center px-4 gap-2 pt-2 flex-grow fadeIn">
           <h3 className="font-capriola text-base font-medium text-[var(--primary)] text-center">
@@ -2158,38 +2206,56 @@ export default function CookPageComponent() {
             <section key={index} className="flex justify-center w-full">
               <picture className="rounded-l-lg ">
                 <img
-                  src={recipe.imgSrc}
-                  alt={recipe.name}
+                  src={recipe.image_url}
+                  alt={recipe.title}
                   className="h-20 w-32 fadeIn"
                 ></img>
               </picture>
-              <aside className="h-20 w-full bg-[var(--bg-secondary)] rounded-r-lg flex flex-col gap-1 items-center justify-center expandRight">
+              <aside className="relative h-20 w-full bg-[var(--bg-secondary)] rounded-r-lg flex flex-col gap-1 items-center justify-center expandRight">
                 <h3 className="text-base text-center font-candal font-bold text-[var(--primary)] fadeInDelayed">
-                  {recipe.name}
+                  {recipe.title}
                 </h3>
                 <div className="flex gap-4 items-center">
                   <a
-                    href={recipe.recipeUrl}
+                    href={recipe.recipe_url}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className="bg-[var(--primary)] text-white font-candal px-10 py-1 rounded-lg fadeInDelayed">
+                    <button
+                      onClick={() => handleRecipeClick(recipe)}
+                      className="bg-[var(--primary)] text-white font-candal px-10 py-1 rounded-lg fadeInDelayed"
+                    >
                       Recipe
                     </button>
                   </a>
                   <FontAwesomeIcon
                     icon={
-                      favorites.some((fav) => fav.name === recipe.name)
+                      favorites.some((fav) => fav.name === recipe.title)
                         ? fasStar
                         : farStar
                     }
-                    onClick={() => removeFromFavorites(recipe)}
+                    onClick={() =>
+                      toggleFavorite({
+                        name: recipe.title,
+                        imgSrc: recipe.image_url,
+                        recipeUrl: recipe.recipe_url,
+                      })
+                    }
                     className={`cursor-pointer ${
-                      favorites.some((fav) => fav.name === recipe.name)
+                      favorites.some((fav) => fav.name === recipe.title)
                         ? 'text-yellow-500'
                         : '--primary'
                     } text-xl fadeInDelayed`}
                   />
+                  {recipe.original && (
+                    <picture className="w-10 h-10 absolute right-0 bottom-0">
+                      <img
+                        src={originalRecipeImage}
+                        alt="GPT Recipe"
+                        title="GPT Recipe"
+                      />
+                    </picture>
+                  )}
                 </div>
               </aside>
             </section>
