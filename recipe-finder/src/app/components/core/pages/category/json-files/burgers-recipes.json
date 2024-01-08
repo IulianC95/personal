@@ -1205,5 +1205,104 @@
       "Potato",
       "Paprika"
     ]
+  },
+  {
+    "title": "Classic Beef Burger",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Classic%20Beef%20Burger.png",
+    "original": true,
+    "steps": [
+      "Season beef with salt and pepper, shape into patties.",
+      "Grill or pan-fry patties until desired doneness, serve on buns with toppings."
+    ],
+    "ingredients": [
+      "Beef mince",
+      "Burger bun",
+      "Salt",
+      "Black pepper",
+      "Lettuce",
+      "Tomato",
+      "Onion",
+      "Chedar cheese"
+    ]
+  },
+  {
+    "title": "Turkey Burger",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Turkey%20Burger.png",
+    "original": true,
+    "steps": [
+      "Mix ground turkey with garlic, herbs, and seasoning, shape into patties.",
+      "Grill or pan-fry until cooked, serve on buns with toppings."
+    ],
+    "ingredients": [
+      "Turkey mince",
+      "Burger bun",
+      "Garlic",
+      "Mixed herbs",
+      "Lettuce",
+      "Avocado",
+      "Cranberry sauce"
+    ]
+  },
+  {
+    "title": "Salmon Burger",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Salmon%20Burger.png",
+    "original": true,
+    "steps": [
+      "Mix salmon with bread crumbs, dill, and lemon zest, shape into patties.",
+      "Grill or pan-fry until cooked through, serve on buns."
+    ],
+    "ingredients": ["Salmon", "Breadcrumbs", "Dill", "Lemon", "Burger bun"]
+  },
+  {
+    "title": "Hawaiian Teriyaki Burger",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Hawaiian%20Teriyaki%20Burger.png",
+    "original": true,
+    "steps": [
+      "Season beef or turkey with teriyaki sauce, shape into patties.",
+      "Grill or cook patties, top with pineapple rings, and serve on buns."
+    ],
+    "ingredients": ["Beef mince", "Teriyaki sauce", "Pineapple", "Burger bun"]
+  },
+  {
+    "title": "Caprese Burger",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Caprese%20Burger.png",
+    "original": true,
+    "steps": [
+      "Season beef or turkey, shape into patties.",
+      "Grill or cook patties, top with mozzarella, tomato, and basil, and serve on buns."
+    ],
+    "ingredients": [
+      "Turkey mince",
+      "Mozzarella",
+      "Tomato",
+      "Basil",
+      "Burger bun"
+    ]
+  },
+  {
+    "title": "Spinach and Feta Turkey Burger",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Spinach%20and%20Feta%20Turkey%20Burger.png",
+    "original": true,
+    "steps": [
+      "Mix ground turkey with chopped spinach and crumbled feta cheese, shape into patties.",
+      "Grill or cook patties and serve on buns."
+    ],
+    "ingredients": ["Turkey mince", "Spinach", "Feta cheese", "Burger bun"]
+  },
+  {
+    "title": "Mediterranean Lamb Burger",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Mediterranean%20Lamb%20Burger.png",
+    "original": true,
+    "steps": [
+      "Season ground lamb, shape into patties.",
+      "Grill or cook patties and serve on buns with tzatziki sauce and sliced cucumber and tomato (if desired)."
+    ],
+    "ingredients": [
+      "Lamb mince",
+      "Tzatziki",
+      "Burger bun",
+      "Cucumber",
+      "Tomato"
+    ]
   }
 ]

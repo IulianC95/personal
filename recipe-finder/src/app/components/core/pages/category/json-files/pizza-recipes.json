@@ -1110,5 +1110,221 @@
       "Basil",
       "Apple cider vinegar"
     ]
+  },
+  {
+    "title": "Margherita Pizza",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Margherita%20Pizza.png",
+    "original": true,
+    "steps": [
+      "Roll out pizza dough, spread tomato sauce, top with mozzarella, and fresh basil leaves.",
+      "Bake until crust is golden and cheese is bubbly."
+    ],
+    "ingredients": ["Pizza base", "Tomato paste", "Mozzarella", "Basil"]
+  },
+  {
+    "title": "Pepperoni Pizza",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Pepperoni%20Pizza.png",
+    "original": true,
+    "steps": [
+      "Roll out pizza dough, spread tomato sauce, top with mozzarella and pepperoni.",
+      "Bake until the crust is crispy and cheese is melted and bubbly."
+    ],
+    "ingredients": ["Pizza base", "Tomato paste", "Mozzarella", "Pepperoni"]
+  },
+  {
+    "title": "Hawaiian Pizza",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Hawaiian%20Pizza.png",
+    "original": true,
+    "steps": [
+      "Roll out pizza dough, spread tomato sauce, top with ham and pineapple.",
+      "Bake until the crust is browned and toppings are heated through."
+    ],
+    "ingredients": ["Pizza base", "Tomato paste", "Ham", "Pineapple"]
+  },
+  {
+    "title": "Meat Lovers Pizza",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Meat%20Lovers%20Pizza.png",
+    "original": true,
+    "steps": [
+      "Roll out pizza dough, spread tomato sauce, top with meats and mozzarella.",
+      "Bake until the crust is golden and toppings are hot."
+    ],
+    "ingredients": [
+      "Pizza base",
+      "Tomato paste",
+      "Sausages",
+      "Pepperoni",
+      "Bacon",
+      "Mozzarella"
+    ]
+  },
+  {
+    "title": "White Pizza with Spinach and Garlic",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/White%20Pizza%20with%20Spinach%20and%20Garlic.png",
+    "original": true,
+    "steps": [
+      "Brush pizza dough with olive oil and garlic, spread mozzarella and ricotta.",
+      "Top with fresh spinach, bake until crust is golden."
+    ],
+    "ingredients": [
+      "Pizza base",
+      "Olive oil",
+      "Garlic",
+      "Mozzarella",
+      "Spinach"
+    ]
+  },
+  {
+    "title": "Buffalo Chicken Pizza",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Buffalo%20Chicken%20Pizza.png",
+    "original": true,
+    "steps": [
+      "Roll out pizza dough, spread buffalo sauce, top with cooked chicken, red onion, and blue cheese.",
+      "Bake until crust is crispy and toppings are hot."
+    ],
+    "ingredients": [
+      "Pizza base",
+      "Buffalo sauce",
+      "Chicken breast",
+      "Red onion",
+      "Blue cheese"
+    ]
+  },
+  {
+    "title": "Supreme Pizza",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Supreme%20Pizza.png",
+    "original": true,
+    "steps": [
+      "Roll out pizza dough, spread tomato sauce, top with toppings and mozzarella.",
+      "Bake until the crust is golden and toppings are cooked."
+    ],
+    "ingredients": [
+      "Pizza base",
+      "Tomato paste",
+      "Sausages",
+      "Pepperoni",
+      "Bell pepper",
+      "Onion",
+      "Mushroom",
+      "Mozzarella"
+    ]
+  },
+  {
+    "title": "Mediterranean Veggie Pizza",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Mediterranean%20Veggie%20Pizza.png",
+    "original": true,
+    "steps": [
+      "Brush pizza dough with olive oil and garlic, top with veggies and feta.",
+      "Bake until crust is golden."
+    ],
+    "ingredients": [
+      "Pizza base",
+      "Olive oil",
+      "Garlic",
+      "Cherry tomatoes",
+      "Black olives",
+      "Artichokes",
+      "Feta cheese"
+    ]
+  },
+  {
+    "title": "Taco Pizza",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Taco%20Pizza.png",
+    "original": true,
+    "steps": [
+      "Spread refried beans on pizza dough, top with seasoned meat, cheddar, and bake.",
+      "After baking, add lettuce and tomatoes."
+    ],
+    "ingredients": [
+      "Pizza base",
+      "Butter beans",
+      "Beef",
+      "Chedar cheese",
+      "Lettuce",
+      "Tomato"
+    ]
+  },
+  {
+    "title": "Shrimp Scampi Pizza",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Shrimp%20Scampi%20Pizza.png",
+    "original": true,
+    "steps": [
+      "Brush pizza dough with olive oil and garlic, top with shrimp, cheese, and bake.",
+      "After baking, add lemon zest and parsley."
+    ],
+    "ingredients": [
+      "Pizza base",
+      "Olive oil",
+      "Garlic",
+      "Prawns",
+      "Lemon",
+      "Parsley",
+      "Mozzarella",
+      "Parmesan"
+    ]
+  },
+  {
+    "title": "Breakfast Pizza",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Breakfast%20Pizza.png",
+    "original": true,
+    "steps": [
+      "Spread scrambled eggs on pizza dough, top with cooked bacon or sausage and cheddar cheese, then bake.",
+      "After baking, add chopped chives."
+    ],
+    "ingredients": ["Pizza base", "Egg", "Bacon", "Chedar cheese", "Chive"]
+  },
+  {
+    "title": "Greek Gyro Pizza",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Greek%20Gyro%20Pizza.png",
+    "original": true,
+    "steps": [
+      "Spread tzatziki sauce on pizza dough, top with spiced meat, veggies, and bake.",
+      "After baking, add fresh cucumber and tomatoes."
+    ],
+    "ingredients": [
+      "Pizza base",
+      "Tzatziki",
+      "Beef",
+      "Red onion",
+      "Cucumber",
+      "Tomato"
+    ]
+  },
+  {
+    "title": "Sweet Potato and Kale Pizza",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Sweet%20Potato%20and%20Kale%20Pizza.png",
+    "original": true,
+    "steps": [
+      "Brush pizza dough with olive oil and garlic, top with sweet potato, kale, and goat cheese, then bake.",
+      "After baking, drizzle with a little honey if desired."
+    ],
+    "ingredients": [
+      "Pizza base",
+      "Olive oil",
+      "Garlic",
+      "Sweet potato",
+      "Kale",
+      "Goat cheese"
+    ]
+  },
+  {
+    "title": "Buffalo Cauliflower Pizza",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Buffalo%20Cauliflower%20Pizza.png",
+    "original": true,
+    "steps": [
+      "Spread buffalo sauce on pizza dough, top with roasted cauliflower, and bake.",
+      "After baking, drizzle with blue cheese or ranch dressing."
+    ],
+    "ingredients": ["Pizza base", "Buffalo sauce", "Cauliflower", "Blue cheese"]
+  },
+  {
+    "title": "Smores Pizza",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Smores%20Pizza.png",
+    "original": true,
+    "steps": [
+      "Sprinkle chocolate chips and mini marshmallows on pizza dough, bake until marshmallows are toasted.",
+      "After baking, sprinkle with graham cracker crumbs."
+    ],
+    "ingredients": ["Pizza base", "Chocolate chips", "Marshmallow", "Crackers"]
   }
 ]

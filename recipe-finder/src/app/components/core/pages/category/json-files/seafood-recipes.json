@@ -1028,5 +1028,71 @@
       "Pine nuts",
       "Salmon"
     ]
+  },
+  {
+    "title": "Grilled Lemon Garlic Shrimp",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Grilled%20Lemon%20Garlic%20Shrimp.png",
+    "original": true,
+    "steps": [
+      "Marinate shrimp in lemon juice, zest, garlic, and olive oil. Grill until cooked.",
+      "Garnish with fresh parsley."
+    ],
+    "ingredients": ["Prawns", "Lemon", "Garlic", "Olive oil", "Parsley"]
+  },
+  {
+    "title": "Grilled Tuna Steaks",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Grilled%20Tuna%20Steaks.png",
+    "original": true,
+    "steps": [
+      "Marinate tuna in soy sauce, ginger, garlic, and sesame oil. Grill to desired doneness",
+      "Serve with steamed vegetables or rice"
+    ],
+    "ingredients": ["Tuna", "Soy sauce", "Ginger", "Garlic", "Sesame oil"]
+  },
+  {
+    "title": "Garlic Butter Lobster Tails",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Garlic%20Butter%20Lobster%20Tails.png",
+    "original": true,
+    "steps": [
+      "Split lobster tails, brush with garlic butter. Bake until lobster is opaque.",
+      "Garnish with fresh parsley and serve with lemon wedges."
+    ],
+    "ingredients": ["Lobster", "Garlic", "Butter", "Parsley", "Lemon"]
+  },
+  {
+    "title": "Coconut Shrimp",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Coconut%20Shrimp.png",
+    "original": true,
+    "steps": [
+      "Dip shrimp in beaten egg, coat with flour and coconut flakes. Fry until golden.",
+      "Serve with sweet chili sauce for dipping."
+    ],
+    "ingredients": [
+      "Prawns",
+      "Coconut flakes",
+      "Egg",
+      "White flour",
+      "Sweet chili sauce"
+    ]
+  },
+  {
+    "title": "Pan-Seared Sea Bass with Lemon Butter Sauce",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Pan-Seared%20Sea%20Bass%20with%20Lemon%20Butter%20Sauce.png",
+    "original": true,
+    "steps": [
+      "Sear sea bass in butter, add lemon juice, white wine, and thyme.",
+      "Simmer until sauce thickens and serve."
+    ],
+    "ingredients": ["Bass", "Lemon", "Butter", "White wine", "Thyme"]
+  },
+  {
+    "title": "Garlic Shrimp and Broccoli",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Garlic%20Shrimp%20and%20Broccoli.png",
+    "original": true,
+    "steps": [
+      "Sauté shrimp with garlic in olive oil. Add broccoli and lemon juice, cook until tender.",
+      "Serve over cooked pasta or rice."
+    ],
+    "ingredients": ["Prawns", "Broccoli", "Garlic", "Olive oil", "Lemon"]
   }
 ]

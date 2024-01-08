@@ -1000,5 +1000,178 @@
       "Egg",
       "Clotted cream"
     ]
+  },
+  {
+    "title": "Classic Scrambled Eggs",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Classic%20Scrambled%20Eggs.png",
+    "original": true,
+    "steps": [
+      "Whisk eggs, season with salt and pepper.",
+      "Heat butter or oil in a pan, add eggs, and scramble until cooked to your liking."
+    ],
+    "ingredients": ["Egg", "Sunflower oil", "Salt", "Black pepper"]
+  },
+  {
+    "title": "Fluffy Pancakes",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Fluffy%20Pancakes.png",
+    "original": true,
+    "steps": [
+      "Mix flour and baking powder, add milk and eggs.",
+      "Cook ladlefuls of batter on a hot griddle until bubbles form, flip, and cook until golden."
+    ],
+    "ingredients": ["White flour", "Baking powder", "Milk", "Egg"]
+  },
+  {
+    "title": "Avocado Toast",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Avocado%20Toast.png",
+    "original": true,
+    "steps": [
+      "Mash avocado on toasted bread, season with salt and pepper.",
+      "Add optional toppings as desired."
+    ],
+    "ingredients": ["White bread", "Avocado", "Salt", "Black pepper", "Egg"]
+  },
+  {
+    "title": "Oatmeal with Berries",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Oatmeal%20with%20Berries.png",
+    "original": true,
+    "steps": [
+      "Cook oats with milk or water, top with berries, and drizzle with honey or maple syrup."
+    ],
+    "ingredients": ["Porridge oats", "Water", "Mixed berries", "Honey"]
+  },
+  {
+    "title": "Breakfast Burrito",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Breakfast%20Burrito.png",
+    "original": true,
+    "steps": [
+      "Fill a tortilla with scrambled eggs, salsa, and cheese (if desired).",
+      "Roll up and enjoy."
+    ],
+    "ingredients": ["Tortillas", "Egg", "Tomato salsa", "Chedar cheese"]
+  },
+  {
+    "title": "Veggie Omelette",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Veggie%20Omelette.png",
+    "original": true,
+    "steps": [
+      "Whisk eggs, pour into a hot pan, add veggies and cheese (if desired), cook until set, and fold in half."
+    ],
+    "ingredients": ["Egg", "Bell pepper", "Onion", "Tomato", "Chedar cheese"]
+  },
+  {
+    "title": "Banana Walnut Muffins",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Banana%20Walnut%20Muffins.png",
+    "original": true,
+    "steps": [
+      "Mash bananas, mix with flour, walnuts, and baking powder.",
+      "Bake in muffin cups until a toothpick comes out clean."
+    ],
+    "ingredients": ["Banana", "White flour", "Walnuts", "Baking powder"]
+  },
+  {
+    "title": "French Toast",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/French%20Toast.png",
+    "original": true,
+    "steps": [
+      "Whisk eggs, milk, cinnamon, and vanilla.",
+      "Dip bread slices in the mixture, cook on a griddle until golden brown."
+    ],
+    "ingredients": ["White bread", "Egg", "Milk", "Cinnamon", "Vanilla extract"]
+  },
+  {
+    "title": "Veggie Breakfast Burrito",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Veggie%20Breakfast%20Burrito.png",
+    "original": true,
+    "steps": [
+      "Fill a tortilla with scrambled eggs and sautéed veggies.",
+      "Add salsa and cheese (if desired), roll up, and enjoy."
+    ],
+    "ingredients": [
+      "Tortillas",
+      "Egg",
+      "Bell pepper",
+      "Onion",
+      "Spinach",
+      "Chedar cheese"
+    ]
+  },
+  {
+    "title": "Peanut Butter Banana Smoothie",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Peanut%20Butter%20Banana%20Smoothie.png",
+    "original": true,
+    "steps": [
+      "Blend banana, peanut butter, Greek yogurt, and milk until smooth."
+    ],
+    "ingredients": ["Banana", "Peanut butter", "Greek yogurt", "Milk"]
+  },
+  {
+    "title": "Breakfast Quesadilla",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Breakfast%20Quesadilla.png",
+    "original": true,
+    "steps": [
+      "Layer scrambled eggs, sautéed veggies, and cheese between two tortillas.",
+      "Cook until cheese melts, then slice and serve."
+    ],
+    "ingredients": ["Tortillas", "Egg", "Mushroom", "Spinach", "Chedar cheese"]
+  },
+  {
+    "title": "Blueberry Pancakes",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Blueberry%20Pancakes.png",
+    "original": true,
+    "steps": [
+      "Mix flour, baking powder, and milk, fold in blueberries.",
+      "Cook ladlefuls of batter on a hot griddle until golden."
+    ],
+    "ingredients": ["White flour", "Baking powder", "Milk", "Blueberry"]
+  },
+  {
+    "title": "Breakfast Bowl with Quinoa",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Breakfast%20Bowl%20with%20Quinoa.png",
+    "original": true,
+    "steps": [
+      "Layer cooked quinoa, Greek yogurt, sliced banana, almonds, and drizzle with honey."
+    ],
+    "ingredients": ["Quinoa", "Greek yogurt", "Banana", "Almonds", "Honey"]
+  },
+  {
+    "title": "Chocolate Protein Pancakes",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Chocolate%20Protein%20Pancakes.png",
+    "original": true,
+    "steps": [
+      "Mix protein powder, cocoa powder, eggs, and milk until smooth.",
+      "Cook pancakes on a griddle until done."
+    ],
+    "ingredients": ["Protein powder", "Cocoa powder", "Egg", "Milk"]
+  },
+  {
+    "title": "Breakfast Tacos",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Breakfast%20Tacos.png",
+    "original": true,
+    "steps": [
+      "Fill a tortilla with scrambled eggs and sautéed veggies and beans.",
+      "Serve with salsa and avocado slices."
+    ],
+    "ingredients": ["Tortillas", "Egg", "Bell pepper", "Onion", "Black beans"]
+  },
+  {
+    "title": "Frittata with Spinach and Feta",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Frittata%20with%20Spinach%20and%20Feta.png",
+    "original": true,
+    "steps": [
+      "Sauté onions and garlic, add spinach and feta.",
+      "Pour beaten eggs over the mixture and bake until set."
+    ],
+    "ingredients": ["Egg", "Spinach", "Feta cheese", "Onion", "Garlic"]
+  },
+  {
+    "title": "Overnight Oats",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Overnight%20Oats.png",
+    "original": true,
+    "steps": [
+      "Combine oats, milk or yogurt, chia seeds, and sweetener in a jar.",
+      "Refrigerate overnight and top with your favorite fruits and nuts in the morning."
+    ],
+    "ingredients": ["Porridge oats", "Yogurt", "Chia seeds", "Honey"]
   }
 ]

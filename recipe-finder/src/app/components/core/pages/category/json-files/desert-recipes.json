@@ -933,5 +933,94 @@
       "Icing sugar",
       "Sprinkles"
     ]
+  },
+  {
+    "title": "Chocolate Chip Cookies",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Chocolate%20Chip%20Cookies.png",
+    "original": true,
+    "steps": [
+      "Cream butter and sugar, add eggs, then mix in flour and chocolate chips.",
+      "Drop spoonfuls onto a baking sheet and bake until golden brown."
+    ],
+    "ingredients": ["Butter", "Sugar", "Egg", "White flour", "Chocolate chips"]
+  },
+  {
+    "title": "Homemade Brownies",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Homemade%20Brownies.png",
+    "original": true,
+    "steps": [
+      "Melt butter, mix with sugar and eggs, add cocoa powder and flour.",
+      "Bake in a square pan until set, then cool and cut into squares."
+    ],
+    "ingredients": ["Butter", "Sugar", "Egg", "Cocoa powder", "White flour"]
+  },
+  {
+    "title": "Chocolate Mousse",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Chocolate%20Mousse.png",
+    "original": true,
+    "steps": [
+      "Melt chocolate and whip cream.",
+      "Beat eggs with sugar, then fold in chocolate and whipped cream.",
+      "Chill before serving."
+    ],
+    "ingredients": ["Milk chocolate", "Single cream", "Egg", "Sugar"]
+  },
+  {
+    "title": "Raspberry Cheesecake",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Raspberry%20Cheesecake.png",
+    "original": true,
+    "steps": [
+      "Mix cream cheese, sugar, and eggs, pour over crust.",
+      "Swirl in raspberry puree, bake until set, and chill."
+    ],
+    "ingredients": [
+      "Shortcrust pastry",
+      "Cream cheese",
+      "Sugar",
+      "Egg",
+      "Raspberry jam"
+    ]
+  },
+  {
+    "title": "Banana Bread",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Banana%20Bread.png",
+    "original": true,
+    "steps": [
+      "Mash bananas, mix with sugar, eggs, and flour.",
+      "Bake in a loaf pan until a toothpick comes out clean."
+    ],
+    "ingredients": ["Banana", "White flour", "Sugar", "Egg", "Baking powder"]
+  },
+  {
+    "title": "Chocolate Fondue",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Chocolate%20Fondue.png",
+    "original": true,
+    "steps": [
+      "Melt chocolate with heavy cream, serve with dippers for dipping."
+    ],
+    "ingredients": [
+      "Milk chocolate",
+      "Single cream",
+      "Strawberries",
+      "Marshmallow"
+    ]
+  },
+  {
+    "title": "Chocolate Covered Strawberries",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Chocolate%20Covered%20Strawberries.png",
+    "original": true,
+    "steps": [
+      "Melt chocolate, dip strawberries, and let them cool on parchment paper."
+    ],
+    "ingredients": ["Strawberries", "Milk chocolate"]
+  },
+  {
+    "title": "Rice Pudding",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Rice%20Pudding.png",
+    "original": true,
+    "steps": [
+      "Simmer rice in milk, add sugar, cinnamon, and vanilla, cook until creamy."
+    ],
+    "ingredients": ["Rice", "Milk", "Sugar", "Cinnamon", "Vanilla extract"]
   }
 ]

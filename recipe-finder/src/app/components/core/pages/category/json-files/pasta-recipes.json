@@ -1002,5 +1002,73 @@
       "Lemon",
       "Parsley"
     ]
+  },
+  {
+    "title": "Spaghetti Carbonara",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Spaghetti%20Carbonara.png",
+    "original": true,
+    "steps": [
+      "Cook spaghetti. Meanwhile, sauté pancetta until crispy.",
+      "Whisk eggs, cheese, and pepper. Toss cooked pasta and pancetta in the mixture."
+    ],
+    "ingredients": [
+      "Spaghetti",
+      "Bacon",
+      "Egg",
+      "Pecorino cheese",
+      "Black pepper"
+    ]
+  },
+  {
+    "title": "Gnocchi with Pesto and Cherry Tomatoes",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Gnocchi%20with%20Pesto%20and%20Cherry%20Tomatoes.png",
+    "original": true,
+    "steps": [
+      "Cook gnocchi. Meanwhile, mix gnocchi with pesto, halved cherry tomatoes, and pine nuts.",
+      "Serve the gnocchi with a drizzle of extra pesto if desired."
+    ],
+    "ingredients": ["Gnocchi", "Pesto", "Cherry tomatoes", "Pine nuts"]
+  },
+  {
+    "title": "Shrimp Scampi Linguine",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Shrimp%20Scampi%20Linguine.png",
+    "original": true,
+    "steps": [
+      "Cook linguine. Meanwhile, sauté shrimp with garlic and butter, add white wine.",
+      "Toss cooked pasta with the shrimp scampi mixture."
+    ],
+    "ingredients": [
+      "Linguine pasta",
+      "Prawns",
+      "Butter",
+      "Garlic",
+      "White wine"
+    ]
+  },
+  {
+    "title": "Garlic Butter Shrimp Pasta",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Garlic%20Butter%20Shrimp%20Pasta.png",
+    "original": true,
+    "steps": [
+      "Cook linguine. Meanwhile, sauté shrimp with garlic and butter, sprinkle with parsley.",
+      "Toss cooked pasta with the garlic butter shrimp."
+    ],
+    "ingredients": ["Linguine pasta", "Prawns", "Garlic", "Butter", "Parsley"]
+  },
+  {
+    "title": "Tomato Basil Penne",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Tomato%20Basil%20Penne.png",
+    "original": true,
+    "steps": [
+      "Cook penne pasta. Meanwhile, sauté halved cherry tomatoes and garlic in olive oil.",
+      "Toss cooked pasta with the tomato basil mixture."
+    ],
+    "ingredients": [
+      "Penne pasta",
+      "Cherry tomatoes",
+      "Garlic",
+      "Olive oil",
+      "Basil"
+    ]
   }
 ]

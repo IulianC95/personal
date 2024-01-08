@@ -1069,5 +1069,96 @@
     "original": true,
     "steps": ["step", "step", "step", "step"],
     "ingredients": ["Mushroom", "Onion", "Soured cream", "Chicken stock"]
+  },
+  {
+    "title": "Butternut Squash Soup",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Butternut%20Squash%20Soup.png",
+    "original": true,
+    "steps": [
+      "Roast squash and sauté onions.",
+      "Blend with coconut milk and broth, then season and serve."
+    ],
+    "ingredients": [
+      "Butternut squash",
+      "Onion",
+      "Coconut milk",
+      "Vegetable stock"
+    ]
+  },
+  {
+    "title": "Thai Chicken Coconut Soup",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Thai%20Chicken%20Coconut%20Soup.png",
+    "original": true,
+    "steps": [
+      "Simmer chicken, lemongrass, and galangal in coconut milk.",
+      "Season with lime juice and fish sauce."
+    ],
+    "ingredients": ["Chicken", "Coconut milk", "Lemongrass", "Ginger"]
+  },
+  {
+    "title": "Gazpacho",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Gazpacho.png",
+    "original": true,
+    "steps": ["Blend all ingredients until smooth, then chill before serving."],
+    "ingredients": ["Tomato", "Cucumber", "Bell pepper", "Red onion"]
+  },
+  {
+    "title": "Chicken and Rice Soup",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Chicken%20and%20Rice%20Soup.png",
+    "original": true,
+    "steps": [
+      "Cook chicken in broth until tender, then shred.",
+      "Add rice, vegetables, and simmer until cooked through.",
+      "Return chicken to the soup and season to taste."
+    ],
+    "ingredients": [
+      "Chicken breast",
+      "Rice",
+      "Chicken stock",
+      "Carrot",
+      "Celery"
+    ]
+  },
+  {
+    "title": "Mexican Tortilla Soup",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Mexican%20Tortilla%20Soup.png",
+    "original": true,
+    "steps": [
+      "Simmer broth with chicken or tofu, then serve with tortilla chips, lime, and avocado."
+    ],
+    "ingredients": [
+      "Chicken stock",
+      "Chicken",
+      "Tortilla chips",
+      "Lime",
+      "Avocado"
+    ]
+  },
+  {
+    "title": "French Onion Soup",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/French%20Onion%20Soup.png",
+    "original": true,
+    "steps": [
+      "Sauté onions until caramelized, add beef broth, and simmer.",
+      "Top with French bread and Gruyère cheese, then broil until golden."
+    ],
+    "ingredients": ["Onion", "Beef stock", "French stick", "Gruyere cheese"]
+  },
+  {
+    "title": "Moroccan Lentil Soup",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Moroccan%20Lentil%20Soup.png",
+    "original": true,
+    "steps": [
+      "Sauté onions and spices, add lentils and broth, simmer.",
+      "Stir in lemon juice and serve with fresh cilantro."
+    ],
+    "ingredients": [
+      "Red lentils",
+      "Onion",
+      "Cumin seeds",
+      "Coriander",
+      "Cinnamon",
+      "Lemon"
+    ]
   }
 ]

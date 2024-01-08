@@ -33,8 +33,8 @@ export default function RecipeDetails({ recipe, onBackToCategory }) {
       )}
 
       {recipe.steps && (
-        <div className="fadeIn fadeInDelay1">
-          <h3 className="fadeIn fadeInDelay2 text-l text-center font-candal font-bold text-[var(--primary)]">
+        <div className="fadeIn fadeInDelay2">
+          <h3 className="fadeIn text-l text-center font-candal font-bold text-[var(--primary)]">
             Steps:
           </h3>
           <div className="flex justify-center items-center">

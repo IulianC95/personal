@@ -962,5 +962,51 @@
       "Parsley",
       "Wild rice"
     ]
+  },
+  {
+    "title": "Vegetarian Chili",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Vegetarian%20Chili.png",
+    "original": true,
+    "steps": [
+      "Combine beans, bell peppers, tomatoes, and spices in a pot.",
+      "Simmer until flavors meld, then serve with toppings."
+    ],
+    "ingredients": ["Kidney beans", "Black beans", "Bell pepper", "Tomato"]
+  },
+  {
+    "title": "Creamy Roasted Red Pepper Soup",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Creamy%20Roasted%20Red%20Pepper%20Soup.png",
+    "original": true,
+    "steps": [
+      "Sauté onions, add roasted red peppers, and simmer with broth.",
+      "Blend until smooth and stir in heavy cream."
+    ],
+    "ingredients": ["Bell pepper", "Onion", "Vegetable stock", "Soured cream"]
+  },
+  {
+    "title": "Potato and Leek Soup",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Potato%20and%20Leek%20Soup.png",
+    "original": true,
+    "steps": [
+      "Sauté leeks, add potatoes and broth, simmer until tender.",
+      "Blend until smooth, then stir in heavy cream."
+    ],
+    "ingredients": ["Potato", "Leek", "Vegetable stock", "Soured cream"]
+  },
+  {
+    "title": "Mexican Black Bean Soup",
+    "image_url": "https://meta-tailor.com/recipe-finder-images/Mexican%20Black%20Bean%20Soup.png",
+    "original": true,
+    "steps": [
+      "Sauté onion and bell pepper, add beans and spices, simmer.",
+      "Serve with avocado, lime, and cilantro."
+    ],
+    "ingredients": [
+      "Black beans",
+      "Onion",
+      "Bell pepper",
+      "Cumin seeds",
+      "Chilli powder"
+    ]
   }
 ]
