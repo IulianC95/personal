@@ -7,6 +7,31 @@ import React, { useState, useEffect } from 'react';
 
 export default function Footer({ onFooterClick, favorites }) {
   const [activeElement, setActiveElement] = useState('home');
+  const [favoritesCount, setFavoritesCount] = useState(0);
+
+  useEffect(() => {
+    // Această funcție verifică localStorage pentru numărul de favorite
+    const updateFavoritesCount = () => {
+      const savedFavorites = localStorage.getItem('Favorites');
+      const favorites = savedFavorites ? JSON.parse(savedFavorites) : [];
+      setFavoritesCount(favorites.length);
+    };
+
+    // Inițializează numărul de favorite
+    updateFavoritesCount();
+
+    // Setează un listener pentru schimbările în localStorage
+    window.addEventListener('storage', (event) => {
+      if (event.key === 'Favorites') {
+        updateFavoritesCount();
+      }
+    });
+
+    // Curăță listener-ul când componenta este demontată
+    return () => {
+      window.removeEventListener('storage', updateFavoritesCount);
+    };
+  }, []);
 
   const handleFooterClick = (element) => {
     setActiveElement(element);
@@ -42,9 +67,9 @@ export default function Footer({ onFooterClick, favorites }) {
               'favorites',
             )}`}
           />
-          {favorites.length > 0 && (
+          {favoritesCount > 0 && (
             <span className="absolute top-0 right-0 rounded-full bg-red-500 w-6 h-6 text-white text-sm flex items-center justify-center">
-              {favorites.length}
+              {favoritesCount}
             </span>
           )}
           <p className="font-bodoni text-[var(--primary)]">Favorites</p>
