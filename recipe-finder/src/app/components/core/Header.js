@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import { faBell } from '@fortawesome/free-solid-svg-icons';
+import { faMaximize } from '@fortawesome/free-solid-svg-icons';
 
 export default function Header({ onPageChange, onSearchChange }) {
   const [searchTerm, setSearchTerm] = useState('');
@@ -12,6 +12,21 @@ export default function Header({ onPageChange, onSearchChange }) {
     setSearchTerm(newSearchTerm);
     onSearchChange(newSearchTerm); // Aici folosești onSearchChange
   };
+
+  const toggleFullScreen = () => {
+    if (!document.fullscreenElement) {
+      document.documentElement.requestFullscreen().catch((e) => {
+        console.error(
+          `Eroare la încercarea de a intra în modul fullscreen: ${e.message} (${e.name})`,
+        );
+      });
+    } else {
+      if (document.exitFullscreen) {
+        document.exitFullscreen();
+      }
+    }
+  };
+
   return (
     <header className="shadow sticky top-0 left-0 right-0 z-50 grid gap-8 bg-[var(--bg-secondary)] px-4 pb-3">
       <section className="flex justify-between pt-2">
@@ -25,8 +40,9 @@ export default function Header({ onPageChange, onSearchChange }) {
         </h1>
 
         <FontAwesomeIcon
-          icon={faBell}
+          icon={faMaximize}
           className="text-2xl w-8 text-[var(--primary)] self-center"
+          onClick={toggleFullScreen}
         />
       </section>
 
