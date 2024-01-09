@@ -1,5 +1,5 @@
 'use client';
-
+import React, { useEffect } from 'react';
 import HomeComponent from './pages/HomeComponent';
 import FavoritesComponent from './pages/FavoritesComponent';
 import AboutUsComponent from './pages/AboutUsComponent';
@@ -25,6 +25,11 @@ export default function Main({
   selectedRecipe,
   setSelectedRecipe,
 }) {
+  {
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [activePage]);
+  }
   return (
     <main>
       {activePage === 'home' && (
