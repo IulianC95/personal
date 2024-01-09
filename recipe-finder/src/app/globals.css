@@ -141,6 +141,10 @@
   text-align: center;
 }
 
+.active-class {
+  color: rgb(19, 150, 194);
+}
+
 /* animations */
 
 .container .w-24 {
