@@ -18,12 +18,15 @@ import Sauces from './pages/category/Sauces';
 import Pasta from './pages/category/Pasta';
 import Seafood from './pages/category/Seafood';
 import RecipeDetails from './pages/category/RecipeDetails';
+import SearchResults from './pages/category/SearchResults';
+import { allRecipes } from './pages/CookPageComponent';
 
 export default function Main({
   activePage,
   onCategorySelect,
   selectedRecipe,
   setSelectedRecipe,
+  searchTerm,
 }) {
   {
     useEffect(() => {
@@ -32,6 +35,13 @@ export default function Main({
   }
   return (
     <main>
+      {activePage === 'search' && (
+        <SearchResults
+          searchTerm={searchTerm}
+          allRecipes={allRecipes}
+          onCategorySelect={onCategorySelect}
+        />
+      )}
       {activePage === 'home' && (
         <HomeComponent onCategorySelect={onCategorySelect} />
       )}

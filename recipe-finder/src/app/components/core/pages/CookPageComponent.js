@@ -19,19 +19,21 @@ import { faStar as farStar } from '@fortawesome/free-regular-svg-icons';
 import { faStar as fasStar } from '@fortawesome/free-solid-svg-icons';
 
 const allRecipes = [
-  bbqRecipes,
-  breakfastRecipes,
-  soupsRecipes,
-  vegetarianRecipes,
-  burgersRecipes,
-  desertRecipes,
-  pizzaRecipes,
-  piesRecipes,
-  smoothiesRecipes,
-  saucesRecipes,
-  pastaRecipes,
-  seafoodRecipes,
+  ...bbqRecipes,
+  ...breakfastRecipes,
+  ...soupsRecipes,
+  ...vegetarianRecipes,
+  ...burgersRecipes,
+  ...desertRecipes,
+  ...pizzaRecipes,
+  ...piesRecipes,
+  ...smoothiesRecipes,
+  ...saucesRecipes,
+  ...pastaRecipes,
+  ...seafoodRecipes,
 ];
+
+export { allRecipes };
 
 const jsonData = [].concat(...allRecipes);
 

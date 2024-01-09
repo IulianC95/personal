@@ -29,6 +29,17 @@ export default function RootLayout({ children }) {
     setSelectedRecipe(recipe);
   };
 
+  const [searchTerm, setSearchTerm] = useState('');
+
+  const handleSearchChange = (newSearchTerm) => {
+    setSearchTerm(newSearchTerm);
+    if (newSearchTerm) {
+      setActivePage('search'); // Schimbă pagina activă în 'search' când se începe căutarea
+    } else {
+      setActivePage('home'); // Sau orice altă pagină default
+    }
+  };
+
   return (
     <html lang="en">
       <head>
@@ -36,12 +47,16 @@ export default function RootLayout({ children }) {
         <meta name="description" content={metadata.description} />
       </head>
       <body className="max-w-xl mx-auto min-h-screen flex flex-col">
-        <Header onPageChange={handlePageChange} />
+        <Header
+          onPageChange={handlePageChange}
+          onSearchChange={handleSearchChange}
+        />
         <div className="bg-[var(--main-bg)] flex-grow">
           <Main
             activePage={activePage}
             onCategorySelect={handlePageChange}
             selectedRecipe={selectedRecipe}
+            searchTerm={searchTerm}
           />
         </div>
         <Footer onFooterClick={handlePageChange} />

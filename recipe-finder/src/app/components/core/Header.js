@@ -1,10 +1,17 @@
 /* eslint-disable @next/next/no-img-element */
-
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-solid-svg-icons';
 
-export default function Header({ onPageChange }) {
+export default function Header({ onPageChange, onSearchChange }) {
+  const [searchTerm, setSearchTerm] = useState('');
+
+  const handleChange = (e) => {
+    const newSearchTerm = e.target.value;
+    setSearchTerm(newSearchTerm);
+    onSearchChange(newSearchTerm); // Aici folosești onSearchChange
+  };
   return (
     <header className="shadow sticky top-0 left-0 right-0 z-50 grid gap-8 bg-[var(--bg-secondary)] px-4 pb-3">
       <section className="flex justify-between pt-2">
@@ -37,6 +44,8 @@ export default function Header({ onPageChange }) {
             className="input"
             placeholder="Search something..."
             autoComplete="off"
+            value={searchTerm}
+            onChange={handleChange}
           />
           <svg
             xmlns="http://www.w3.org/2000/svg"
