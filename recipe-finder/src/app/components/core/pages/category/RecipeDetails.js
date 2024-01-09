@@ -2,6 +2,7 @@ export default function RecipeDetails({ recipe, onBackToCategory }) {
   if (!recipe) {
     return <div>No recipe selected.</div>;
   }
+  console.log('Recipe details:', recipe);
 
   return (
     <div className="px-4 flex flex-col gap-5">

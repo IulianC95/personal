@@ -769,19 +769,5 @@
       "Assemble sliders with pulled pork and pickles, and drizzle with barbecue sauce."
     ],
     "ingredients": ["Pork", "BBQ sauce", "Burger bun", "Pickled cucumber"]
-  },
-  {
-    "title": "BBQ Vegetable Medley",
-    "image_url": "https://meta-tailor.com/recipe-finder-images/BBQ%20Vegetable%20Medley.png",
-    "original": true,
-    "steps": ["step", "step", "step", "step"],
-    "ingredients": [
-      "Bell pepper",
-      "BBQ sauce",
-      "Courgette",
-      "Mushroom",
-      "Olive oil",
-      "Garlic granules"
-    ]
   }
 ]

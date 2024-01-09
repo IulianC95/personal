@@ -79,6 +79,9 @@ export default function Seafood({ onCategorySelect }) {
                     name: recipe.title,
                     imgSrc: recipe.image_url,
                     recipeUrl: recipe.recipe_url,
+                    original: recipe.original,
+                    steps: recipe.steps,
+                    ingredients: recipe.ingredients,
                   })
                 }
                 className={`cursor-pointer ${

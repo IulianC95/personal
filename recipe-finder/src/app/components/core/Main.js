@@ -48,7 +48,9 @@ export default function Main({
       {activePage === 'cookPage' && (
         <CookPageComponent onCategorySelect={onCategorySelect} />
       )}
-      {activePage === 'favorites' && <FavoritesComponent />}
+      {activePage === 'favorites' && (
+        <FavoritesComponent onCategorySelect={onCategorySelect} />
+      )}
       {activePage === 'about' && <AboutUsComponent />}
       {activePage === 'contact' && <ContactComponent />}
       {activePage === 'soups' && (

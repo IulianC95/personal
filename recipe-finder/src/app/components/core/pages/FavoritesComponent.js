@@ -4,10 +4,20 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar as farStar } from '@fortawesome/free-regular-svg-icons';
 import { faStar as fasStar } from '@fortawesome/free-solid-svg-icons';
 
-export default function FavoritesComponent() {
+const originalRecipeImage = '/images/original-chef.png';
+
+export default function FavoritesComponent({ onCategorySelect }) {
   const [favorites, setFavorites] = useState(() => {
     const savedFavorites = localStorage.getItem('Favorites');
-    return savedFavorites ? JSON.parse(savedFavorites) : [];
+    // Asigurați-vă că formatul datelor salvate corespunde cu formatul așteptat
+    return savedFavorites
+      ? JSON.parse(savedFavorites).map((fav) => ({
+          ...fav,
+          title: fav.title || fav.name, // asigurați-vă că folosiți proprietățile corecte
+          image_url: fav.image_url || fav.imgSrc,
+          recipe_url: fav.recipe_url || fav.recipeUrl,
+        }))
+      : [];
   });
 
   // Opțional: Funcția pentru a elimina o rețetă din favorite
@@ -17,6 +27,14 @@ export default function FavoritesComponent() {
     );
     setFavorites(updatedFavorites);
     localStorage.setItem('Favorites', JSON.stringify(updatedFavorites));
+  };
+
+  const handleRecipeClick = (recipe) => {
+    if (recipe.recipeUrl) {
+      window.open(recipe.recipeUrl, '_blank');
+    } else {
+      onCategorySelect('recipe-details', recipe);
+    }
   };
 
   return (
@@ -30,7 +48,7 @@ export default function FavoritesComponent() {
               className="h-20 w-32 fadeIn"
             ></img>
           </picture>
-          <aside className="h-20 w-full bg-[var(--bg-secondary)] rounded-r-lg flex flex-col gap-1 items-center justify-center expandRight">
+          <aside className="relative h-20 w-full bg-[var(--bg-secondary)] rounded-r-lg flex flex-col gap-1 items-center justify-center expandRight">
             <h3 className="text-base text-center font-candal font-bold text-[var(--primary)] fadeInDelayed">
               {recipe.name}
             </h3>
@@ -40,7 +58,10 @@ export default function FavoritesComponent() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="bg-[var(--primary)] text-white font-candal px-10 py-1 rounded-lg fadeInDelayed">
+                <button
+                  onClick={() => handleRecipeClick(recipe)}
+                  className="bg-[var(--primary)] text-white font-candal px-10 py-1 rounded-lg fadeInDelayed"
+                >
                   Recipe
                 </button>
               </a>
@@ -57,6 +78,15 @@ export default function FavoritesComponent() {
                     : '--primary'
                 } text-xl fadeInDelayed`}
               />
+              {recipe.original && (
+                <picture className="w-10 h-10 absolute right-0 bottom-0">
+                  <img
+                    src={originalRecipeImage}
+                    alt="GPT Recipe"
+                    title="GPT Recipe"
+                  />
+                </picture>
+              )}
             </div>
           </aside>
         </section>
