@@ -38,7 +38,7 @@
 .input:not(:placeholder-shown) {
   background-color: #fef7ee;
   border: 1px solid #082630;
-  width: 290px;
+  width: 200px;
   cursor: none;
   padding: 18px 16px 18px 45px;
 }
