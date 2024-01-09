@@ -3,9 +3,9 @@ import { faHouse } from '@fortawesome/free-solid-svg-icons';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 import { faCircleInfo } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
-export default function Footer({ onFooterClick }) {
+export default function Footer({ onFooterClick, favorites }) {
   const [activeElement, setActiveElement] = useState('home');
 
   const handleFooterClick = (element) => {
@@ -33,7 +33,7 @@ export default function Footer({ onFooterClick }) {
 
         {/* Favorites */}
         <div
-          className={`self-center text-center `}
+          className={`relative self-center text-center `}
           onClick={() => handleFooterClick('favorites')}
         >
           <FontAwesomeIcon
@@ -42,6 +42,11 @@ export default function Footer({ onFooterClick }) {
               'favorites',
             )}`}
           />
+          {favorites.length > 0 && (
+            <span className="absolute top-0 right-0 rounded-full bg-red-500 w-6 h-6 text-white text-sm flex items-center justify-center">
+              {favorites.length}
+            </span>
+          )}
           <p className="font-bodoni text-[var(--primary)]">Favorites</p>
         </div>
 

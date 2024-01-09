@@ -20,6 +20,10 @@ const candal = Candal({
 const capriola = Capriola({ subsets: ['latin'], weight: '400' });
 
 export default function RootLayout({ children }) {
+  const [favorites, setFavorites] = useState(() => {
+    const savedFavorites = localStorage.getItem('Favorites');
+    return savedFavorites ? JSON.parse(savedFavorites) : [];
+  });
   const [activePage, setActivePage] = useState('home');
 
   const [selectedRecipe, setSelectedRecipe] = useState(null);
@@ -78,7 +82,7 @@ export default function RootLayout({ children }) {
             searchTerm={searchTerm}
           />
         </div>
-        <Footer onFooterClick={handlePageChange} />
+        <Footer favorites={favorites} onFooterClick={handlePageChange} />
       </body>
     </html>
   );
