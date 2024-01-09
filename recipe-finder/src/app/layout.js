@@ -6,7 +6,7 @@ import Header from './components/core/Header';
 import { Bodoni_Moda } from 'next/font/google';
 import Footer from './components/core/Footer';
 import Main from './components/core/Main';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { metadata } from './components/core/pages/Metadata';
 import { Candal } from 'next/font/google';
 import { Capriola } from 'next/font/google';
@@ -34,11 +34,30 @@ export default function RootLayout({ children }) {
   const handleSearchChange = (newSearchTerm) => {
     setSearchTerm(newSearchTerm);
     if (newSearchTerm) {
-      setActivePage('search'); // Schimbă pagina activă în 'search' când se începe căutarea
+      setActivePage('search');
     } else {
-      setActivePage('home'); // Sau orice altă pagină default
+      setActivePage('home');
     }
   };
+
+  // Gestionarea Istoricului cu React Router
+  useEffect(() => {
+    window.history.pushState({ page: activePage }, '');
+
+    const handlePopState = (event) => {
+      if (event.state?.page) {
+        setActivePage(event.state.page);
+      } else {
+        setActivePage('home');
+      }
+    };
+
+    window.addEventListener('popstate', handlePopState);
+
+    return () => {
+      window.removeEventListener('popstate', handlePopState);
+    };
+  }, [activePage]);
 
   return (
     <html lang="en">
