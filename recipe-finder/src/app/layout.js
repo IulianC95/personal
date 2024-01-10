@@ -100,27 +100,6 @@ export default function RootLayout({ children }) {
     });
   }, []);
 
-  const handlePlusClick = () => {
-    if (isIOS()) {
-      // Afisează instrucțiunile pentru iOS
-      setShowIOSInstructions(true);
-    } else {
-      // Logica pentru declanșarea prompt-ului pe dispozitive non-iOS
-      const promptEvent = window.deferredPrompt;
-      if (promptEvent) {
-        promptEvent.prompt();
-        promptEvent.userChoice.then((choiceResult) => {
-          if (choiceResult.outcome === 'accepted') {
-            console.log('User accepted the A2HS prompt');
-          } else {
-            console.log('User dismissed the A2HS prompt');
-          }
-          window.deferredPrompt = null;
-        });
-      }
-    }
-  };
-
   return (
     <html lang="en">
       <head>
@@ -132,6 +111,8 @@ export default function RootLayout({ children }) {
         <Header
           onPageChange={handlePageChange}
           onSearchChange={handleSearchChange}
+          setShowIOSInstructions={setShowIOSInstructions}
+          showIOSInstructions={showIOSInstructions}
         />
         <div className="bg-[var(--main-bg)] flex-grow">
           {!hasAcceptedCookies && (

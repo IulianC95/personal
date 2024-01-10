@@ -7,6 +7,7 @@ import { faMaximize } from '@fortawesome/free-solid-svg-icons';
 export default function Header({
   onPageChange,
   onSearchChange,
+  setShowIOSInstructions,
   showIOSInstructions,
 }) {
   const [searchTerm, setSearchTerm] = useState('');
@@ -31,26 +32,38 @@ export default function Header({
     }
   };
 
+  const isIOS = () => {
+    return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+  };
+
+  const handlePlusClick = () => {
+    if (isIOS()) {
+      // Afisează instrucțiunile pentru iOS
+      setShowIOSInstructions(true);
+    } else {
+      // Logica pentru declanșarea prompt-ului pe dispozitive non-iOS
+      const promptEvent = window.deferredPrompt;
+      if (promptEvent) {
+        promptEvent.prompt();
+        promptEvent.userChoice.then((choiceResult) => {
+          if (choiceResult.outcome === 'accepted') {
+            console.log('User accepted the A2HS prompt');
+          } else {
+            console.log('User dismissed the A2HS prompt');
+          }
+          window.deferredPrompt = null;
+        });
+      }
+    }
+  };
+
   return (
     <header className="shadow sticky top-0 left-0 right-0 z-50 grid gap-8 bg-[var(--bg-secondary)] px-4 pb-3">
       <section className="flex justify-between pt-2">
         <FontAwesomeIcon
           icon={faCirclePlus}
           className="text-3xl w-8 text-[var(--primary)] self-center"
-          onClick={() => {
-            const promptEvent = window.deferredPrompt;
-            if (promptEvent) {
-              promptEvent.prompt();
-              promptEvent.userChoice.then((choiceResult) => {
-                if (choiceResult.outcome === 'accepted') {
-                  console.log('User accepted the A2HS prompt');
-                } else {
-                  console.log('User dismissed the A2HS prompt');
-                }
-                window.deferredPrompt = null;
-              });
-            }
-          }}
+          onClick={handlePlusClick}
         />
         {showIOSInstructions && (
           <div
@@ -58,22 +71,19 @@ export default function Header({
               showIOSInstructions ? 'flex' : 'hidden'
             } fixed inset-0 bg-black bg-opacity-50 justify-center items-center`}
           >
-            <div className="bg-white p-4 rounded-lg max-w-sm mx-auto">
-              <p className="text-lg font-semibold mb-4">
-                Pentru a adăuga această aplicație pe ecranul tău principal:
+            <div className="bg-[var(--bg-secondary)] p-4 rounded-lg max-w-sm mx-auto">
+              <p className="text-lg font-semibold mb-4 text-[var(--primary)]">
+                To add this app to your home screen:
               </p>
               <ol className="list-decimal list-inside space-y-2">
-                <li>
-                  Deschide Safari și navighează la adresa web a aplicației.
-                </li>
-                <li>Apasă pe butonul de partajare din bara de navigație.</li>
-                <li>
-                  Selectează Add to Home Screen (Adaugă pe ecranul principal).
-                </li>
+                <li>Open Safari and navigate to the web address of the app.</li>
+                <li>Tap the share button in the navigation bar.</li>
+                <li>Select Add to Home Screen.</li>
               </ol>
+
               <button
                 onClick={() => setShowIOSInstructions(false)}
-                className="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition duration-200"
+                className="mt-4 px-4 py-2 bg-[var(--primary)] text-white rounded hover:bg-blue-600 transition duration-200"
               >
                 OK
               </button>
