@@ -4,7 +4,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCirclePlus } from '@fortawesome/free-solid-svg-icons';
 import { faMaximize } from '@fortawesome/free-solid-svg-icons';
 
-export default function Header({ onPageChange, onSearchChange }) {
+export default function Header({
+  onPageChange,
+  onSearchChange,
+  showIOSInstructions,
+}) {
   const [searchTerm, setSearchTerm] = useState('');
 
   const handleChange = (e) => {
@@ -48,6 +52,18 @@ export default function Header({ onPageChange, onSearchChange }) {
             }
           }}
         />
+        {showIOSInstructions && (
+          <div className="ios-instructions">
+            <p>Pentru a adăuga această aplicație pe ecranul tău principal:</p>
+            <ol>
+              <li>Deschide Safari și navighează la adresa web a aplicației.</li>
+              <li>Apasă pe butonul de partajare din bara de navigație.</li>
+              <li>
+                Selectează Add to Home Screen (Adaugă pe ecranul principal).
+              </li>
+            </ol>
+          </div>
+        )}
 
         <h1 className="text-2xl font-bodoni self-center font-extrabold text-[var(--primary)]">
           Recipe Finder
