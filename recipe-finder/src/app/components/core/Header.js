@@ -15,7 +15,7 @@ export default function Header({
   const handleChange = (e) => {
     const newSearchTerm = e.target.value;
     setSearchTerm(newSearchTerm);
-    onSearchChange(newSearchTerm); // Aici folosești onSearchChange
+    onSearchChange(newSearchTerm);
   };
 
   const toggleFullScreen = () => {
@@ -38,10 +38,10 @@ export default function Header({
 
   const handlePlusClick = () => {
     if (isIOS()) {
-      // Afisează instrucțiunile pentru iOS
+      // Afisează instructiunile pentru iOS
       setShowIOSInstructions(true);
     } else {
-      // Logica pentru declanșarea prompt-ului pe dispozitive non-iOS
+      // Logica pentru declansarea prompt-ului pe dispozitive non-iOS
       const promptEvent = window.deferredPrompt;
       if (promptEvent) {
         promptEvent.prompt();

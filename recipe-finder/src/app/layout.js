@@ -72,7 +72,6 @@ export default function RootLayout({ children }) {
   const handleAcceptCookies = () => {
     localStorage.setItem('acceptCookies', 'true');
     setHasAcceptedCookies(true);
-    // Aici poți adăuga orice altă logică necesară pentru setarea cookies
   };
 
   useEffect(() => {
