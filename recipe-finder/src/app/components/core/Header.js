@@ -33,6 +33,20 @@ export default function Header({ onPageChange, onSearchChange }) {
         <FontAwesomeIcon
           icon={faCirclePlus}
           className="text-3xl w-8 text-[var(--primary)] self-center"
+          onClick={() => {
+            const promptEvent = window.deferredPrompt;
+            if (promptEvent) {
+              promptEvent.prompt();
+              promptEvent.userChoice.then((choiceResult) => {
+                if (choiceResult.outcome === 'accepted') {
+                  console.log('User accepted the A2HS prompt');
+                } else {
+                  console.log('User dismissed the A2HS prompt');
+                }
+                window.deferredPrompt = null;
+              });
+            }
+          }}
         />
 
         <h1 className="text-2xl font-bodoni self-center font-extrabold text-[var(--primary)]">

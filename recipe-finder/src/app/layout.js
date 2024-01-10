@@ -91,6 +91,13 @@ export default function RootLayout({ children }) {
     }
   }, []);
 
+  useEffect(() => {
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      window.deferredPrompt = e;
+    });
+  }, []);
+
   return (
     <html lang="en">
       <head>

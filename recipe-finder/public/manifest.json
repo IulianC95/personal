@@ -1,6 +1,6 @@
 {
-  "short_name": "App",
-  "name": "Aplicația Mea Web",
+  "short_name": "Recipe Finder",
+  "name": "Recipe Finder",
   "icons": [
     {
       "src": "/images/original-chef-icon.png",
