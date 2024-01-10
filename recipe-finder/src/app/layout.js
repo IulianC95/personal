@@ -10,6 +10,7 @@ import React, { useState, useEffect } from 'react';
 import { metadata } from './components/core/pages/Metadata';
 import { Candal } from 'next/font/google';
 import { Capriola } from 'next/font/google';
+import CookiePolicy from './components/core/pages/CookiePolicy';
 
 const inter = Inter({ subsets: ['latin'] });
 const bodoniModa = Bodoni_Moda({ subsets: ['latin'] });
@@ -59,6 +60,20 @@ export default function RootLayout({ children }) {
     };
   }, [activePage]);
 
+  const [hasAcceptedCookies, setHasAcceptedCookies] = useState(false);
+
+  useEffect(() => {
+    const acceptedCookies = localStorage.getItem('acceptCookies');
+    if (acceptedCookies) {
+      setHasAcceptedCookies(true);
+    }
+  }, []);
+
+  const handleAcceptCookies = () => {
+    localStorage.setItem('acceptCookies', 'true');
+    setHasAcceptedCookies(true);
+    // Aici poți adăuga orice altă logică necesară pentru setarea cookies
+  };
   return (
     <html lang="en">
       <head>
@@ -71,6 +86,9 @@ export default function RootLayout({ children }) {
           onSearchChange={handleSearchChange}
         />
         <div className="bg-[var(--main-bg)] flex-grow">
+          {!hasAcceptedCookies && (
+            <CookiePolicy onAccept={handleAcceptCookies} />
+          )}
           <Main
             activePage={activePage}
             onCategorySelect={handlePageChange}
