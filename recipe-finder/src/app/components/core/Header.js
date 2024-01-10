@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faCirclePlus } from '@fortawesome/free-solid-svg-icons';
 import { faMaximize } from '@fortawesome/free-solid-svg-icons';
 
 export default function Header({ onPageChange, onSearchChange }) {
@@ -31,8 +31,8 @@ export default function Header({ onPageChange, onSearchChange }) {
     <header className="shadow sticky top-0 left-0 right-0 z-50 grid gap-8 bg-[var(--bg-secondary)] px-4 pb-3">
       <section className="flex justify-between pt-2">
         <FontAwesomeIcon
-          icon={faBars}
-          className="self-center text-2xl w-8 p-2 cursor-pointer bg-[var(--primary)] rounded-full text-[var(--bg-secondary)]"
+          icon={faCirclePlus}
+          className="text-3xl w-8 text-[var(--primary)] self-center"
         />
 
         <h1 className="text-2xl font-bodoni self-center font-extrabold text-[var(--primary)]">

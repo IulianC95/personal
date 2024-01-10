@@ -74,11 +74,29 @@ export default function RootLayout({ children }) {
     setHasAcceptedCookies(true);
     // Aici poți adăuga orice altă logică necesară pentru setarea cookies
   };
+
+  useEffect(() => {
+    if ('serviceWorker' in navigator && process.env.NODE_ENV === 'production') {
+      navigator.serviceWorker
+        .register('/sw.js')
+        .then((registration) => {
+          console.log('Service Worker registered: ', registration);
+        })
+        .catch((registrationError) => {
+          console.log(
+            'Service Worker registration failed: ',
+            registrationError,
+          );
+        });
+    }
+  }, []);
+
   return (
     <html lang="en">
       <head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
+        <link rel="manifest" href="/manifest.json" />
       </head>
       <body className="max-w-xl mx-auto min-h-screen flex flex-col">
         <Header

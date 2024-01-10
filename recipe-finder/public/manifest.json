@@ -3,7 +3,7 @@
   "name": "Aplicația Mea Web",
   "icons": [
     {
-      "src": "public/images/The Chef.png",
+      "src": "/images/original-chef-icon.png",
       "sizes": "192x192",
       "type": "image/png"
     }
