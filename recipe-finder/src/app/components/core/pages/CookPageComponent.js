@@ -2160,10 +2160,10 @@ export default function CookPageComponent({ onCategorySelect }) {
       )}
       {!showRecipes && (
         <div className="flex flex-col items-center px-4 gap-2 pt-2 flex-grow fadeIn">
-          <div className="pb-2 flex justify-around gap-4 w-full flex-col items-center fixed bg-[var(--main-bg)] z-50 search-ingredient">
-            <h3 className="font-capriola text-base font-medium text-[var(--primary)] text-center">
-              Select the ingredients you have right now in the kitchen
-            </h3>
+          <h3 className="font-capriola text-sm font-medium text-[var(--primary)] text-center">
+            Select the ingredients you have right now in the kitchen
+          </h3>
+          <div className="flex justify-around gap-4 w-full">
             <div className="container-input">
               <button
                 title="Artificial Inteligence recipes"
@@ -2187,7 +2187,7 @@ export default function CookPageComponent({ onCategorySelect }) {
               </button>
             </div>
           </div>
-          <section className="mt-20 flex flex-wrap justify-center gap-2">
+          <section className="flex flex-wrap justify-center gap-2">
             {filteredIngredients.map((ingredient) => (
               <div
                 className={`flex flex-col items-center w-1/5 min-w-[82px] cursor-pointer ${

@@ -113,6 +113,7 @@
 
 .container-input {
   position: relative;
+
   display: flex;
 }
 
@@ -124,11 +125,6 @@
   transition: all 0.2s ease-in-out;
   outline: none;
   opacity: 0.8;
-}
-
-.search-ingredient {
-  margin-top: -8px;
-  margin-bottom: 10px;
 }
 
 .input2::placeholder {
