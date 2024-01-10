@@ -3,7 +3,7 @@ import { faFaceSmile } from '@fortawesome/free-solid-svg-icons';
 import { faBookOpen } from '@fortawesome/free-solid-svg-icons';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import { faThumbsUp } from '@fortawesome/free-solid-svg-icons';
-
+import { faCopyright } from '@fortawesome/free-solid-svg-icons';
 export default function AboutUs() {
   return (
     <div className="flex flex-col text-center pt-10 px-4 bg-[var(--main-bg)] gap-10 flex-grow">
@@ -48,6 +48,21 @@ export default function AboutUs() {
           Dive into our vast collection of recipes, from traditional dishes to
           modern twists on classics, and find inspiration for every meal, every
           day.
+        </p>
+      </div>
+      <div className="flex flex-col gap-2 fadeIn fadeInDelay3">
+        <FontAwesomeIcon
+          icon={faCopyright}
+          className="text-4xl text-[var(--primary)]"
+        />
+        <p className="text-base font-candal text-[var(--primary)] font-bold">
+          &copy; Copyright 2023 - {new Date().getFullYear()}{' '}
+          <a
+            href="https://www.linkedin.com/in/cuculici-iulian-512649155/"
+            target="_blank"
+          >
+            Cuculici Iulian
+          </a>
         </p>
       </div>
     </div>
