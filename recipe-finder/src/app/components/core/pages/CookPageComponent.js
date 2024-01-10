@@ -2160,14 +2160,14 @@ export default function CookPageComponent({ onCategorySelect }) {
       )}
       {!showRecipes && (
         <div className="flex flex-col items-center px-4 gap-2 pt-2 flex-grow fadeIn">
-          <h3 className="font-capriola text-base font-medium text-[var(--primary)] text-center">
-            Select the ingredients you have right now in the kitchen
-          </h3>
-          <div className="flex justify-around gap-4 w-full">
+          <div className="pb-2 flex justify-around gap-4 w-full flex-col items-center fixed bg-[var(--main-bg)] z-50 search-ingredient">
+            <h3 className="font-capriola text-base font-medium text-[var(--primary)] text-center">
+              Select the ingredients you have right now in the kitchen
+            </h3>
             <div className="container-input">
               <button
                 title="Artificial Inteligence recipes"
-                className="premium text-white text-xs font-candal px-4 py-3 rounded-l-full fadeIn"
+                className="h-9 premium text-white text-xs font-candal px-4 py-3 rounded-l-lg fadeIn"
               >
                 AI Rec
               </button>
@@ -2180,14 +2180,14 @@ export default function CookPageComponent({ onCategorySelect }) {
                 onChange={handleSearchChange}
               />
               <button
-                className="bg-[var(--primary)]  text-white text-xs font-candal px-4 py-3 rounded-r-full fadeIn"
+                className="h-9 bg-[var(--primary)]  text-white text-xs font-candal px-4 py-3 rounded-r-lg fadeIn"
                 onClick={handleButtonClick}
               >
                 Submit
               </button>
             </div>
           </div>
-          <section className="flex flex-wrap justify-center gap-2">
+          <section className="mt-20 flex flex-wrap justify-center gap-2">
             {filteredIngredients.map((ingredient) => (
               <div
                 className={`flex flex-col items-center w-1/5 min-w-[82px] cursor-pointer ${
