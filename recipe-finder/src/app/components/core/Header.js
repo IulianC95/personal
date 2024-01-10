@@ -53,15 +53,31 @@ export default function Header({
           }}
         />
         {showIOSInstructions && (
-          <div className="ios-instructions">
-            <p>Pentru a adăuga această aplicație pe ecranul tău principal:</p>
-            <ol>
-              <li>Deschide Safari și navighează la adresa web a aplicației.</li>
-              <li>Apasă pe butonul de partajare din bara de navigație.</li>
-              <li>
-                Selectează Add to Home Screen (Adaugă pe ecranul principal).
-              </li>
-            </ol>
+          <div
+            className={`ios-instructions ${
+              showIOSInstructions ? 'flex' : 'hidden'
+            } fixed inset-0 bg-black bg-opacity-50 justify-center items-center`}
+          >
+            <div className="bg-white p-4 rounded-lg max-w-sm mx-auto">
+              <p className="text-lg font-semibold mb-4">
+                Pentru a adăuga această aplicație pe ecranul tău principal:
+              </p>
+              <ol className="list-decimal list-inside space-y-2">
+                <li>
+                  Deschide Safari și navighează la adresa web a aplicației.
+                </li>
+                <li>Apasă pe butonul de partajare din bara de navigație.</li>
+                <li>
+                  Selectează Add to Home Screen (Adaugă pe ecranul principal).
+                </li>
+              </ol>
+              <button
+                onClick={() => setShowIOSInstructions(false)}
+                className="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition duration-200"
+              >
+                OK
+              </button>
+            </div>
           </div>
         )}
 
