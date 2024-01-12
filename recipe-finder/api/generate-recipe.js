@@ -1,4 +1,10 @@
 // api/generate-recipe.js
+res.setHeader('Access-Control-Allow-Origin', '*'); // or specify your front-end domain instead of '*'
+res.setHeader(
+  'Access-Control-Allow-Headers',
+  'Origin, X-Requested-With, Content-Type, Accept',
+);
+
 const axios = require('axios');
 
 const OPENAI_API_URL =
