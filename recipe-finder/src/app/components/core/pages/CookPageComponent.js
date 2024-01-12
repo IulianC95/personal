@@ -2144,13 +2144,16 @@ export default function CookPageComponent({
       .map((ingredient) => ingredient.name);
 
     try {
-      const response = await fetch('http://localhost:3001/generate-recipe', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
+      const response = await fetch(
+        'https://your-vercel-project-url.vercel.app/api/generate-recipe',
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ ingredients: selectedIngredients }),
         },
-        body: JSON.stringify({ ingredients: selectedIngredients }),
-      });
+      );
       const recipeText = await response.text();
       console.log(recipeText);
       setGeneratedRecipe(recipeText);
