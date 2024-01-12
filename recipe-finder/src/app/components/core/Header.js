@@ -150,8 +150,8 @@ export default function Header({
             <picture>
               <img
                 src="../../../images/romania.png"
-                className="w-8"
-                alt="Romanian"
+                className="w-8 grayscale"
+                alt="Romanian - coming soon"
               ></img>
             </picture>
           </a>
@@ -161,7 +161,7 @@ export default function Header({
               <img
                 src="../../../images/united-kingdom.png"
                 className="w-8"
-                alt="Romanian"
+                alt="English"
               ></img>
             </picture>
           </a>
@@ -170,8 +170,8 @@ export default function Header({
             <picture>
               <img
                 src="../../../images/france.png"
-                className="w-8"
-                alt="Romanian"
+                className="w-8 grayscale"
+                alt="French  - coming soon"
               ></img>
             </picture>
           </a>
@@ -180,8 +180,8 @@ export default function Header({
             <picture>
               <img
                 src="../../../images/germany.png"
-                className="w-8"
-                alt="Romanian"
+                className="w-8 grayscale"
+                alt="German  - coming soon"
               ></img>
             </picture>
           </a>
@@ -190,8 +190,8 @@ export default function Header({
             <picture>
               <img
                 src="../../../images/spain.png"
-                className="w-8"
-                alt="Romanian"
+                className="w-8 grayscale"
+                alt="Spanish  - coming soon"
               ></img>
             </picture>
           </a>
