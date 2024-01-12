@@ -3,13 +3,30 @@ const axios = require('axios');
 const OPENAI_API_URL =
   'https://api.openai.com/v1/engines/gpt-3.5-turbo-instruct/completions';
 
-module.exports = async (req, res) => {
-  res.setHeader('Access-Control-Allow-Origin', '*');
+const allowCors = (fn) => async (req, res) => {
+  res.setHeader('Access-Control-Allow-Credentials', true);
+  res.setHeader(
+    'Access-Control-Allow-Origin',
+    'https://personal-blond-two.vercel.app/',
+  ); // sau specifică domeniul tău
+  res.setHeader(
+    'Access-Control-Allow-Methods',
+    'GET,OPTIONS,PATCH,DELETE,POST,PUT',
+  );
   res.setHeader(
     'Access-Control-Allow-Headers',
-    'Origin, X-Requested-With, Content-Type, Accept',
+    'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version',
   );
 
+  if (req.method === 'OPTIONS') {
+    res.status(200).end();
+    return;
+  }
+
+  return await fn(req, res);
+};
+
+const handler = async (req, res) => {
   if (req.method === 'POST') {
     const ingredients = req.body.ingredients;
     const prompt =
@@ -38,3 +55,5 @@ module.exports = async (req, res) => {
     res.status(405).send('Metodă nepermisă');
   }
 };
+
+module.exports = allowCors(handler);
