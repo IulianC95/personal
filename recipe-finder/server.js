@@ -2,7 +2,7 @@ const express = require('express');
 const axios = require('axios');
 const app = express();
 require('dotenv').config();
-console.log('Cheia API OpenAI:', process.env.OPENAI_API_KEY);
+const apiKey = process.env.API_KEY;
 
 const cors = require('cors');
 
@@ -27,7 +27,7 @@ app.post('/generate-recipe', async (req, res) => {
       },
       {
         headers: {
-          Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
+          Authorization: `Bearer ${apiKey}`,
         },
       },
     );
