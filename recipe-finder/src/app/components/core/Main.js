@@ -20,6 +20,7 @@ import Seafood from './pages/category/Seafood';
 import RecipeDetails from './pages/category/RecipeDetails';
 import SearchResults from './pages/category/SearchResults';
 import { allRecipes } from './pages/CookPageComponent';
+import GeneratedRecipe from './pages/category/GeneratedRecipe.js';
 
 export default function Main({
   activePage,
@@ -27,6 +28,9 @@ export default function Main({
   selectedRecipe,
   setSelectedRecipe,
   searchTerm,
+  generatedRecipe,
+  setActivePage,
+  setGeneratedRecipe,
 }) {
   {
     useEffect(() => {
@@ -46,7 +50,12 @@ export default function Main({
         <HomeComponent onCategorySelect={onCategorySelect} />
       )}
       {activePage === 'cookPage' && (
-        <CookPageComponent onCategorySelect={onCategorySelect} />
+        <CookPageComponent
+          onCategorySelect={onCategorySelect}
+          setSelectedRecipe={setSelectedRecipe}
+          setActivePage={setActivePage}
+          setGeneratedRecipe={setGeneratedRecipe}
+        />
       )}
       {activePage === 'favorites' && (
         <FavoritesComponent onCategorySelect={onCategorySelect} />
@@ -83,6 +92,12 @@ export default function Main({
       )}
       {activePage === 'recipe-details' && (
         <RecipeDetails recipe={selectedRecipe} />
+      )}
+      {activePage === 'generated-recipe' && (
+        <GeneratedRecipe
+          onCategorySelect={onCategorySelect}
+          recipe={generatedRecipe}
+        />
       )}
     </main>
   );

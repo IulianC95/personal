@@ -17,6 +17,7 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar as farStar } from '@fortawesome/free-regular-svg-icons';
 import { faStar as fasStar } from '@fortawesome/free-solid-svg-icons';
+import GeneratedRecipe from './category/GeneratedRecipe.js';
 
 const allRecipes = [
   ...bbqRecipes,
@@ -45,7 +46,11 @@ const Recipes = jsonData.map((recipe) => ({
 
 const originalRecipeImage = '/images/original-chef.png';
 
-export default function CookPageComponent({ onCategorySelect }) {
+export default function CookPageComponent({
+  onCategorySelect,
+  setActivePage,
+  setGeneratedRecipe,
+}) {
   const [hasSeenMessage, setHasSeenMessage] = useState(false);
 
   useEffect(() => {
@@ -2132,6 +2137,29 @@ export default function CookPageComponent({ onCategorySelect }) {
   function handleBackClick() {
     setShowRecipes(false);
   }
+
+  const handleAIRecClick = async () => {
+    const selectedIngredients = ingredients
+      .filter((ingredient) => ingredient.selected)
+      .map((ingredient) => ingredient.name);
+
+    try {
+      const response = await fetch('http://localhost:3001/generate-recipe', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ ingredients: selectedIngredients }),
+      });
+      const recipeText = await response.text();
+      console.log(recipeText);
+      setGeneratedRecipe(recipeText);
+      setActivePage('generated-recipe');
+    } catch (error) {
+      console.error('Eroare la generarea rețetei', error);
+    }
+  };
+
   return (
     <div className="flex flex-col">
       {!hasSeenMessage && (
@@ -2166,11 +2194,13 @@ export default function CookPageComponent({ onCategorySelect }) {
           <div className="flex justify-around gap-4 w-full">
             <div className="container-input">
               <button
+                onClick={handleAIRecClick}
                 title="Artificial Inteligence recipes"
                 className="h-9 premium text-white text-xs font-candal px-4 py-3 rounded-l-lg fadeIn"
               >
                 AI Rec
               </button>
+
               <input
                 type="text"
                 placeholder="  Search"

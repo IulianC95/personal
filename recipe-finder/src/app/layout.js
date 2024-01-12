@@ -99,6 +99,8 @@ export default function RootLayout({ children }) {
     });
   }, []);
 
+  const [generatedRecipe, setGeneratedRecipe] = useState(null);
+
   return (
     <html lang="en">
       <head>
@@ -122,6 +124,9 @@ export default function RootLayout({ children }) {
             onCategorySelect={handlePageChange}
             selectedRecipe={selectedRecipe}
             searchTerm={searchTerm}
+            generatedRecipe={generatedRecipe}
+            setActivePage={setActivePage}
+            setGeneratedRecipe={setGeneratedRecipe}
           />
         </div>
         <Footer onFooterClick={handlePageChange} />
