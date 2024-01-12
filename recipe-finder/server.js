@@ -1,33 +1,32 @@
 const express = require('express');
 const axios = require('axios');
 const app = express();
-require('dotenv').config();
-const apiKey = process.env.API_KEY;
+require('dotenv').config(); // Acest rând este necesar pentru încărcarea variabilelor de mediu în dezvoltarea locală
 
 const cors = require('cors');
 
 app.use(express.json());
 app.use(cors());
+
 const OPENAI_API_URL =
   'https://api.openai.com/v1/engines/gpt-3.5-turbo-instruct/completions';
 
 app.post('/generate-recipe', async (req, res) => {
   const ingredients = req.body.ingredients;
   const prompt =
-    'Create a recipe using only the given ingredients, you are not allowed to use extra ingredeints. Give me instructions, ingredients and title' +
+    'Create a recipe using only the given ingredients, you are not allowed to use extra ingredients. Give me instructions, ingredients and title' +
     ingredients.join(', ');
-  console.log(ingredients.join(','));
+
   try {
     const response = await axios.post(
       OPENAI_API_URL,
       {
         prompt: prompt,
-
         max_tokens: 500,
       },
       {
         headers: {
-          Authorization: `Bearer ${apiKey}`,
+          Authorization: `Bearer ${process.env.API_KEY}`, // Folosește variabila de mediu aici
         },
       },
     );
