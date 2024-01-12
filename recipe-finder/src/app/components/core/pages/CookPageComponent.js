@@ -2145,7 +2145,7 @@ export default function CookPageComponent({
 
     try {
       const response = await fetch(
-        'https://your-vercel-project-url.vercel.app/api/generate-recipe',
+        'https://www.https://personal-blond-two.vercel.app/api/generate-recipe',
         {
           method: 'POST',
           headers: {
