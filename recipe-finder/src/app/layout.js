@@ -106,7 +106,7 @@ export default function RootLayout({ children }) {
       <head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
-        <meta property="og:image" content="public/images/meta-img.png" />
+        <meta property="og:image" content="/images/meta-img.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <link
