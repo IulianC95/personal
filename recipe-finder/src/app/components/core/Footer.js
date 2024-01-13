@@ -10,24 +10,21 @@ export default function Footer({ onFooterClick, favorites }) {
   const [favoritesCount, setFavoritesCount] = useState(0);
 
   useEffect(() => {
-    // Această funcție verifică localStorage pentru numărul de favorite
+    // Check localStorage for favorites
     const updateFavoritesCount = () => {
       const savedFavorites = localStorage.getItem('Favorites');
       const favorites = savedFavorites ? JSON.parse(savedFavorites) : [];
       setFavoritesCount(favorites.length);
     };
 
-    // Inițializează numărul de favorite
     updateFavoritesCount();
 
-    // Setează un listener pentru schimbările în localStorage
     window.addEventListener('storage', (event) => {
       if (event.key === 'Favorites') {
         updateFavoritesCount();
       }
     });
 
-    // Curăță listener-ul când componenta este demontată
     return () => {
       window.removeEventListener('storage', updateFavoritesCount);
     };

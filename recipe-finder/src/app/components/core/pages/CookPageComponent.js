@@ -2139,6 +2139,7 @@ export default function CookPageComponent({
   }
 
   const handleAIRecClick = async () => {
+    document.querySelector('.overlay').style.display = 'flex';
     const selectedIngredients = ingredients
       .filter((ingredient) => ingredient.selected)
       .map((ingredient) => ingredient.name);
@@ -2155,10 +2156,12 @@ export default function CookPageComponent({
         },
       );
       const recipeText = await response.text();
-      console.log(recipeText);
+      document.querySelector('.overlay').style.display = 'none';
+
       setGeneratedRecipe(recipeText);
       setActivePage('generated-recipe');
     } catch (error) {
+      document.querySelector('.overlay').style.display = 'none';
       console.error('Eroare la generarea rețetei', error);
     }
   };
@@ -2219,6 +2222,9 @@ export default function CookPageComponent({
                 Submit
               </button>
             </div>
+          </div>
+          <div className="overlay" style={{ display: 'none' }}>
+            <div className="loader"></div>
           </div>
           <section className="flex flex-wrap justify-center gap-2">
             {filteredIngredients.map((ingredient) => (

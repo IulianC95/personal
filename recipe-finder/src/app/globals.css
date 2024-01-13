@@ -154,12 +154,12 @@
 }
 
 .overlay {
-  position: fixed; /* Poziționare fixă pentru a acoperi întreaga pagină */
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.7); /* Fundal semi-transparent */
+  background: rgba(0, 0, 0, 0.7);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -228,23 +228,59 @@ iframe {
   animation-name: expandRight;
   animation-duration: 1s;
   animation-fill-mode: forwards;
-  animation-delay: 1s; /* Începe după animația fadeIn */
-  width: 0; /* începe cu width 0 */
-  overflow: hidden; /* previne afișarea conținutului înainte de animație */
+  animation-delay: 1s;
+  width: 0;
+  overflow: hidden;
 }
 
 @keyframes expandRight {
   to {
     width: 100%;
-  } /* se extinde până la 100% */
+  }
 }
 
 .fadeInDelayed {
   animation-name: fadeIn;
   animation-duration: 1s;
   animation-fill-mode: both;
-  animation-delay: 2s; /* Începe după animația expandRight */
-  opacity: 0; /* inițial invizibil */
+  animation-delay: 2s;
+  opacity: 0;
+}
+
+.loader {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #082630;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  animation: spin 2s linear infinite;
+  z-index: 9999;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 /* /animations */

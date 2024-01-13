@@ -13,7 +13,7 @@ const parseRecipe = (recipeText) => {
     ? ingredientsMatch[1].split('\n').filter((i) => i)
     : [];
 
-  // Extrage instrucțiunile
+  // Extrage instructiunile
   const instructionsMatch = recipeText.match(/Instructions:\s*([\s\S]*)$/);
   const instructions = instructionsMatch
     ? instructionsMatch[1].split('\n').filter((i) => i)
