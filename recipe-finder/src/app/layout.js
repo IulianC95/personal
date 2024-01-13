@@ -106,6 +106,19 @@ export default function RootLayout({ children }) {
       <head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
+        <meta property="og:image" content="public/images/meta-img.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <link
+          rel="icon"
+          href="public/images/original-chef.ico"
+          type="image/x-icon"
+        />
+        <link
+          rel="shortcut icon"
+          href="public/images/original-chef.ico"
+          type="image/x-icon"
+        />
         <link rel="manifest" href="/manifest.json" />
       </head>
       <body className="max-w-xl mx-auto min-h-screen flex flex-col">
