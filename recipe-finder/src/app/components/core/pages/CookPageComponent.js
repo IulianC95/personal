@@ -2146,7 +2146,7 @@ export default function CookPageComponent({
 
     try {
       const response = await fetch(
-        'https://personal-blond-two.vercel.app/api/generate-recipe',
+        'https://recipe-finder-v1.vercel.app/api/generate-recipe',
         {
           method: 'POST',
           headers: {
@@ -2170,7 +2170,7 @@ export default function CookPageComponent({
     <div className="flex flex-col">
       {!hasSeenMessage && (
         <div className="p-4 z-50 fixed top-0 left-0 w-full h-full bg-black bg-opacity-70 flex justify-center items-center">
-          <div className="flex flex-col gap-2 bg-[var(--bg-secondary)] p-6 rounded-lg shadow-lg text-center">
+          <div className=" flex flex-col gap-2 bg-[var(--bg-secondary)] p-6 rounded-lg shadow-lg text-center">
             <h3 className="text-xl text-[var(--primary)]">
               Important Notice for Optimal App Experience
             </h3>
