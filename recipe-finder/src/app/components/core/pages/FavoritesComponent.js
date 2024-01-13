@@ -9,18 +9,17 @@ const originalRecipeImage = '/images/original-chef.png';
 export default function FavoritesComponent({ onCategorySelect }) {
   const [favorites, setFavorites] = useState(() => {
     const savedFavorites = localStorage.getItem('Favorites');
-    // Asigurați-vă că formatul datelor salvate corespunde cu formatul așteptat
+
     return savedFavorites
       ? JSON.parse(savedFavorites).map((fav) => ({
           ...fav,
-          title: fav.title || fav.name, // asigurați-vă că folosiți proprietățile corecte
+          title: fav.title || fav.name,
           image_url: fav.image_url || fav.imgSrc,
           recipe_url: fav.recipe_url || fav.recipeUrl,
         }))
       : [];
   });
 
-  // Opțional: Funcția pentru a elimina o rețetă din favorite
   const removeFromFavorites = (recipeToRemove) => {
     const updatedFavorites = favorites.filter(
       (recipe) => recipe.name !== recipeToRemove.name,

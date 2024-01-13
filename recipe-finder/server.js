@@ -1,7 +1,7 @@
 const express = require('express');
 const axios = require('axios');
 const app = express();
-require('dotenv').config(); // Acest rând este necesar pentru încărcarea variabilelor de mediu în dezvoltarea locală
+require('dotenv').config();
 
 const cors = require('cors');
 
@@ -26,7 +26,7 @@ app.post('/generate-recipe', async (req, res) => {
       },
       {
         headers: {
-          Authorization: `Bearer ${process.env.API_KEY}`, // Folosește variabila de mediu aici
+          Authorization: `Bearer ${process.env.API_KEY}`,
         },
       },
     );

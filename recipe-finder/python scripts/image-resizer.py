@@ -6,7 +6,7 @@ import os
 def redimensioneaza_imaginile(dimensiuni, calea_imaginilor):
     for cale in calea_imaginilor:
         img = Image.open(cale)
-        img_resized = img.resize(dimensiuni, Image.Resampling.LANCZOS)  # Modificarea aici
+        img_resized = img.resize(dimensiuni, Image.Resampling.LANCZOS)
         nume_fisier = os.path.basename(cale)
         img_resized.save(f"{nume_fisier}")
 
@@ -16,7 +16,7 @@ def selecteaza_imaginile():
     inaltime = int(entrata_inaltime.get())
     redimensioneaza_imaginile((latime, inaltime), calea_imaginilor)
 
-# Setare interfata grafica
+
 root = tk.Tk()
 root.title("Redimensionare Imagini")
 

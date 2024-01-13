@@ -9,7 +9,7 @@ def scrape_recipe_details(recipe_page_url):
     ingredients_section = soup.find('section', class_='recipe__ingredients')
     if ingredients_section:
         for li in ingredients_section.find_all('li', class_='list-item'):
-            # Extract text from anchor if available, else from entire list item
+
             anchor = li.find('a', class_='link link--styled')
             ingredient_text = anchor.get_text(strip=True) if anchor else li.get_text(strip=True)
             ingredients_list.append(ingredient_text)

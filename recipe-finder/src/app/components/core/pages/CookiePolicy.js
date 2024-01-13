@@ -1,4 +1,3 @@
-// În CookiePolicy.jsx
 export default function CookiePolicy({ onAccept }) {
   return (
     <div className="cookie-policy bg-black flex flex-col text-center pt-2">
