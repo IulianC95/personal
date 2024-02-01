@@ -213,7 +213,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 document.addEventListener('DOMContentLoaded', function () {
   const hamburgerMenu = document.querySelector('.hamburger-menu');
-  const mobileMenu = document.getElementById('mobileMenu');
+  const mobileMenu = document.querySelector('.mobile-menu');
   const closeMenu = document.getElementById('closeMenu');
   const body = document.querySelector('body');
   const menuLinks = mobileMenu.querySelectorAll('a');

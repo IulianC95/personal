@@ -7,23 +7,47 @@
     name="viewport"
     content="width=device-width, initial-scale=1.0"
   >
+  <title>Portfolio - Projects</title>
   <link
-    rel="icon"
-    href="images/iglow.ico"
-    type="image/x-icon"
-  >
-  <title>Projects</title>
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"
+    ...
+  />
 
   <link
     rel="stylesheet"
-    href="css/app.css"
-  >
+    href="css/proj.css"
+  />
 
   <link
     rel="stylesheet"
     href="../css/app.css"
   >
 
+
+
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  />
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  />
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  />
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Aclonica&family=Kaushan+Script&family=Lekton:ital,wght@0,400;0,700;1,400&family=Stoke:wght@300;400&display=swap"
+    rel="stylesheet"
+  />
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -33,267 +57,737 @@
   />
 
   <link
-    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet"
   >
 </head>
 
 <body>
-  <header class="projects-header">
-
-    <div class="social-lg">
-      <ul>
-        <li>
-          <a
-            href="mailto:iuliancuculici@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i
-              class="fa-regular fa-envelope"
-              style="color: gray"
-            ></i>
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.linkedin.com/in/cuculici-iulian-512649155/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i
-              class="fa-brands fa-linkedin-in"
-              style="color: gray"
-            ></i>
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://github.com/IulianC95"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i
-              class="fa-brands fa-github"
-              style="color: gray"
-            ></i>
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div class="my-projects gradient-text">
-      <h1>My Projects</h1>
-    </div>
-    <div class="home"><a
-        class="gradient-text"
-        href="../"
-      ><i class="fa-solid fa-house"></i></a></div>
-
-  </header>
-  <main>
-    <section class="skill-cards">
-      <div class="frontend">
-        <h2>My frontend skills</h2>
-
-        <p>Armed with a comprehensive suite of front-end skills, I excel in crafting dynamic user experiences. My
-          toolkit includes fluent command of HTML, CSS, and JavaScript, enhanced with the preprocessor sophistication of
-          SASS, and powered by the component-driven capabilities of React.</p>
-        <div class="icons">
-          <i class="fa-brands fa-html5"></i>
-          <i class="fa-brands fa-css3-alt"></i>
-          <i class="fa-brands fa-square-js"></i>
-          <i class="fa-brands fa-sass"></i>
-          <i class="fa-brands fa-bootstrap"></i>
-          <i class="fa-brands fa-node-js"></i>
-          <i class="fa-brands fa-react"></i>
+  <!-- mobile -->
+  <section class="mobile d-lg-none">
+    <header>
+      <section class="header-primary">
+        <div class="hamburger-menu">
+          <i
+            class="fa-solid fa-bars"
+            style="color: #ffa800"
+          ></i>
         </div>
+        <div class="owner-name">
+          <h1>Iulian Cuculici</h1>
+        </div>
+        <div class="owner-img">
+          <img
+            src="images/iglow.png"
+            alt="Avatar Image"
+          />
+        </div>
+        <div
+          class="mobile-menu"
+          id="mobileMenu"
+        >
+          <i
+            class="close-menu fa-solid fa-x "
+            id="closeMenu"
+          ></i>
+          <div class="menu-links">
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <div class="owner-img">
+            <img
+              src="images/iglow.png"
+              alt="Avatar Image"
+            />
+          </div>
+          <section class="technologies-mobile box">
+            <p>Technologies I use:</p>
+            <div>
+              <ul>
+                <li><img
+                    src="images/11.png"
+                    alt="JavaScript"
+                    title="JavaScript"
+                  /></li>
+                <li><img
+                    src="images/9.png"
+                    alt="CSS 3"
+                    title="CSS"
+                  /></li>
+                <li><img
+                    src="images/5.png"
+                    alt="HTML 5"
+                    title="HTML"
+                  /></li>
+                <li><img
+                    src="images/33.png"
+                    alt="GitHub"
+                    title="Git & GitHub"
+                  /></li>
+                <li><img
+                    src="images/36.png"
+                    alt="WordPress"
+                    title="WordPress"
+                  /></li>
+              </ul>
+              <ul>
+                <li><img
+                    src="images/15.png"
+                    alt="NodeJS"
+                    title="NodeJS"
+                  /></li>
+                <li><img
+                    src="images/34.png"
+                    alt="React"
+                    title="React"
+                  /></li>
+                <li><img
+                    src="images/40.png"
+                    alt="Bootstrap"
+                    title="Bootstrap"
+                  /></li>
+              </ul>
+            </div>
+          </section>
+        </div>
+
+      </section>
+      <section class="header-secondary">
+        <div>
+          <a href="#contact">Contact</a>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <div class="front-end-proj">
+        <section class="proj-mobile">
+          <h1>Proiectele mele</h1>
+          <p>Front-end</p>
+        </section>
+
+        <section class="proj-front">
+          <div>
+            <a
+              href="https://recipe-finder-v1.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Recipe Finder"
+            >
+              <h3>Recipe Finder</h3>
+              <img
+                src="images/recipe-finder.png"
+                alt="Recipe Finder"
+              >
+              <p>React, Next.js, <br>Tailwind CSS, <br>HTML, JavaScript</p>
+            </a>
+
+
+          </div>
+
+          <div>
+            <a
+              href="https://preda-respekt-gym.ro/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Preda Respekt Gym"
+            >
+              <h3>Preda Respekt Gym</h3>
+              <img
+                src="images/preda-respekt-gym.png"
+                alt="Preda Respect Gym"
+              >
+              <p>HTML, CSS and JavaScript</p>
+            </a>
+
+
+          </div>
+
+          <div>
+            <a
+              href="https://heroic-panda-ded718.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Health Way"
+            >
+              <h3>Health Way</h3>
+              <img
+                src="images/health-way.png"
+                alt="Health Way"
+              >
+              <p>Next.js, HTML, <br> Bootstrap and CSS</p>
+            </a>
+
+
+          </div>
+
+          <div>
+            <a
+              href="https://meta-tailor.com/digital-clock/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Digital Clock"
+            >
+              <h3>Digital Clock</h3>
+              <img
+                src="images/digital-clock.png"
+                alt="Digital Clock"
+              >
+              <p>HTML, CSS and JavaScript</p>
+            </a>
+
+
+          </div>
+
+          <div>
+            <a
+              href="https://meta-tailor.com/number-guess-game/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Number Guessing Game"
+            >
+              <h3>Number Guessing Game</h3>
+              <img
+                src="images/guess-game.png"
+                alt="Number Guessing Game"
+              >
+              <p>HTML, CSS and JavaScript</p>
+            </a>
+
+
+          </div>
+
+          <div>
+            <a
+              href="https://fanciful-cassata-b9933d.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Thread Affair"
+            >
+              <h3>Thread Affair</h3>
+              <img
+                src="images/thread-affair.png"
+                alt="Thread Affair"
+              >
+              <p>Next.js, HTML, CSS, <br> Bootstrap and JavaScript</p>
+            </a>
+
+
+          </div>
+
+        </section>
       </div>
 
-      <div class="backend">
-        <h2>My backend skills</h2>
-        <p>Delving into the server-side, my skills encompass the versatile scripting power of Python, the robust
-          functionality of PHP, and the reliable data management provided by MySQL. Together, they form the backbone
-          of my back-end development expertise.</p>
-        <div class="icons">
-          <i class="fa-brands fa-python"></i>
-          <i class="fa-brands fa-php"></i>
-          <i class="fa-solid fa-database"></i>
-        </div>
+      <div class="front-end-proj">
+        <section class="proj-mobile">
+          <h1>Proiectele mele</h1>
+          <p>Back-end</p>
+        </section>
+
+        <section class="proj-front">
+          <div>
+            <a
+              href="https://meta-tailor.com/raport-necesitate/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Raport Necesitate"
+            >
+              <h3>Raport Necesitate</h3>
+              <img
+                src="images/raport-necesitate.png"
+                alt="Raport Necesitate"
+              >
+              <p>HTML, CSS, JavaScript, <br> MySql and PHP</p>
+            </a>
+
+
+          </div>
+
+          <div>
+            <a
+              href="https://meta-tailor.com/typing-gladiators/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Typing Gladiator"
+            >
+              <h3>Typing Gladiator</h3>
+              <img
+                src="images/typing.png"
+                alt="Typing Gladiator"
+              >
+              <p>HTML, CSS, JavaScript, <br> MySql and PHP</p>
+            </a>
+
+
+          </div>
+
+
+        </section>
       </div>
-    </section>
 
-    <section class="projects-panel">
-      <a
-        href="https://heroic-panda-ded718.netlify.app/"
-        class="project-link"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <div class="project-tile front img-1">
-          <div class="project-tile-up-front">
-            <h2 class="h2-front">Frontend</h2>
-            <button>View</button>
-          </div>
-          <div class="project-tile-bottom">
-            <h3>Health Way</h3>
+    </main>
 
-            <p>Health Way is a sleek e-commerce template built with HTML, CSS, Sass, React, and leverages the power of
-              Next.js for a fast, server-side rendered user experience.</p>
-          </div>
-        </div>
-      </a>
-      <a
-        href="https://meta-tailor.com/raport-necesitate/"
-        class="project-link"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <div class="project-tile back img-2">
-          <div class="project-tile-up-back">
-            <h2 class="h2-back">Backend</h2>
-            <button>View</button>
-          </div>
-
-          <div class="project-tile-bottom">
-            <h3>Raport Necesitate</h3>
-            <p>A web application to streamline the creation and export of necessity reports in PDF format, with an
-              intuitive interface designed with HTML, CSS, JavaScript, PHP and MySQL, enriched by Bootstrap and Font
-              Awesome, and
-              utilizing jsPDF and PDF.js for efficient PDF handling.</p>
-          </div>
-        </div>
-      </a>
-      <a
-        href="https://meta-tailor.com/digital-clock/"
-        class="project-link"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <div class="project-tile front img-3">
-          <div class="project-tile-up-front">
-            <h2 class="h2-front">Frontend</h2>
-            <button>View</button>
-          </div>
-          <div class="project-tile-bottom">
-            <h3>Digital Clock</h3>
-            <p>Crafted with JavaScript, HTML, CSS, and fueled by a passion for coding,
-              the Digital Time Manager is a multi-functional application that bundles a digital clock, an analog clock,
-              a date display, a stopwatch, and an alarm system into a single platform.</p>
-          </div>
-        </div>
-      </a>
-    </section>
-    <section class="projects-panel">
-      <a
-        href="https://meta-tailor.com/number-guess-game/"
-        class="project-link"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <div class="project-tile front img-4">
-          <div class="project-tile-up-front">
-            <h2 class="h2-front">Frontend</h2>
-            <button>View</button>
-          </div>
-          <div class="project-tile-bottom">
-            <h3>Number Guessing Game</h3>
-            <p>"Number-Guessing" — a fun and interactive game that challenges your guessing skills!
-              Tech Stack: HTML5, CSS3, and Vanilla JavaScript were used for the core
-              development.</p>
-          </div>
-        </div>
-      </a>
-      <a
-        href="https://meta-tailor.com/typing-gladiators/"
-        class="project-link"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <div class="project-tile back img-5">
-          <div class="project-tile-up-back">
-            <h2 class="h2-back">Backend</h2>
-            <button>View</button>
-          </div>
-
-          <div class="project-tile-bottom">
-            <h3>Typing Gladiator</h3>
-            <p>Typing Gladiators is a web app to boost typing speed and programming skills with exercises in key
-              languages like HTML, CSS, and Python. It features a straightforward interface, instant feedback, and a
-              leaderboard, best used on desktops for effective practice.</p>
-          </div>
-        </div>
-      </a>
-      <a
-        href="https://fanciful-cassata-b9933d.netlify.app/"
-        class="project-link"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <div class="project-tile front img-6">
-          <div class="project-tile-up-front">
-            <h2 class="h2-front">Frontend</h2>
-            <button>View</button>
-          </div>
-          <div class="project-tile-bottom">
-            <h3>Thread Affair</h3>
-            <p>Thread Affair is a sleek e-commerce template built with HTML, CSS, Sass, React, and leverages the power
-              of Next.js for a fast, server-side rendered user experience.</p>
-          </div>
-        </div>
-      </a>
-    </section>
-
-  </main>
-  <footer class="projects-footer">
-    <div>
-      <p>You can contact me anytime here:</p>
+    <footer id="contact">
+      <p>Imi poti scrie oricand la adresa:</p>
       <div class="contact-mail">
         <a href="mailto:iuliancuculici@gmail.com">iuliancuculici@gmail.com</a>
       </div>
-      <p>Or on social media:</p>
-    </div>
-    <ul>
-      <li>
-        <a
-          href="mailto:iuliancuculici@gmail.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i
-            class="fa-regular fa-envelope"
-            style="color: gray"
-          ></i>
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://www.linkedin.com/in/cuculici-iulian-512649155/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i
-            class="fa-brands fa-linkedin-in"
-            style="color: gray"
-          ></i>
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://github.com/IulianC95"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i
-            class="fa-brands fa-github"
-            style="color: gray"
-          ></i>
-        </a>
-      </li>
-    </ul>
-    <p>&copy; 2023 Cuculici Iulian. All rights reserved.</p>
-  </footer>
+      <p>Sau ne auzim online:</p>
+      <div class="contact-social">
+        <ul>
+          <li>
+            <a
+              href="mailto:iuliancuculici@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i
+                class="fa-regular fa-envelope"
+                style="color: gray"
+              ></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/cuculici-iulian-512649155/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i
+                class="fa-brands fa-linkedin-in"
+                style="color: gray"
+              ></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/IulianC95"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i
+                class="fa-brands fa-github"
+                style="color: gray"
+              ></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <p>&copy; 2023 Cuculici Iulian. All rights reserved.</p>
+    </footer>
 
-  <script src="js/app.js"></script>
+  </section>
+
+
+  <!-- desktop -->
+  <section class="desktop d-none d-lg-block">
+    <header class="header-desktop">
+      <section class="header-primary-lg">
+        <div class="social-lg">
+          <ul>
+            <li>
+              <a
+                href="mailto:iuliancuculici@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i
+                  class="fa-regular fa-envelope"
+                  style="color: gray"
+                ></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/cuculici-iulian-512649155/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i
+                  class="fa-brands fa-linkedin-in"
+                  style="color: gray"
+                ></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/IulianC95"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i
+                  class="fa-brands fa-github"
+                  style="color: gray"
+                ></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <h1>Iulian Cuculici</h1>
+        <div class="avatar-lg">
+          <img
+            src="images/iglow.png"
+            alt="Avatar IC"
+          />
+        </div>
+      </section>
+      <section class="header-secondary-lg">
+        <div>
+          <a
+            href="../"
+            title="About"
+            class="button button--pallene"
+          >About</a>
+        </div>
+        <div>
+          <a
+            href="../"
+            title="Portfolio"
+            class="button button--pallene"
+          >Portfolio</a>
+        </div>
+        <div>
+          <a
+            href="#contact-lg"
+            title="Contact"
+            class="button button--pallene"
+          >Contact</a>
+        </div>
+      </section>
+    </header>
+
+    <main>
+
+      <div class="front-proj-lg">
+        <section class="proj-mobile">
+          <h1>Proiectele mele</h1>
+          <p>Front-end</p>
+        </section>
+      </div>
+
+      <div class="proj-lg">
+        <a
+          href="https://recipe-finder-v1.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Recipe Finder"
+          class="project-lg"
+        >
+
+          <img
+            src="images/recipe-lg.png"
+            alt="Recipe Finder"
+          >
+          <div class="program-lang">
+            <h3>Recipe Finder</h3>
+
+            <p><span>Technologies:</span> React, Next.js, Tailwind CSS, HTML, JavaScript</p>
+
+            <article>
+              <p>
+                Recipe Finder este o aplicatie WebApp, optimizata ca Progressive Web App (PWA). Partea de design a
+                aplicatiei a fost
+                conceputa de mine in #figma . Aceasta aplicatie reprezinta o componenta cheie in portofoliul meu de
+                Frontend Developer, evidentiind abilitatile mele de a crea solutii web interactive.
+              </p>
+            </article>
+
+            <div class="view-btn-lg">
+              View
+            </div>
+          </div>
+
+        </a>
+
+        <a
+          href="http://preda-respekt-gym.ro/"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Preda Respekt Gym"
+          class="project-lg"
+        >
+
+          <img
+            src="images/preda-lg.png"
+            alt="Preda Respekt Gym"
+          >
+          <div class="program-lang">
+            <h3>Preda Respekt Gym</h3>
+
+            <p><span>Technologies:</span> HTML, CSS and JavaScript</p>
+
+            <article>
+              <p>
+                Website pentru o sala de kickboxing, lupte și jiu-jitsu - unul din primele mele proiecte ca dezvoltator
+                front-end independent!
+              </p>
+            </article>
+
+            <div class="view-btn-lg">
+              View
+            </div>
+          </div>
+
+        </a>
+
+        <a
+          href="https://heroic-panda-ded718.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Health Way"
+          class="project-lg"
+        >
+
+          <img
+            src="images/health-lg.png"
+            alt="Health Way"
+          >
+          <div class="program-lang">
+            <h3>Health Way</h3>
+
+            <p><span>Technologies:</span> Next.js, HTML, Bootstrap and CSS</p>
+
+            <article>
+              <p>
+                Health Way este un template modern și atractiv pentru e-commerce, realizat cu atenție folosind
+                tehnologii web de ultimă oră. Design-ul său responsive și interfața intuitivă sunt create pentru a oferi
+                o experiență de utilizare fluidă
+              </p>
+            </article>
+
+            <div class="view-btn-lg">
+              View
+            </div>
+          </div>
+
+        </a>
+      </div>
+
+      <div class="proj-lg">
+        <a
+          href="https://meta-tailor.com/digital-clock/"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Digital Clock"
+          class="project-lg"
+        >
+
+          <img
+            src="images/digital-lg.png"
+            alt="Digital Clock"
+          >
+          <div class="program-lang">
+            <h3>Digital Clock</h3>
+
+            <p><span>Technologies:</span> HTML, CSS and JavaScript</p>
+
+            <article>
+              <p>
+                Un ceas digital, unul analog, data, cronometru si alarma.
+              </p>
+            </article>
+
+            <div class="view-btn-lg">
+              View
+            </div>
+          </div>
+
+        </a>
+
+        <a
+          href="https://meta-tailor.com/number-guess-game/"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Number Guessing Game"
+          class="project-lg"
+        >
+
+          <img
+            src="images/guess-lg.png"
+            alt="Number Guessing Game"
+          >
+          <div class="program-lang">
+            <h3>Number Guessing Game</h3>
+
+            <p><span>Technologies:</span> HTML, CSS and JavaScript</p>
+
+            <article>
+              <p>
+                Un joc de ghicit numere de la 1 la 100.
+              </p>
+            </article>
+
+            <div class="view-btn-lg">
+              View
+            </div>
+          </div>
+
+        </a>
+
+        <a
+          href="https://fanciful-cassata-b9933d.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Thread Affair"
+          class="project-lg"
+        >
+
+          <img
+            src="images/thread-affair-lg.png"
+            alt="Thread Affair"
+          >
+          <div class="program-lang">
+            <h3>Thread Affair</h3>
+
+            <p><span>Technologies:</span> Next.js, HTML, CSS, Bootstrap and JavaScript</p>
+
+            <article>
+              <p>
+                Thread Affair este unul din proiectele realizate in cadrul cursului de Frontend Developer de la
+                Pixellab.
+              </p>
+            </article>
+
+            <div class="view-btn-lg">
+              View
+            </div>
+          </div>
+
+        </a>
+      </div>
+
+      <div class="front-proj-lg">
+        <section class="proj-mobile">
+          <h1>Proiectele mele</h1>
+          <p>Back-end</p>
+        </section>
+      </div>
+
+
+      <div class="proj-lg">
+        <a
+          href="https://meta-tailor.com/raport-necesitate/"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Raport Necesitate"
+          class="project-lg"
+        >
+
+          <img
+            src="images/raport-lg.png"
+            alt="Raport Necesitate"
+          >
+          <div class="program-lang">
+            <h3>Raport Necesitate</h3>
+
+            <p><span>Technologies:</span> HTML, CSS, JavaScript, MySql and PHP</p>
+
+            <article>
+              <p>
+                Acest Raport de necesitate este folositor pentru Asociatiile de proprietari. Acesta trebuie completat
+                mereu cand se decide sa se achizitioneze ceva pentru o Asociatie de proprietari.
+              </p>
+            </article>
+
+            <div class="view-btn-lg">
+              View
+            </div>
+          </div>
+
+        </a>
+
+        <a
+          href="https://meta-tailor.com/typing-gladiators/"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Typing Gladiator"
+          class="project-lg"
+        >
+
+          <img
+            src="images/typing-lg.png"
+            alt="Typing Gladiator"
+          >
+          <div class="program-lang">
+            <h3>Typing Gladiator</h3>
+
+            <p><span>Technologies:</span> HTML, CSS, JavaScript, MySql and PHP</p>
+
+            <article>
+              <p>
+                Website conceput pentru dezvoltarea scrierii rapide si a cunostintelor de programare.
+              </p>
+            </article>
+
+            <div class="view-btn-lg">
+              View
+            </div>
+          </div>
+
+        </a>
+
+
+      </div>
+    </main>
+
+    <footer
+      class="desktop-footer"
+      id="contact-lg"
+    >
+      <section>
+        <p>Imi poti scrie oricand la adresa: </p>
+        <div>
+          <a href=":mailto:iuliancuculici@gmail.com">iuliancuculici@gmail.com</a>
+        </div>
+
+        <p>Sau ne auzim online:</p>
+        <div class="contact-social">
+          <ul>
+            <li>
+              <a
+                href="mailto:iuliancuculici@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i
+                  class="fa-regular fa-envelope"
+                  style="color: gray"
+                ></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/cuculici-iulian-512649155/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i
+                  class="fa-brands fa-linkedin-in"
+                  style="color: gray"
+                ></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/IulianC95"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i
+                  class="fa-brands fa-github"
+                  style="color: gray"
+                ></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <p>&copy; 2023 Cuculici Iulian. All rights reserved.</p>
+      </section>
+    </footer>
+  </section>
+
+
+  <script src="js/projects.js"></script>
 </body>
 
 </html>
